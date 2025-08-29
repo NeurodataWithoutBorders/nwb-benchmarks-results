@@ -1,0 +1,20 @@
+{
+    "database_version": "2.0.0",
+    "timestamp": "2025-08-29-14-19-35",
+    "commit_hash": "ce0d930c9e9a89280de6a862b8af42e190bfe0ed",
+    "environment_id": "4687b11d1867450bb1253420860127d886cf4a76",
+    "machine_id": "5d6ae76cf6b1a118c786c8c7d5a108174184d676",
+    "results": {
+        "time_download_lindi.LindiDownloadBenchmark.time_download": {
+            "(\"'https://dandi-api-staging-dandisets.s3.amazonaws.com/blobs/7f0/aa4/7f0aa474-4169-42f8-a895-ada0af4072c7'\",)": [
+                0.17222087492700666
+            ],
+            "(\"'https://dandi-api-staging-dandisets.s3.amazonaws.com/blobs/813/1b9/8131b99f-004a-4946-8bde-f2895bf42504'\",)": [
+                3.9793445409741253
+            ],
+            "(\"'https://dandi-api-staging-dandisets.s3.amazonaws.com/blobs/8b1/f9e/8b1f9e4e-c5bb-4c25-acee-3c99327aa841'\",)": [
+                0.28144337492994964
+            ]
+        }
+    }
+}
