@@ -1,0 +1,22 @@
+{
+    "database_version": "1.0.0",
+    "timestamp": "2025-08-28-17-14-41",
+    "commit_hash": "e08d41c76cddb232d01185d96808f2496086f372",
+    "environment_id": "17958d7ef230c7fe6c0e888451d5e830dbd1a869",
+    "machine_id": "6715e061bb742631c977ec2713b12ee483055d97",
+    "results": {
+        "network_tracking_remote_file_reading.FsspecHttpsNoCacheFileReadBenchmark.track_network_activity_during_read_h5py": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": {
+                "amount_downloaded_in_bytes": 5459062,
+                "amount_uploaded_in_bytes": 10598,
+                "total_transfer_in_bytes": 5469660,
+                "amount_downloaded_in_number_of_packets": 3689,
+                "amount_uploaded_in_number_of_packets": 153,
+                "total_transfer_in_number_of_packets": 3842,
+                "total_traffic_in_number_of_web_packets": 153,
+                "total_transfer_time_in_seconds": 1.131334,
+                "network_total_time_in_seconds": 1.40824294090271
+            }
+        }
+    }
+}

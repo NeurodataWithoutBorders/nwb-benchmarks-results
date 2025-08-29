@@ -1,0 +1,61 @@
+{
+    "database_version": "1.0.0",
+    "version": 2,
+    "timestamp": "2025-08-21-17-49-33",
+    "commit_hash": "f3ebcecf2c7aa506488bb917fb4d9d19febf811c",
+    "environment_id": "cc0bb9d8bc00b3a0bd373cd3689c42c711e14fa1",
+    "machine_id": "a1fd0b039eb49cbac640b4d771e04fbb6f6be663",
+    "results": {
+        "time_remote_file_reading.DirectFileReadBenchmark.time_read_hdf5_fsspec_no_cache": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": [
+                0.8319429999683052,
+                0.7580286000156775,
+                0.7190622999332845
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": [
+                0.5554155999561772,
+                0.622648200020194,
+                0.8590777999488637
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": [
+                0.5731816000770777,
+                0.5096474000019953,
+                0.5223104000324383
+            ]
+        },
+        "time_remote_file_reading.DirectFileReadBenchmark.time_read_hdf5_remfile": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": [
+                0.5588305999990553,
+                0.5159697000635788,
+                0.5149910999462008
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": [
+                0.5047821999760345,
+                0.5042848000302911,
+                0.47554619994480163
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": [
+                0.3609475999837741,
+                0.36476840008981526,
+                0.3711452001007274
+            ]
+        },
+        "time_remote_file_reading.DirectFileReadBenchmark.time_read_hdf5_remfile_with_cache": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": [
+                0.5653592000016943,
+                0.5138882000464946,
+                0.5588800000259653
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": [
+                0.44207680004183203,
+                0.439579900004901,
+                0.4534108000807464
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": [
+                0.38977920007891953,
+                0.3842427000636235,
+                0.36878699995577335
+            ]
+        }
+    }
+}

@@ -1,0 +1,369 @@
+{
+    "3.11.7 | packaged by conda-forge | (main, Dec 23 2023, 14:38:07) [Clang 16.0.6 ]": [
+        {},
+        {
+            "name": "options:"
+        },
+        {
+            "name": "-h,",
+            "version": "--help",
+            "build": "Show",
+            "channel": "this"
+        },
+        {
+            "name": "-v,",
+            "version": "--verbose",
+            "build": "Can",
+            "channel": "be"
+        },
+        {
+            "name": "twice",
+            "version": "for",
+            "build": "INFO",
+            "channel": "logging,"
+        },
+        {
+            "name": "times",
+            "version": "for",
+            "build": "TRACE",
+            "channel": "logging."
+        },
+        {
+            "name": "--no-plugins",
+            "version": "Disable",
+            "build": "all",
+            "channel": "plugins"
+        },
+        {
+            "name": "-V,",
+            "version": "--version",
+            "build": "Show",
+            "channel": "the"
+        },
+        {},
+        {
+            "name": "commands:"
+        },
+        {
+            "name": "The",
+            "version": "following",
+            "build": "built-in",
+            "channel": "and"
+        },
+        {},
+        {
+            "name": "COMMAND"
+        },
+        {
+            "name": "activate",
+            "version": "Activate",
+            "build": "a",
+            "channel": "conda"
+        },
+        {
+            "name": "build",
+            "version": "Build",
+            "build": "conda",
+            "channel": "packages"
+        },
+        {
+            "name": "clean",
+            "version": "Remove",
+            "build": "unused",
+            "channel": "packages"
+        },
+        {
+            "name": "commands",
+            "version": "List",
+            "build": "all",
+            "channel": "available"
+        },
+        {
+            "name": "from",
+            "version": "plugins).",
+            "build": "Generally",
+            "channel": "only"
+        },
+        {
+            "name": "compare",
+            "version": "Compare",
+            "build": "packages",
+            "channel": "between"
+        },
+        {
+            "name": "config",
+            "version": "Modify",
+            "build": "configuration",
+            "channel": "values"
+        },
+        {
+            "name": "content-trust",
+            "version": "Signing",
+            "build": "and",
+            "channel": "verification"
+        },
+        {
+            "name": "convert",
+            "version": "Convert",
+            "build": "pure",
+            "channel": "Python"
+        },
+        {
+            "name": "(a.k.a.,",
+            "version": "subdirs)."
+        },
+        {
+            "name": "create",
+            "version": "Create",
+            "build": "a",
+            "channel": "new"
+        },
+        {
+            "name": "specified",
+            "version": "packages."
+        },
+        {
+            "name": "deactivate",
+            "version": "Deactivate",
+            "build": "the",
+            "channel": "current"
+        },
+        {
+            "name": "debug",
+            "version": "Debug",
+            "build": "the",
+            "channel": "build"
+        },
+        {
+            "name": "develop",
+            "version": "Install",
+            "build": "a",
+            "channel": "Python"
+        },
+        {
+            "name": "Similar",
+            "version": "to",
+            "build": "`pip",
+            "channel": "install"
+        },
+        {
+            "name": "doctor",
+            "version": "Display",
+            "build": "a",
+            "channel": "health"
+        },
+        {
+            "name": "env",
+            "version": "Create",
+            "build": "and",
+            "channel": "manage"
+        },
+        {
+            "name": "export",
+            "version": "Export",
+            "build": "a",
+            "channel": "given"
+        },
+        {
+            "name": "index",
+            "version": "Update",
+            "build": "package",
+            "channel": "index"
+        },
+        {
+            "name": "info",
+            "version": "Display",
+            "build": "information",
+            "channel": "about"
+        },
+        {
+            "name": "init",
+            "version": "Initialize",
+            "build": "conda",
+            "channel": "for"
+        },
+        {
+            "name": "inspect",
+            "version": "Tools",
+            "build": "for",
+            "channel": "inspecting"
+        },
+        {
+            "name": "install",
+            "version": "Install",
+            "build": "a",
+            "channel": "list"
+        },
+        {
+            "name": "environment."
+        },
+        {
+            "name": "list",
+            "version": "List",
+            "build": "installed",
+            "channel": "packages"
+        },
+        {
+            "name": "metapackage",
+            "version": "Specialty",
+            "build": "tool",
+            "channel": "for"
+        },
+        {
+            "name": "notices",
+            "version": "Retrieve",
+            "build": "latest",
+            "channel": "channel"
+        },
+        {
+            "name": "pack",
+            "version": "See",
+            "build": "`conda",
+            "channel": "pack"
+        },
+        {
+            "name": "package",
+            "version": "Create",
+            "build": "low-level",
+            "channel": "conda"
+        },
+        {
+            "name": "remove",
+            "version": "(uninstall)",
+            "build": "Remove",
+            "channel": "a"
+        },
+        {
+            "name": "environment."
+        },
+        {
+            "name": "rename",
+            "version": "Rename",
+            "build": "an",
+            "channel": "existing"
+        },
+        {
+            "name": "render",
+            "version": "Expand",
+            "build": "a",
+            "channel": "conda"
+        },
+        {
+            "name": "repo",
+            "version": "See",
+            "build": "`conda",
+            "channel": "repo"
+        },
+        {
+            "name": "repoquery",
+            "version": "Advanced",
+            "build": "search",
+            "channel": "for"
+        },
+        {
+            "name": "run",
+            "version": "Run",
+            "build": "an",
+            "channel": "executable"
+        },
+        {
+            "name": "search",
+            "version": "Search",
+            "build": "for",
+            "channel": "packages"
+        },
+        {
+            "name": "using",
+            "version": "the",
+            "build": "MatchSpec",
+            "channel": "format."
+        },
+        {
+            "name": "server",
+            "version": "See",
+            "build": "`conda",
+            "channel": "server"
+        },
+        {
+            "name": "skeleton",
+            "version": "Generate",
+            "build": "boilerplate",
+            "channel": "conda"
+        },
+        {
+            "name": "token",
+            "version": "See",
+            "build": "`conda",
+            "channel": "token"
+        },
+        {
+            "name": "tos",
+            "version": "A",
+            "build": "subcommand",
+            "channel": "for"
+        },
+        {
+            "name": "otherwise",
+            "version": "interacting",
+            "build": "with",
+            "channel": "a"
+        },
+        {
+            "name": "Service",
+            "version": "(ToS).",
+            "build": "This",
+            "channel": "plugin"
+        },
+        {
+            "name": "updated",
+            "version": "Terms",
+            "build": "of",
+            "channel": "Service"
+        },
+        {
+            "name": "channels.",
+            "version": "Channels",
+            "build": "with",
+            "channel": "a"
+        },
+        {
+            "name": "to",
+            "version": "be",
+            "build": "accepted",
+            "channel": "or"
+        },
+        {
+            "name": "only",
+            "version": "allow",
+            "build": "package",
+            "channel": "installation"
+        },
+        {
+            "name": "a",
+            "version": "Terms",
+            "build": "of",
+            "channel": "Service"
+        },
+        {
+            "name": "Service.",
+            "version": "Attempting",
+            "build": "to",
+            "channel": "use"
+        },
+        {
+            "name": "Terms",
+            "version": "of",
+            "build": "Service",
+            "channel": "will"
+        },
+        {
+            "name": "update",
+            "version": "(upgrade)",
+            "build": "Update",
+            "channel": "conda"
+        },
+        {
+            "name": "version."
+        }
+    ]
+}

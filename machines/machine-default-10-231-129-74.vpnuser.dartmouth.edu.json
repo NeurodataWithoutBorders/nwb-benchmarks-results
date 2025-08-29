@@ -1,0 +1,99 @@
+{
+    "arch": "arm64",
+    "cpu": "Apple M4",
+    "custom": true,
+    "defaults": {
+        "arch": "arm64",
+        "cpu": "Apple M4",
+        "machine": "default-10-231-129-74.vpnuser.dartmouth.edu",
+        "num_cpu": "10",
+        "os": "Darwin 24.5.0",
+        "ram": "17179869184"
+    },
+    "machine": "default-10-231-129-74.vpnuser.dartmouth.edu",
+    "num_cpu": "10",
+    "os": "Darwin 24.5.0",
+    "platform": {
+        "architecture": [
+            "64bit",
+            ""
+        ],
+        "machine": "arm64",
+        "platform": "macOS-15.5-arm64-arm-64bit",
+        "processor": "arm",
+        "system": "Darwin"
+    },
+    "psutil": {
+        "disk_partitions": [
+            {
+                "device": "/dev/disk3s1s1",
+                "fstype": "apfs",
+                "mountpoint": "/",
+                "opts": "ro,local,rootfs,dovolfs,journaled,multilabel"
+            },
+            {
+                "device": "/dev/disk3s6",
+                "fstype": "apfs",
+                "mountpoint": "/System/Volumes/VM",
+                "opts": "rw,noexec,local,dovolfs,dontbrowse,journaled,multilabel,noatime"
+            },
+            {
+                "device": "/dev/disk3s2",
+                "fstype": "apfs",
+                "mountpoint": "/System/Volumes/Preboot",
+                "opts": "rw,local,dovolfs,dontbrowse,journaled,multilabel"
+            },
+            {
+                "device": "/dev/disk3s4",
+                "fstype": "apfs",
+                "mountpoint": "/System/Volumes/Update",
+                "opts": "rw,local,dovolfs,dontbrowse,journaled,multilabel"
+            },
+            {
+                "device": "/dev/disk1s2",
+                "fstype": "apfs",
+                "mountpoint": "/System/Volumes/xarts",
+                "opts": "rw,noexec,local,dovolfs,dontbrowse,journaled,multilabel,noatime"
+            },
+            {
+                "device": "/dev/disk1s1",
+                "fstype": "apfs",
+                "mountpoint": "/System/Volumes/iSCPreboot",
+                "opts": "rw,local,dovolfs,dontbrowse,journaled,multilabel"
+            },
+            {
+                "device": "/dev/disk1s3",
+                "fstype": "apfs",
+                "mountpoint": "/System/Volumes/Hardware",
+                "opts": "rw,local,dovolfs,dontbrowse,journaled,multilabel"
+            },
+            {
+                "device": "/dev/disk3s5",
+                "fstype": "apfs",
+                "mountpoint": "/System/Volumes/Data",
+                "opts": "rw,local,dovolfs,dontbrowse,journaled,multilabel"
+            },
+            {
+                "device": "/dev/disk7s2",
+                "fstype": "hfs",
+                "mountpoint": "/Volumes/NWB GUIDE 1.0.6-arm64",
+                "opts": "ro,nosuid,local,dovolfs,ignore-ownership,quarantine,multilabel"
+            },
+            {
+                "device": "/dev/disk4",
+                "fstype": "hfs",
+                "mountpoint": "/Volumes/WiFi_Dartmouth_College_JoinNow",
+                "opts": "rw,nosuid,local,dovolfs,ignore-ownership,quarantine,multilabel"
+            }
+        ],
+        "number_of_processes": 10,
+        "number_of_threads": 10,
+        "total_swap_memory": 1073741824,
+        "total_virtual_memory": 17179869184
+    },
+    "ram": "17179869184",
+    "sys": {
+        "platform": "darwin"
+    },
+    "version": 1
+}

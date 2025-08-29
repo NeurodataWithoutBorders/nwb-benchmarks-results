@@ -1,0 +1,184 @@
+{
+    "version": 2,
+    "timestamp": "2025-08-24-11-06-48",
+    "commit_hash": "ee4a243b24519a6e855eff420ae5b9ff63bde7d7",
+    "environment_hash": "17958d7ef230c7fe6c0e888451d5e830dbd1a869",
+    "machine_hash": "rly-m65",
+    "results": {
+        "network_tracking_remote_slicing.FsspecNoCacheContinuousSliceBenchmark.track_network_activity_during_slice": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\", \"'ElectricalSeries'\", '(slice(0, 30000, None), slice(0, 384, None))')": {
+                "amount_downloaded_in_bytes": 178015202,
+                "amount_uploaded_in_bytes": 287549,
+                "total_transfer_in_bytes": 178302751,
+                "amount_downloaded_in_number_of_packets": 121545,
+                "amount_uploaded_in_number_of_packets": 4202,
+                "total_transfer_in_number_of_packets": 125747,
+                "total_traffic_in_number_of_web_packets": 4202,
+                "total_transfer_time_in_seconds": 13.336753000000002,
+                "network_total_time_in_seconds": 13.825922966003418
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\", \"'TwoPhotonSeries'\", '(slice(0, 3, None), slice(0, 796, None), slice(0, 512, None))')": {
+                "amount_downloaded_in_bytes": 58932836,
+                "amount_uploaded_in_bytes": 46227,
+                "total_transfer_in_bytes": 58979063,
+                "amount_downloaded_in_number_of_packets": 40857,
+                "amount_uploaded_in_number_of_packets": 811,
+                "total_transfer_in_number_of_packets": 41668,
+                "total_traffic_in_number_of_web_packets": 811,
+                "total_transfer_time_in_seconds": 2.2285740000000005,
+                "network_total_time_in_seconds": 2.725476026535034
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\", \"'data_00002_AD0'\", '(slice(0, 30000, None),)')": {
+                "amount_downloaded_in_bytes": 6198620,
+                "amount_uploaded_in_bytes": 4428,
+                "total_transfer_in_bytes": 6203048,
+                "amount_downloaded_in_number_of_packets": 4237,
+                "amount_uploaded_in_number_of_packets": 82,
+                "total_transfer_in_number_of_packets": 4319,
+                "total_traffic_in_number_of_web_packets": 82,
+                "total_transfer_time_in_seconds": 0.10892400000000002,
+                "network_total_time_in_seconds": 0.5388040542602539
+            }
+        },
+        "network_tracking_remote_slicing.FsspecWithCacheContinuousSliceBenchmark.track_network_activity_during_slice": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\", \"'ElectricalSeries'\", '(slice(0, 30000, None), slice(0, 384, None))')": {
+                "amount_downloaded_in_bytes": 169872015,
+                "amount_uploaded_in_bytes": 141369,
+                "total_transfer_in_bytes": 170013384,
+                "amount_downloaded_in_number_of_packets": 118217,
+                "amount_uploaded_in_number_of_packets": 2093,
+                "total_transfer_in_number_of_packets": 120310,
+                "total_traffic_in_number_of_web_packets": 2093,
+                "total_transfer_time_in_seconds": 6.903688,
+                "network_total_time_in_seconds": 7.261358976364136
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\", \"'TwoPhotonSeries'\", '(slice(0, 3, None), slice(0, 796, None), slice(0, 512, None))')": {
+                "amount_downloaded_in_bytes": 14430570,
+                "amount_uploaded_in_bytes": 13359,
+                "total_transfer_in_bytes": 14443929,
+                "amount_downloaded_in_number_of_packets": 9817,
+                "amount_uploaded_in_number_of_packets": 195,
+                "total_transfer_in_number_of_packets": 10012,
+                "total_traffic_in_number_of_web_packets": 195,
+                "total_transfer_time_in_seconds": 0.5350520000000001,
+                "network_total_time_in_seconds": 0.9089169502258301
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\", \"'data_00002_AD0'\", '(slice(0, 30000, None),)')": {
+                "amount_downloaded_in_bytes": 0,
+                "amount_uploaded_in_bytes": 0,
+                "total_transfer_in_bytes": 0,
+                "amount_downloaded_in_number_of_packets": 0,
+                "amount_uploaded_in_number_of_packets": 0,
+                "total_transfer_in_number_of_packets": 0,
+                "total_traffic_in_number_of_web_packets": 0,
+                "total_transfer_time_in_seconds": 0.0,
+                "network_total_time_in_seconds": 0.3268609046936035
+            }
+        },
+        "network_tracking_remote_slicing.RemfileNoCacheContinuousSliceBenchmark.track_network_activity_during_slice": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\", \"'ElectricalSeries'\", '(slice(0, 30000, None), slice(0, 384, None))')": {
+                "amount_downloaded_in_bytes": 136538226,
+                "amount_uploaded_in_bytes": 93830,
+                "total_transfer_in_bytes": 136632056,
+                "amount_downloaded_in_number_of_packets": 95013,
+                "amount_uploaded_in_number_of_packets": 1594,
+                "total_transfer_in_number_of_packets": 96607,
+                "total_traffic_in_number_of_web_packets": 1594,
+                "total_transfer_time_in_seconds": 8.049059000000002,
+                "network_total_time_in_seconds": 8.467941284179688
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\", \"'TwoPhotonSeries'\", '(slice(0, 3, None), slice(0, 796, None), slice(0, 512, None))')": {
+                "amount_downloaded_in_bytes": 3665497,
+                "amount_uploaded_in_bytes": 6707,
+                "total_transfer_in_bytes": 3672204,
+                "amount_downloaded_in_number_of_packets": 2563,
+                "amount_uploaded_in_number_of_packets": 58,
+                "total_transfer_in_number_of_packets": 2621,
+                "total_traffic_in_number_of_web_packets": 58,
+                "total_transfer_time_in_seconds": 1.148427,
+                "network_total_time_in_seconds": 1.7013249397277832
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\", \"'data_00002_AD0'\", '(slice(0, 30000, None),)')": {
+                "amount_downloaded_in_bytes": 0,
+                "amount_uploaded_in_bytes": 0,
+                "total_transfer_in_bytes": 0,
+                "amount_downloaded_in_number_of_packets": 0,
+                "amount_uploaded_in_number_of_packets": 0,
+                "total_transfer_in_number_of_packets": 0,
+                "total_traffic_in_number_of_web_packets": 0,
+                "total_transfer_time_in_seconds": 0.0,
+                "network_total_time_in_seconds": 0.20102882385253906
+            }
+        },
+        "network_tracking_remote_slicing.RemfileWithCacheContinuousSliceBenchmark.track_network_activity_during_slice": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\", \"'ElectricalSeries'\", '(slice(0, 30000, None), slice(0, 384, None))')": {
+                "amount_downloaded_in_bytes": 136710882,
+                "amount_uploaded_in_bytes": 99824,
+                "total_transfer_in_bytes": 136810706,
+                "amount_downloaded_in_number_of_packets": 94931,
+                "amount_uploaded_in_number_of_packets": 1705,
+                "total_transfer_in_number_of_packets": 96636,
+                "total_traffic_in_number_of_web_packets": 1705,
+                "total_transfer_time_in_seconds": 8.100586000000002,
+                "network_total_time_in_seconds": 8.5158851146698
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\", \"'TwoPhotonSeries'\", '(slice(0, 3, None), slice(0, 796, None), slice(0, 512, None))')": {
+                "amount_downloaded_in_bytes": 4272635,
+                "amount_uploaded_in_bytes": 7407,
+                "total_transfer_in_bytes": 4280042,
+                "amount_downloaded_in_number_of_packets": 2966,
+                "amount_uploaded_in_number_of_packets": 79,
+                "total_transfer_in_number_of_packets": 3045,
+                "total_traffic_in_number_of_web_packets": 79,
+                "total_transfer_time_in_seconds": 1.1893730000000002,
+                "network_total_time_in_seconds": 1.6510732173919678
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\", \"'data_00002_AD0'\", '(slice(0, 30000, None),)')": {
+                "amount_downloaded_in_bytes": 0,
+                "amount_uploaded_in_bytes": 0,
+                "total_transfer_in_bytes": 0,
+                "amount_downloaded_in_number_of_packets": 0,
+                "amount_uploaded_in_number_of_packets": 0,
+                "total_transfer_in_number_of_packets": 0,
+                "total_traffic_in_number_of_web_packets": 0,
+                "total_transfer_time_in_seconds": 0.0,
+                "network_total_time_in_seconds": 0.2063140869140625
+            }
+        },
+        "network_tracking_remote_slicing.Ros3ContinuousSliceBenchmark.track_network_activity_during_slice": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\", \"'ElectricalSeries'\", '(slice(0, 30000, None), slice(0, 384, None))')": {
+                "amount_downloaded_in_bytes": 101061431,
+                "amount_uploaded_in_bytes": 101528,
+                "total_transfer_in_bytes": 101162959,
+                "amount_downloaded_in_number_of_packets": 69728,
+                "amount_uploaded_in_number_of_packets": 1398,
+                "total_transfer_in_number_of_packets": 71126,
+                "total_traffic_in_number_of_web_packets": 1398,
+                "total_transfer_time_in_seconds": 5.308593,
+                "network_total_time_in_seconds": 5.727570056915283
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\", \"'TwoPhotonSeries'\", '(slice(0, 3, None), slice(0, 796, None), slice(0, 512, None))')": {
+                "amount_downloaded_in_bytes": 0,
+                "amount_uploaded_in_bytes": 0,
+                "total_transfer_in_bytes": 0,
+                "amount_downloaded_in_number_of_packets": 0,
+                "amount_uploaded_in_number_of_packets": 0,
+                "total_transfer_in_number_of_packets": 0,
+                "total_traffic_in_number_of_web_packets": 0,
+                "total_transfer_time_in_seconds": 0.0,
+                "network_total_time_in_seconds": 0.49286890029907227
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\", \"'data_00002_AD0'\", '(slice(0, 30000, None),)')": {
+                "amount_downloaded_in_bytes": 0,
+                "amount_uploaded_in_bytes": 0,
+                "total_transfer_in_bytes": 0,
+                "amount_downloaded_in_number_of_packets": 0,
+                "amount_uploaded_in_number_of_packets": 0,
+                "total_transfer_in_number_of_packets": 0,
+                "total_traffic_in_number_of_web_packets": 0,
+                "total_transfer_time_in_seconds": 0.0,
+                "network_total_time_in_seconds": 0.10951995849609375
+            }
+        }
+    }
+}

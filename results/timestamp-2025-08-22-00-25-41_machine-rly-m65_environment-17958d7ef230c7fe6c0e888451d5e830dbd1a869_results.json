@@ -1,0 +1,22 @@
+{
+    "version": 2,
+    "timestamp": "2025-08-22-00-25-41",
+    "commit_hash": "6557ad4cdd24633361ca8532b989fcfe70321218",
+    "environment_hash": "17958d7ef230c7fe6c0e888451d5e830dbd1a869",
+    "machine_hash": "rly-m65",
+    "results": {
+        "network_tracking_remote_file_reading.FsspecNoCacheFileReadBenchmark.track_network_activity_during_read_h5py": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": {
+                "amount_downloaded_in_bytes": 10586229,
+                "amount_uploaded_in_bytes": 7125,
+                "total_transfer_in_bytes": 10593354,
+                "amount_downloaded_in_number_of_packets": 7226,
+                "amount_uploaded_in_number_of_packets": 119,
+                "total_transfer_in_number_of_packets": 7345,
+                "total_traffic_in_number_of_web_packets": 119,
+                "total_transfer_time_in_seconds": 1.1191630000000001,
+                "network_total_time_in_seconds": 1.609109878540039
+            }
+        }
+    }
+}
