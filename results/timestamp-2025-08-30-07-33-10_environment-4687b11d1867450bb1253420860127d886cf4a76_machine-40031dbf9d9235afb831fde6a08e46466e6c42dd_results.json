@@ -1,0 +1,1411 @@
+{
+    "database_version": "2.0.0",
+    "timestamp": "2025-08-30-07-33-10",
+    "commit_hash": "be6cc720361b931df34f6b0e54f69aa601f35162",
+    "environment_id": "4687b11d1867450bb1253420860127d886cf4a76",
+    "machine_id": "40031dbf9d9235afb831fde6a08e46466e6c42dd",
+    "results": {
+        "network_tracking_remote_file_reading.HDF5H5pyFileReadBenchmark.track_network_read_hdf5_h5py_fsspec_https_no_cache": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": {
+                "amount_downloaded_in_bytes": 10763654,
+                "amount_uploaded_in_bytes": 12976,
+                "total_transfer_in_bytes": 10776630,
+                "amount_downloaded_in_number_of_packets": 7313,
+                "amount_uploaded_in_number_of_packets": 197,
+                "total_transfer_in_number_of_packets": 7510,
+                "total_traffic_in_number_of_web_packets": 197,
+                "total_transfer_time_in_seconds": 1.1935670000000003,
+                "network_total_time_in_seconds": 1.5581591129302979
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": {
+                "amount_downloaded_in_bytes": 4342994,
+                "amount_uploaded_in_bytes": 9135,
+                "total_transfer_in_bytes": 4352129,
+                "amount_downloaded_in_number_of_packets": 2920,
+                "amount_uploaded_in_number_of_packets": 107,
+                "total_transfer_in_number_of_packets": 3027,
+                "total_traffic_in_number_of_web_packets": 107,
+                "total_transfer_time_in_seconds": 0.9172780000000001,
+                "network_total_time_in_seconds": 1.2558650970458984
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": {
+                "amount_downloaded_in_bytes": 4566598,
+                "amount_uploaded_in_bytes": 7377,
+                "total_transfer_in_bytes": 4573975,
+                "amount_downloaded_in_number_of_packets": 3086,
+                "amount_uploaded_in_number_of_packets": 98,
+                "total_transfer_in_number_of_packets": 3184,
+                "total_traffic_in_number_of_web_packets": 98,
+                "total_transfer_time_in_seconds": 0.8523970000000001,
+                "network_total_time_in_seconds": 1.0207459926605225
+            }
+        },
+        "network_tracking_remote_file_reading.HDF5H5pyFileReadBenchmark.track_network_read_hdf5_h5py_fsspec_https_with_cache": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": {
+                "amount_downloaded_in_bytes": 10714688,
+                "amount_uploaded_in_bytes": 13876,
+                "total_transfer_in_bytes": 10728564,
+                "amount_downloaded_in_number_of_packets": 7296,
+                "amount_uploaded_in_number_of_packets": 175,
+                "total_transfer_in_number_of_packets": 7471,
+                "total_traffic_in_number_of_web_packets": 175,
+                "total_transfer_time_in_seconds": 1.199726,
+                "network_total_time_in_seconds": 1.561222791671753
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": {
+                "amount_downloaded_in_bytes": 8458246,
+                "amount_uploaded_in_bytes": 11732,
+                "total_transfer_in_bytes": 8469978,
+                "amount_downloaded_in_number_of_packets": 5796,
+                "amount_uploaded_in_number_of_packets": 174,
+                "total_transfer_in_number_of_packets": 5970,
+                "total_traffic_in_number_of_web_packets": 174,
+                "total_transfer_time_in_seconds": 1.088465,
+                "network_total_time_in_seconds": 1.3399920463562012
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": {
+                "amount_downloaded_in_bytes": 4570058,
+                "amount_uploaded_in_bytes": 7551,
+                "total_transfer_in_bytes": 4577609,
+                "amount_downloaded_in_number_of_packets": 3071,
+                "amount_uploaded_in_number_of_packets": 83,
+                "total_transfer_in_number_of_packets": 3154,
+                "total_traffic_in_number_of_web_packets": 83,
+                "total_transfer_time_in_seconds": 0.8506920000000001,
+                "network_total_time_in_seconds": 1.0333139896392822
+            }
+        },
+        "network_tracking_remote_file_reading.HDF5H5pyFileReadBenchmark.track_network_read_hdf5_h5py_fsspec_s3_no_cache": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": {
+                "amount_downloaded_in_bytes": 108300113,
+                "amount_uploaded_in_bytes": 79279,
+                "total_transfer_in_bytes": 108379392,
+                "amount_downloaded_in_number_of_packets": 74685,
+                "amount_uploaded_in_number_of_packets": 1410,
+                "total_transfer_in_number_of_packets": 76095,
+                "total_traffic_in_number_of_web_packets": 1410,
+                "total_transfer_time_in_seconds": 3.2583050000000005,
+                "network_total_time_in_seconds": 3.740885019302368
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": {
+                "amount_downloaded_in_bytes": 54646102,
+                "amount_uploaded_in_bytes": 64880,
+                "total_transfer_in_bytes": 54710982,
+                "amount_downloaded_in_number_of_packets": 36932,
+                "amount_uploaded_in_number_of_packets": 944,
+                "total_transfer_in_number_of_packets": 37876,
+                "total_traffic_in_number_of_web_packets": 944,
+                "total_transfer_time_in_seconds": 1.9316980000000006,
+                "network_total_time_in_seconds": 2.41393780708313
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": {
+                "amount_downloaded_in_bytes": 52469491,
+                "amount_uploaded_in_bytes": 45732,
+                "total_transfer_in_bytes": 52515223,
+                "amount_downloaded_in_number_of_packets": 36003,
+                "amount_uploaded_in_number_of_packets": 799,
+                "total_transfer_in_number_of_packets": 36802,
+                "total_traffic_in_number_of_web_packets": 799,
+                "total_transfer_time_in_seconds": 1.930892,
+                "network_total_time_in_seconds": 2.290647029876709
+            }
+        },
+        "network_tracking_remote_file_reading.HDF5H5pyFileReadBenchmark.track_network_read_hdf5_h5py_fsspec_s3_with_cache": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": {
+                "amount_downloaded_in_bytes": 120361819,
+                "amount_uploaded_in_bytes": 117144,
+                "total_transfer_in_bytes": 120478963,
+                "amount_downloaded_in_number_of_packets": 82560,
+                "amount_uploaded_in_number_of_packets": 1715,
+                "total_transfer_in_number_of_packets": 84275,
+                "total_traffic_in_number_of_web_packets": 1715,
+                "total_transfer_time_in_seconds": 3.7755710000000002,
+                "network_total_time_in_seconds": 4.090111017227173
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": {
+                "amount_downloaded_in_bytes": 64182779,
+                "amount_uploaded_in_bytes": 52929,
+                "total_transfer_in_bytes": 64235708,
+                "amount_downloaded_in_number_of_packets": 43938,
+                "amount_uploaded_in_number_of_packets": 916,
+                "total_transfer_in_number_of_packets": 44854,
+                "total_traffic_in_number_of_web_packets": 916,
+                "total_transfer_time_in_seconds": 2.4970430000000006,
+                "network_total_time_in_seconds": 2.8119757175445557
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": {
+                "amount_downloaded_in_bytes": 54208214,
+                "amount_uploaded_in_bytes": 47464,
+                "total_transfer_in_bytes": 54255678,
+                "amount_downloaded_in_number_of_packets": 37204,
+                "amount_uploaded_in_number_of_packets": 824,
+                "total_transfer_in_number_of_packets": 38028,
+                "total_traffic_in_number_of_web_packets": 824,
+                "total_transfer_time_in_seconds": 1.988988,
+                "network_total_time_in_seconds": 2.298264741897583
+            }
+        },
+        "network_tracking_remote_file_reading.HDF5H5pyFileReadBenchmark.track_network_read_hdf5_h5py_remfile_no_cache": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": {
+                "amount_downloaded_in_bytes": 207287,
+                "amount_uploaded_in_bytes": 8363,
+                "total_transfer_in_bytes": 215650,
+                "amount_downloaded_in_number_of_packets": 156,
+                "amount_uploaded_in_number_of_packets": 73,
+                "total_transfer_in_number_of_packets": 229,
+                "total_traffic_in_number_of_web_packets": 73,
+                "total_transfer_time_in_seconds": 0.8160690000000002,
+                "network_total_time_in_seconds": 1.2051920890808105
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": {
+                "amount_downloaded_in_bytes": 121770,
+                "amount_uploaded_in_bytes": 7059,
+                "total_transfer_in_bytes": 128829,
+                "amount_downloaded_in_number_of_packets": 103,
+                "amount_uploaded_in_number_of_packets": 61,
+                "total_transfer_in_number_of_packets": 164,
+                "total_traffic_in_number_of_web_packets": 61,
+                "total_transfer_time_in_seconds": 0.6147100000000001,
+                "network_total_time_in_seconds": 0.972261905670166
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": {
+                "amount_downloaded_in_bytes": 122076,
+                "amount_uploaded_in_bytes": 7005,
+                "total_transfer_in_bytes": 129081,
+                "amount_downloaded_in_number_of_packets": 104,
+                "amount_uploaded_in_number_of_packets": 60,
+                "total_transfer_in_number_of_packets": 164,
+                "total_traffic_in_number_of_web_packets": 60,
+                "total_transfer_time_in_seconds": 0.5582530000000001,
+                "network_total_time_in_seconds": 0.8456909656524658
+            }
+        },
+        "network_tracking_remote_file_reading.HDF5H5pyFileReadBenchmark.track_network_read_hdf5_h5py_remfile_with_cache": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": {
+                "amount_downloaded_in_bytes": 312932,
+                "amount_uploaded_in_bytes": 8737,
+                "total_transfer_in_bytes": 321669,
+                "amount_downloaded_in_number_of_packets": 232,
+                "amount_uploaded_in_number_of_packets": 82,
+                "total_transfer_in_number_of_packets": 314,
+                "total_traffic_in_number_of_web_packets": 82,
+                "total_transfer_time_in_seconds": 0.8886830000000001,
+                "network_total_time_in_seconds": 1.1435859203338623
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": {
+                "amount_downloaded_in_bytes": 313273,
+                "amount_uploaded_in_bytes": 8889,
+                "total_transfer_in_bytes": 322162,
+                "amount_downloaded_in_number_of_packets": 233,
+                "amount_uploaded_in_number_of_packets": 81,
+                "total_transfer_in_number_of_packets": 314,
+                "total_traffic_in_number_of_web_packets": 81,
+                "total_transfer_time_in_seconds": 0.881051,
+                "network_total_time_in_seconds": 1.0027048587799072
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": {
+                "amount_downloaded_in_bytes": 171147,
+                "amount_uploaded_in_bytes": 7113,
+                "total_transfer_in_bytes": 178260,
+                "amount_downloaded_in_number_of_packets": 134,
+                "amount_uploaded_in_number_of_packets": 62,
+                "total_transfer_in_number_of_packets": 196,
+                "total_traffic_in_number_of_web_packets": 62,
+                "total_transfer_time_in_seconds": 0.609354,
+                "network_total_time_in_seconds": 0.7612941265106201
+            }
+        },
+        "network_tracking_remote_file_reading.HDF5H5pyFileReadBenchmark.track_network_read_hdf5_h5py_ros3": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": {
+                "amount_downloaded_in_bytes": 17454311,
+                "amount_uploaded_in_bytes": 14518,
+                "total_transfer_in_bytes": 17468829,
+                "amount_downloaded_in_number_of_packets": 11927,
+                "amount_uploaded_in_number_of_packets": 225,
+                "total_transfer_in_number_of_packets": 12152,
+                "total_traffic_in_number_of_web_packets": 225,
+                "total_transfer_time_in_seconds": 1.2798990000000001,
+                "network_total_time_in_seconds": 1.6331520080566406
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": {
+                "amount_downloaded_in_bytes": 17451077,
+                "amount_uploaded_in_bytes": 14000,
+                "total_transfer_in_bytes": 17465077,
+                "amount_downloaded_in_number_of_packets": 11858,
+                "amount_uploaded_in_number_of_packets": 212,
+                "total_transfer_in_number_of_packets": 12070,
+                "total_traffic_in_number_of_web_packets": 212,
+                "total_transfer_time_in_seconds": 1.320422,
+                "network_total_time_in_seconds": 1.590074062347412
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": {
+                "amount_downloaded_in_bytes": 17319055,
+                "amount_uploaded_in_bytes": 11600,
+                "total_transfer_in_bytes": 17330655,
+                "amount_downloaded_in_number_of_packets": 11742,
+                "amount_uploaded_in_number_of_packets": 178,
+                "total_transfer_in_number_of_packets": 11920,
+                "total_traffic_in_number_of_web_packets": 178,
+                "total_transfer_time_in_seconds": 1.0875560000000004,
+                "network_total_time_in_seconds": 1.25571608543396
+            }
+        },
+        "network_tracking_remote_file_reading.HDF5PyNWBFileReadBenchmark.track_network_read_hdf5_pynwb_fsspec_https_no_cache": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": {
+                "amount_downloaded_in_bytes": 419298986,
+                "amount_uploaded_in_bytes": 305888,
+                "total_transfer_in_bytes": 419604874,
+                "amount_downloaded_in_number_of_packets": 290714,
+                "amount_uploaded_in_number_of_packets": 5198,
+                "total_transfer_in_number_of_packets": 295912,
+                "total_traffic_in_number_of_web_packets": 5198,
+                "total_transfer_time_in_seconds": 20.534194,
+                "network_total_time_in_seconds": 20.72237801551819
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": {
+                "amount_downloaded_in_bytes": 476599189,
+                "amount_uploaded_in_bytes": 348604,
+                "total_transfer_in_bytes": 476947793,
+                "amount_downloaded_in_number_of_packets": 329069,
+                "amount_uploaded_in_number_of_packets": 5785,
+                "total_transfer_in_number_of_packets": 334854,
+                "total_traffic_in_number_of_web_packets": 5785,
+                "total_transfer_time_in_seconds": 21.11317800000001,
+                "network_total_time_in_seconds": 21.30973505973816
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": {
+                "amount_downloaded_in_bytes": 1489330582,
+                "amount_uploaded_in_bytes": 1384172,
+                "total_transfer_in_bytes": 1490714754,
+                "amount_downloaded_in_number_of_packets": 1030557,
+                "amount_uploaded_in_number_of_packets": 22407,
+                "total_transfer_in_number_of_packets": 1052964,
+                "total_traffic_in_number_of_web_packets": 22407,
+                "total_transfer_time_in_seconds": 60.769577999999996,
+                "network_total_time_in_seconds": 60.86052393913269
+            }
+        },
+        "network_tracking_remote_file_reading.HDF5PyNWBFileReadBenchmark.track_network_read_hdf5_pynwb_fsspec_https_with_cache": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": {
+                "amount_downloaded_in_bytes": 157997629,
+                "amount_uploaded_in_bytes": 111056,
+                "total_transfer_in_bytes": 158108685,
+                "amount_downloaded_in_number_of_packets": 109320,
+                "amount_uploaded_in_number_of_packets": 1883,
+                "total_transfer_in_number_of_packets": 111203,
+                "total_traffic_in_number_of_web_packets": 1883,
+                "total_transfer_time_in_seconds": 9.267812000000003,
+                "network_total_time_in_seconds": 9.491785049438477
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": {
+                "amount_downloaded_in_bytes": 37230063,
+                "amount_uploaded_in_bytes": 29133,
+                "total_transfer_in_bytes": 37259196,
+                "amount_downloaded_in_number_of_packets": 25819,
+                "amount_uploaded_in_number_of_packets": 473,
+                "total_transfer_in_number_of_packets": 26292,
+                "total_traffic_in_number_of_web_packets": 473,
+                "total_transfer_time_in_seconds": 2.6067360000000006,
+                "network_total_time_in_seconds": 2.87846302986145
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": {
+                "amount_downloaded_in_bytes": 52834374,
+                "amount_uploaded_in_bytes": 44083,
+                "total_transfer_in_bytes": 52878457,
+                "amount_downloaded_in_number_of_packets": 36212,
+                "amount_uploaded_in_number_of_packets": 746,
+                "total_transfer_in_number_of_packets": 36958,
+                "total_traffic_in_number_of_web_packets": 746,
+                "total_transfer_time_in_seconds": 2.7705840000000004,
+                "network_total_time_in_seconds": 3.8729262351989746
+            }
+        },
+        "network_tracking_remote_file_reading.HDF5PyNWBFileReadBenchmark.track_network_read_hdf5_pynwb_fsspec_s3_with_cache": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": {
+                "amount_downloaded_in_bytes": 1549653801,
+                "amount_uploaded_in_bytes": 1668864,
+                "total_transfer_in_bytes": 1551322665,
+                "amount_downloaded_in_number_of_packets": 1055440,
+                "amount_uploaded_in_number_of_packets": 25030,
+                "total_transfer_in_number_of_packets": 1080470,
+                "total_traffic_in_number_of_web_packets": 25030,
+                "total_transfer_time_in_seconds": 41.447615,
+                "network_total_time_in_seconds": 41.81694412231445
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": {
+                "amount_downloaded_in_bytes": 282847155,
+                "amount_uploaded_in_bytes": 333323,
+                "total_transfer_in_bytes": 283180478,
+                "amount_downloaded_in_number_of_packets": 193211,
+                "amount_uploaded_in_number_of_packets": 6037,
+                "total_transfer_in_number_of_packets": 199248,
+                "total_traffic_in_number_of_web_packets": 6037,
+                "total_transfer_time_in_seconds": 10.605739000000002,
+                "network_total_time_in_seconds": 11.057525873184204
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": {
+                "amount_downloaded_in_bytes": 58237740,
+                "amount_uploaded_in_bytes": 74307,
+                "total_transfer_in_bytes": 58312047,
+                "amount_downloaded_in_number_of_packets": 39369,
+                "amount_uploaded_in_number_of_packets": 1312,
+                "total_transfer_in_number_of_packets": 40681,
+                "total_traffic_in_number_of_web_packets": 1312,
+                "total_transfer_time_in_seconds": 3.048398,
+                "network_total_time_in_seconds": 4.429215908050537
+            }
+        },
+        "network_tracking_remote_file_reading.HDF5PyNWBFileReadBenchmark.track_network_read_hdf5_pynwb_remfile_no_cache": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": {
+                "amount_downloaded_in_bytes": 5270665,
+                "amount_uploaded_in_bytes": 21057,
+                "total_transfer_in_bytes": 5291722,
+                "amount_downloaded_in_number_of_packets": 3719,
+                "amount_uploaded_in_number_of_packets": 170,
+                "total_transfer_in_number_of_packets": 3889,
+                "total_traffic_in_number_of_web_packets": 170,
+                "total_transfer_time_in_seconds": 6.674277000000001,
+                "network_total_time_in_seconds": 6.952280759811401
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": {
+                "amount_downloaded_in_bytes": 4013682,
+                "amount_uploaded_in_bytes": 20667,
+                "total_transfer_in_bytes": 4034349,
+                "amount_downloaded_in_number_of_packets": 2806,
+                "amount_uploaded_in_number_of_packets": 178,
+                "total_transfer_in_number_of_packets": 2984,
+                "total_traffic_in_number_of_web_packets": 178,
+                "total_transfer_time_in_seconds": 4.0859250000000005,
+                "network_total_time_in_seconds": 4.289400815963745
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": {
+                "amount_downloaded_in_bytes": 44255771,
+                "amount_uploaded_in_bytes": 99155,
+                "total_transfer_in_bytes": 44354926,
+                "amount_downloaded_in_number_of_packets": 30490,
+                "amount_uploaded_in_number_of_packets": 1010,
+                "total_transfer_in_number_of_packets": 31500,
+                "total_traffic_in_number_of_web_packets": 1010,
+                "total_transfer_time_in_seconds": 13.909179000000002,
+                "network_total_time_in_seconds": 14.410619020462036
+            }
+        },
+        "network_tracking_remote_file_reading.HDF5PyNWBFileReadBenchmark.track_network_read_hdf5_pynwb_remfile_with_cache": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": {
+                "amount_downloaded_in_bytes": 5314179,
+                "amount_uploaded_in_bytes": 25587,
+                "total_transfer_in_bytes": 5339766,
+                "amount_downloaded_in_number_of_packets": 3725,
+                "amount_uploaded_in_number_of_packets": 215,
+                "total_transfer_in_number_of_packets": 3940,
+                "total_traffic_in_number_of_web_packets": 215,
+                "total_transfer_time_in_seconds": 6.153658000000002,
+                "network_total_time_in_seconds": 6.455051898956299
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": {
+                "amount_downloaded_in_bytes": 3802974,
+                "amount_uploaded_in_bytes": 20883,
+                "total_transfer_in_bytes": 3823857,
+                "amount_downloaded_in_number_of_packets": 2677,
+                "amount_uploaded_in_number_of_packets": 182,
+                "total_transfer_in_number_of_packets": 2859,
+                "total_traffic_in_number_of_web_packets": 182,
+                "total_transfer_time_in_seconds": 3.9138020000000004,
+                "network_total_time_in_seconds": 4.188683986663818
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": {
+                "amount_downloaded_in_bytes": 44255401,
+                "amount_uploaded_in_bytes": 115127,
+                "total_transfer_in_bytes": 44370528,
+                "amount_downloaded_in_number_of_packets": 30363,
+                "amount_uploaded_in_number_of_packets": 1238,
+                "total_transfer_in_number_of_packets": 31601,
+                "total_traffic_in_number_of_web_packets": 1238,
+                "total_transfer_time_in_seconds": 15.892284000000005,
+                "network_total_time_in_seconds": 16.387084007263184
+            }
+        },
+        "network_tracking_remote_file_reading.HDF5PyNWBFileReadBenchmark.track_network_read_hdf5_pynwb_ros3": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": {
+                "amount_downloaded_in_bytes": 35505466,
+                "amount_uploaded_in_bytes": 192138,
+                "total_transfer_in_bytes": 35697604,
+                "amount_downloaded_in_number_of_packets": 24601,
+                "amount_uploaded_in_number_of_packets": 1711,
+                "total_transfer_in_number_of_packets": 26312,
+                "total_traffic_in_number_of_web_packets": 1711,
+                "total_transfer_time_in_seconds": 49.214397000000005,
+                "network_total_time_in_seconds": 49.30119705200195
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": {
+                "amount_downloaded_in_bytes": 35509588,
+                "amount_uploaded_in_bytes": 183992,
+                "total_transfer_in_bytes": 35693580,
+                "amount_downloaded_in_number_of_packets": 24646,
+                "amount_uploaded_in_number_of_packets": 1737,
+                "total_transfer_in_number_of_packets": 26383,
+                "total_traffic_in_number_of_web_packets": 1737,
+                "total_transfer_time_in_seconds": 37.620174999999996,
+                "network_total_time_in_seconds": 56.20424699783325
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": {
+                "amount_downloaded_in_bytes": 61179994,
+                "amount_uploaded_in_bytes": 1718014,
+                "total_transfer_in_bytes": 62898008,
+                "amount_downloaded_in_number_of_packets": 48142,
+                "amount_uploaded_in_number_of_packets": 12486,
+                "total_transfer_in_number_of_packets": 60628,
+                "total_traffic_in_number_of_web_packets": 12486,
+                "total_transfer_time_in_seconds": 501.845504,
+                "network_total_time_in_seconds": 499.39178705215454
+            }
+        },
+        "network_tracking_remote_file_reading.LindiLocalJSONFileReadBenchmark.track_network_read_lindi_h5py": {
+            "(\"'https://dandi-api-staging-dandisets.s3.amazonaws.com/blobs/7f0/aa4/7f0aa474-4169-42f8-a895-ada0af4072c7'\",)": {
+                "amount_downloaded_in_bytes": 0,
+                "amount_uploaded_in_bytes": 0,
+                "total_transfer_in_bytes": 0,
+                "amount_downloaded_in_number_of_packets": 0,
+                "amount_uploaded_in_number_of_packets": 0,
+                "total_transfer_in_number_of_packets": 0,
+                "total_traffic_in_number_of_web_packets": 0,
+                "total_transfer_time_in_seconds": 0.0,
+                "network_total_time_in_seconds": 0.1559281349182129
+            },
+            "(\"'https://dandi-api-staging-dandisets.s3.amazonaws.com/blobs/813/1b9/8131b99f-004a-4946-8bde-f2895bf42504'\",)": {
+                "amount_downloaded_in_bytes": 0,
+                "amount_uploaded_in_bytes": 0,
+                "total_transfer_in_bytes": 0,
+                "amount_downloaded_in_number_of_packets": 0,
+                "amount_uploaded_in_number_of_packets": 0,
+                "total_transfer_in_number_of_packets": 0,
+                "total_traffic_in_number_of_web_packets": 0,
+                "total_transfer_time_in_seconds": 0.0,
+                "network_total_time_in_seconds": 2.1885671615600586
+            },
+            "(\"'https://dandi-api-staging-dandisets.s3.amazonaws.com/blobs/8b1/f9e/8b1f9e4e-c5bb-4c25-acee-3c99327aa841'\",)": {
+                "amount_downloaded_in_bytes": 0,
+                "amount_uploaded_in_bytes": 0,
+                "total_transfer_in_bytes": 0,
+                "amount_downloaded_in_number_of_packets": 0,
+                "amount_uploaded_in_number_of_packets": 0,
+                "total_transfer_in_number_of_packets": 0,
+                "total_traffic_in_number_of_web_packets": 0,
+                "total_transfer_time_in_seconds": 0.0,
+                "network_total_time_in_seconds": 0.16759395599365234
+            }
+        },
+        "network_tracking_remote_file_reading.LindiLocalJSONFileReadBenchmark.track_network_read_lindi_pynwb": {
+            "(\"'https://dandi-api-staging-dandisets.s3.amazonaws.com/blobs/7f0/aa4/7f0aa474-4169-42f8-a895-ada0af4072c7'\",)": {
+                "amount_downloaded_in_bytes": 0,
+                "amount_uploaded_in_bytes": 0,
+                "total_transfer_in_bytes": 0,
+                "amount_downloaded_in_number_of_packets": 0,
+                "amount_uploaded_in_number_of_packets": 0,
+                "total_transfer_in_number_of_packets": 0,
+                "total_traffic_in_number_of_web_packets": 0,
+                "total_transfer_time_in_seconds": 0.0,
+                "network_total_time_in_seconds": 0.2960810661315918
+            },
+            "(\"'https://dandi-api-staging-dandisets.s3.amazonaws.com/blobs/813/1b9/8131b99f-004a-4946-8bde-f2895bf42504'\",)": {
+                "amount_downloaded_in_bytes": 18721,
+                "amount_uploaded_in_bytes": 8762,
+                "total_transfer_in_bytes": 27483,
+                "amount_downloaded_in_number_of_packets": 39,
+                "amount_uploaded_in_number_of_packets": 35,
+                "total_transfer_in_number_of_packets": 74,
+                "total_traffic_in_number_of_web_packets": 35,
+                "total_transfer_time_in_seconds": 1.029627,
+                "network_total_time_in_seconds": 9.84448504447937
+            },
+            "(\"'https://dandi-api-staging-dandisets.s3.amazonaws.com/blobs/8b1/f9e/8b1f9e4e-c5bb-4c25-acee-3c99327aa841'\",)": {
+                "amount_downloaded_in_bytes": 20641,
+                "amount_uploaded_in_bytes": 8396,
+                "total_transfer_in_bytes": 29037,
+                "amount_downloaded_in_number_of_packets": 41,
+                "amount_uploaded_in_number_of_packets": 33,
+                "total_transfer_in_number_of_packets": 74,
+                "total_traffic_in_number_of_web_packets": 33,
+                "total_transfer_time_in_seconds": 1.096936,
+                "network_total_time_in_seconds": 2.5380699634552
+            }
+        },
+        "network_tracking_remote_file_reading.ZarrPyNWBFileReadBenchmark.track_network_read_zarr_pynwb_s3": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/d097af6b-8fd8-4d83-b649-fc6518e95d25/'\",)": {
+                "amount_downloaded_in_bytes": 191853,
+                "amount_uploaded_in_bytes": 108633,
+                "total_transfer_in_bytes": 300486,
+                "amount_downloaded_in_number_of_packets": 391,
+                "amount_uploaded_in_number_of_packets": 406,
+                "total_transfer_in_number_of_packets": 797,
+                "total_traffic_in_number_of_web_packets": 406,
+                "total_transfer_time_in_seconds": 14.584639,
+                "network_total_time_in_seconds": 14.91780400276184
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/c8c6b848-fbc6-4f58-85ff-e3f2618ee983/'\",)": {
+                "amount_downloaded_in_bytes": 188508,
+                "amount_uploaded_in_bytes": 102545,
+                "total_transfer_in_bytes": 291053,
+                "amount_downloaded_in_number_of_packets": 382,
+                "amount_uploaded_in_number_of_packets": 384,
+                "total_transfer_in_number_of_packets": 766,
+                "total_traffic_in_number_of_web_packets": 384,
+                "total_transfer_time_in_seconds": 13.501382,
+                "network_total_time_in_seconds": 13.81898021697998
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/18e75d22-f527-4051-a4c8-c7e0f1e7dad1/'\",)": {
+                "amount_downloaded_in_bytes": 3523029,
+                "amount_uploaded_in_bytes": 733647,
+                "total_transfer_in_bytes": 4256676,
+                "amount_downloaded_in_number_of_packets": 4280,
+                "amount_uploaded_in_number_of_packets": 2703,
+                "total_transfer_in_number_of_packets": 6983,
+                "total_traffic_in_number_of_web_packets": 2703,
+                "total_transfer_time_in_seconds": 100.898486,
+                "network_total_time_in_seconds": 100.67197394371033
+            }
+        },
+        "network_tracking_remote_file_reading.ZarrPyNWBFileReadBenchmark.track_network_read_zarr_pynwb_s3_force_no_consolidated": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/d097af6b-8fd8-4d83-b649-fc6518e95d25/'\",)": {
+                "amount_downloaded_in_bytes": 978819,
+                "amount_uploaded_in_bytes": 596012,
+                "total_transfer_in_bytes": 1574831,
+                "amount_downloaded_in_number_of_packets": 2168,
+                "amount_uploaded_in_number_of_packets": 2260,
+                "total_transfer_in_number_of_packets": 4428,
+                "total_traffic_in_number_of_web_packets": 2260,
+                "total_transfer_time_in_seconds": 81.636935,
+                "network_total_time_in_seconds": 81.61972188949585
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/c8c6b848-fbc6-4f58-85ff-e3f2618ee983/'\",)": {
+                "amount_downloaded_in_bytes": 1069016,
+                "amount_uploaded_in_bytes": 697413,
+                "total_transfer_in_bytes": 1766429,
+                "amount_downloaded_in_number_of_packets": 2412,
+                "amount_uploaded_in_number_of_packets": 2602,
+                "total_transfer_in_number_of_packets": 5014,
+                "total_traffic_in_number_of_web_packets": 2602,
+                "total_transfer_time_in_seconds": 93.53231600000001,
+                "network_total_time_in_seconds": 93.44604301452637
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/18e75d22-f527-4051-a4c8-c7e0f1e7dad1/'\",)": {
+                "amount_downloaded_in_bytes": 12657568,
+                "amount_uploaded_in_bytes": 7786996,
+                "total_transfer_in_bytes": 20444564,
+                "amount_downloaded_in_number_of_packets": 27623,
+                "amount_uploaded_in_number_of_packets": 28555,
+                "total_transfer_in_number_of_packets": 56178,
+                "total_traffic_in_number_of_web_packets": 28555,
+                "total_transfer_time_in_seconds": 3399.260035999999,
+                "network_total_time_in_seconds": 3393.196156024933
+            }
+        },
+        "network_tracking_remote_file_reading.ZarrZarrPythonFileReadBenchmark.track_network_read_zarr_https": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/d097af6b-8fd8-4d83-b649-fc6518e95d25/'\",)": {
+                "amount_downloaded_in_bytes": 34950,
+                "amount_uploaded_in_bytes": 2700,
+                "total_transfer_in_bytes": 37650,
+                "amount_downloaded_in_number_of_packets": 32,
+                "amount_uploaded_in_number_of_packets": 13,
+                "total_transfer_in_number_of_packets": 45,
+                "total_traffic_in_number_of_web_packets": 13,
+                "total_transfer_time_in_seconds": 0.27306400000000003,
+                "network_total_time_in_seconds": 0.5540711879730225
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/c8c6b848-fbc6-4f58-85ff-e3f2618ee983/'\",)": {
+                "amount_downloaded_in_bytes": 78,
+                "amount_uploaded_in_bytes": 1827,
+                "total_transfer_in_bytes": 1905,
+                "amount_downloaded_in_number_of_packets": 1,
+                "amount_uploaded_in_number_of_packets": 4,
+                "total_transfer_in_number_of_packets": 5,
+                "total_traffic_in_number_of_web_packets": 4,
+                "total_transfer_time_in_seconds": 0.067661,
+                "network_total_time_in_seconds": 0.48465704917907715
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/18e75d22-f527-4051-a4c8-c7e0f1e7dad1/'\",)": {
+                "amount_downloaded_in_bytes": 428865,
+                "amount_uploaded_in_bytes": 3906,
+                "total_transfer_in_bytes": 432771,
+                "amount_downloaded_in_number_of_packets": 299,
+                "amount_uploaded_in_number_of_packets": 38,
+                "total_transfer_in_number_of_packets": 337,
+                "total_traffic_in_number_of_web_packets": 38,
+                "total_transfer_time_in_seconds": 0.5580040000000002,
+                "network_total_time_in_seconds": 0.9137091636657715
+            }
+        },
+        "network_tracking_remote_file_reading.ZarrZarrPythonFileReadBenchmark.track_network_read_zarr_https_force_no_consolidated": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/d097af6b-8fd8-4d83-b649-fc6518e95d25/'\",)": {
+                "amount_downloaded_in_bytes": 10011,
+                "amount_uploaded_in_bytes": 3875,
+                "total_transfer_in_bytes": 13886,
+                "amount_downloaded_in_number_of_packets": 22,
+                "amount_uploaded_in_number_of_packets": 18,
+                "total_transfer_in_number_of_packets": 40,
+                "total_traffic_in_number_of_web_packets": 18,
+                "total_transfer_time_in_seconds": 0.5903910000000001,
+                "network_total_time_in_seconds": 0.7791681289672852
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/c8c6b848-fbc6-4f58-85ff-e3f2618ee983/'\",)": {
+                "amount_downloaded_in_bytes": 8774,
+                "amount_uploaded_in_bytes": 2657,
+                "total_transfer_in_bytes": 11431,
+                "amount_downloaded_in_number_of_packets": 18,
+                "amount_uploaded_in_number_of_packets": 11,
+                "total_transfer_in_number_of_packets": 29,
+                "total_traffic_in_number_of_web_packets": 11,
+                "total_transfer_time_in_seconds": 0.3351,
+                "network_total_time_in_seconds": 0.7698838710784912
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/18e75d22-f527-4051-a4c8-c7e0f1e7dad1/'\",)": {
+                "amount_downloaded_in_bytes": 7055,
+                "amount_uploaded_in_bytes": 2711,
+                "total_transfer_in_bytes": 9766,
+                "amount_downloaded_in_number_of_packets": 16,
+                "amount_uploaded_in_number_of_packets": 12,
+                "total_transfer_in_number_of_packets": 28,
+                "total_traffic_in_number_of_web_packets": 12,
+                "total_transfer_time_in_seconds": 0.234213,
+                "network_total_time_in_seconds": 0.7733402252197266
+            }
+        },
+        "network_tracking_remote_file_reading.ZarrZarrPythonFileReadBenchmark.track_network_read_zarr_s3": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/d097af6b-8fd8-4d83-b649-fc6518e95d25/'\",)": {
+                "amount_downloaded_in_bytes": 6314,
+                "amount_uploaded_in_bytes": 2799,
+                "total_transfer_in_bytes": 9113,
+                "amount_downloaded_in_number_of_packets": 12,
+                "amount_uploaded_in_number_of_packets": 11,
+                "total_transfer_in_number_of_packets": 23,
+                "total_traffic_in_number_of_web_packets": 11,
+                "total_transfer_time_in_seconds": 0.13412500000000002,
+                "network_total_time_in_seconds": 0.6587419509887695
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/c8c6b848-fbc6-4f58-85ff-e3f2618ee983/'\",)": {
+                "amount_downloaded_in_bytes": 7258,
+                "amount_uploaded_in_bytes": 2571,
+                "total_transfer_in_bytes": 9829,
+                "amount_downloaded_in_number_of_packets": 12,
+                "amount_uploaded_in_number_of_packets": 9,
+                "total_transfer_in_number_of_packets": 21,
+                "total_traffic_in_number_of_web_packets": 9,
+                "total_transfer_time_in_seconds": 0.13629,
+                "network_total_time_in_seconds": 0.6628530025482178
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/18e75d22-f527-4051-a4c8-c7e0f1e7dad1/'\",)": {
+                "amount_downloaded_in_bytes": 193644,
+                "amount_uploaded_in_bytes": 3987,
+                "total_transfer_in_bytes": 197631,
+                "amount_downloaded_in_number_of_packets": 138,
+                "amount_uploaded_in_number_of_packets": 29,
+                "total_transfer_in_number_of_packets": 167,
+                "total_traffic_in_number_of_web_packets": 29,
+                "total_transfer_time_in_seconds": 0.3936010000000001,
+                "network_total_time_in_seconds": 0.928102970123291
+            }
+        },
+        "network_tracking_remote_file_reading.ZarrZarrPythonFileReadBenchmark.track_network_read_zarr_s3_force_no_consolidated": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/d097af6b-8fd8-4d83-b649-fc6518e95d25/'\",)": {
+                "amount_downloaded_in_bytes": 9784,
+                "amount_uploaded_in_bytes": 5982,
+                "total_transfer_in_bytes": 15766,
+                "amount_downloaded_in_number_of_packets": 24,
+                "amount_uploaded_in_number_of_packets": 22,
+                "total_transfer_in_number_of_packets": 46,
+                "total_traffic_in_number_of_web_packets": 22,
+                "total_transfer_time_in_seconds": 0.6569,
+                "network_total_time_in_seconds": 1.0630390644073486
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/c8c6b848-fbc6-4f58-85ff-e3f2618ee983/'\",)": {
+                "amount_downloaded_in_bytes": 9730,
+                "amount_uploaded_in_bytes": 6036,
+                "total_transfer_in_bytes": 15766,
+                "amount_downloaded_in_number_of_packets": 23,
+                "amount_uploaded_in_number_of_packets": 23,
+                "total_transfer_in_number_of_packets": 46,
+                "total_traffic_in_number_of_web_packets": 23,
+                "total_transfer_time_in_seconds": 0.6414289999999999,
+                "network_total_time_in_seconds": 1.064629077911377
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/18e75d22-f527-4051-a4c8-c7e0f1e7dad1/'\",)": {
+                "amount_downloaded_in_bytes": 11214,
+                "amount_uploaded_in_bytes": 6300,
+                "total_transfer_in_bytes": 17514,
+                "amount_downloaded_in_number_of_packets": 22,
+                "amount_uploaded_in_number_of_packets": 23,
+                "total_transfer_in_number_of_packets": 45,
+                "total_traffic_in_number_of_web_packets": 23,
+                "total_transfer_time_in_seconds": 0.6579410000000001,
+                "network_total_time_in_seconds": 1.06306791305542
+            }
+        },
+        "network_tracking_remote_slicing.HDF5PyNWBFsspecHttpsNoCacheContinuousSliceBenchmark.track_network_during_slice": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\", \"'ElectricalSeries'\", '(slice(0, 30000, None), slice(0, 384, None))')": {
+                "amount_downloaded_in_bytes": 181269485,
+                "amount_uploaded_in_bytes": 118035,
+                "total_transfer_in_bytes": 181387520,
+                "amount_downloaded_in_number_of_packets": 124524,
+                "amount_uploaded_in_number_of_packets": 1953,
+                "total_transfer_in_number_of_packets": 126477,
+                "total_traffic_in_number_of_web_packets": 1953,
+                "total_transfer_time_in_seconds": 8.152840000000001,
+                "network_total_time_in_seconds": 8.440666198730469
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\", \"'TwoPhotonSeries'\", '(slice(0, 3, None), slice(0, 796, None), slice(0, 512, None))')": {
+                "amount_downloaded_in_bytes": 65412008,
+                "amount_uploaded_in_bytes": 38184,
+                "total_transfer_in_bytes": 65450192,
+                "amount_downloaded_in_number_of_packets": 45192,
+                "amount_uploaded_in_number_of_packets": 653,
+                "total_transfer_in_number_of_packets": 45845,
+                "total_traffic_in_number_of_web_packets": 653,
+                "total_transfer_time_in_seconds": 2.8200550000000004,
+                "network_total_time_in_seconds": 3.0364341735839844
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\", \"'data_00002_AD0'\", '(slice(0, 30000, None),)')": {
+                "amount_downloaded_in_bytes": 10460176,
+                "amount_uploaded_in_bytes": 11800,
+                "total_transfer_in_bytes": 10471976,
+                "amount_downloaded_in_number_of_packets": 7254,
+                "amount_uploaded_in_number_of_packets": 214,
+                "total_transfer_in_number_of_packets": 7468,
+                "total_traffic_in_number_of_web_packets": 214,
+                "total_transfer_time_in_seconds": 0.35204300000000005,
+                "network_total_time_in_seconds": 0.6668999195098877
+            }
+        },
+        "network_tracking_remote_slicing.HDF5PyNWBFsspecHttpsWithCacheContinuousSliceBenchmark.track_network_during_slice": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\", \"'ElectricalSeries'\", '(slice(0, 30000, None), slice(0, 384, None))')": {
+                "amount_downloaded_in_bytes": 168506671,
+                "amount_uploaded_in_bytes": 101006,
+                "total_transfer_in_bytes": 168607677,
+                "amount_downloaded_in_number_of_packets": 115902,
+                "amount_uploaded_in_number_of_packets": 1806,
+                "total_transfer_in_number_of_packets": 117708,
+                "total_traffic_in_number_of_web_packets": 1806,
+                "total_transfer_time_in_seconds": 7.530504000000001,
+                "network_total_time_in_seconds": 7.7987141609191895
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\", \"'TwoPhotonSeries'\", '(slice(0, 3, None), slice(0, 796, None), slice(0, 512, None))')": {
+                "amount_downloaded_in_bytes": 15807640,
+                "amount_uploaded_in_bytes": 8298,
+                "total_transfer_in_bytes": 15815938,
+                "amount_downloaded_in_number_of_packets": 10876,
+                "amount_uploaded_in_number_of_packets": 140,
+                "total_transfer_in_number_of_packets": 11016,
+                "total_traffic_in_number_of_web_packets": 140,
+                "total_transfer_time_in_seconds": 0.812438,
+                "network_total_time_in_seconds": 1.0395939350128174
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\", \"'data_00002_AD0'\", '(slice(0, 30000, None),)')": {
+                "amount_downloaded_in_bytes": 4768964,
+                "amount_uploaded_in_bytes": 3593,
+                "total_transfer_in_bytes": 4772557,
+                "amount_downloaded_in_number_of_packets": 3305,
+                "amount_uploaded_in_number_of_packets": 62,
+                "total_transfer_in_number_of_packets": 3367,
+                "total_traffic_in_number_of_web_packets": 62,
+                "total_transfer_time_in_seconds": 0.21862600000000004,
+                "network_total_time_in_seconds": 0.3740229606628418
+            }
+        },
+        "network_tracking_remote_slicing.HDF5PyNWBFsspecS3NoCacheContinuousSliceBenchmark.track_network_during_slice": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\", \"'ElectricalSeries'\", '(slice(0, 30000, None), slice(0, 384, None))')": {
+                "amount_downloaded_in_bytes": 917340947,
+                "amount_uploaded_in_bytes": 615004,
+                "total_transfer_in_bytes": 917955951,
+                "amount_downloaded_in_number_of_packets": 629371,
+                "amount_uploaded_in_number_of_packets": 11207,
+                "total_transfer_in_number_of_packets": 640578,
+                "total_traffic_in_number_of_web_packets": 11207,
+                "total_transfer_time_in_seconds": 24.729841000000008,
+                "network_total_time_in_seconds": 25.003912925720215
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\", \"'TwoPhotonSeries'\", '(slice(0, 3, None), slice(0, 796, None), slice(0, 512, None))')": {
+                "amount_downloaded_in_bytes": 271748238,
+                "amount_uploaded_in_bytes": 171128,
+                "total_transfer_in_bytes": 271919366,
+                "amount_downloaded_in_number_of_packets": 186887,
+                "amount_uploaded_in_number_of_packets": 3119,
+                "total_transfer_in_number_of_packets": 190006,
+                "total_traffic_in_number_of_web_packets": 3119,
+                "total_transfer_time_in_seconds": 6.6779209999999996,
+                "network_total_time_in_seconds": 6.884119987487793
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\", \"'data_00002_AD0'\", '(slice(0, 30000, None),)')": {
+                "amount_downloaded_in_bytes": 0,
+                "amount_uploaded_in_bytes": 0,
+                "total_transfer_in_bytes": 0,
+                "amount_downloaded_in_number_of_packets": 0,
+                "amount_uploaded_in_number_of_packets": 0,
+                "total_transfer_in_number_of_packets": 0,
+                "total_traffic_in_number_of_web_packets": 0,
+                "total_transfer_time_in_seconds": 0.0,
+                "network_total_time_in_seconds": 0.16031789779663086
+            }
+        },
+        "network_tracking_remote_slicing.HDF5PyNWBFsspecS3WithCacheContinuousSliceBenchmark.track_network_during_slice": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\", \"'ElectricalSeries'\", '(slice(0, 30000, None), slice(0, 384, None))')": {
+                "amount_downloaded_in_bytes": 823428938,
+                "amount_uploaded_in_bytes": 599424,
+                "total_transfer_in_bytes": 824028362,
+                "amount_downloaded_in_number_of_packets": 560787,
+                "amount_uploaded_in_number_of_packets": 8917,
+                "total_transfer_in_number_of_packets": 569704,
+                "total_traffic_in_number_of_web_packets": 8917,
+                "total_transfer_time_in_seconds": 23.525180000000013,
+                "network_total_time_in_seconds": 23.776950120925903
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\", \"'TwoPhotonSeries'\", '(slice(0, 3, None), slice(0, 796, None), slice(0, 512, None))')": {
+                "amount_downloaded_in_bytes": 53785460,
+                "amount_uploaded_in_bytes": 31707,
+                "total_transfer_in_bytes": 53817167,
+                "amount_downloaded_in_number_of_packets": 37193,
+                "amount_uploaded_in_number_of_packets": 578,
+                "total_transfer_in_number_of_packets": 37771,
+                "total_traffic_in_number_of_web_packets": 578,
+                "total_transfer_time_in_seconds": 1.3864450000000001,
+                "network_total_time_in_seconds": 1.606673240661621
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\", \"'data_00002_AD0'\", '(slice(0, 30000, None),)')": {
+                "amount_downloaded_in_bytes": 0,
+                "amount_uploaded_in_bytes": 0,
+                "total_transfer_in_bytes": 0,
+                "amount_downloaded_in_number_of_packets": 0,
+                "amount_uploaded_in_number_of_packets": 0,
+                "total_transfer_in_number_of_packets": 0,
+                "total_traffic_in_number_of_web_packets": 0,
+                "total_transfer_time_in_seconds": 0.0,
+                "network_total_time_in_seconds": 0.20009398460388184
+            }
+        },
+        "network_tracking_remote_slicing.HDF5PyNWBROS3ContinuousSliceBenchmark.track_network_during_slice": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\", \"'ElectricalSeries'\", '(slice(0, 30000, None), slice(0, 384, None))')": {
+                "amount_downloaded_in_bytes": 100253570,
+                "amount_uploaded_in_bytes": 60272,
+                "total_transfer_in_bytes": 100313842,
+                "amount_downloaded_in_number_of_packets": 68902,
+                "amount_uploaded_in_number_of_packets": 1068,
+                "total_transfer_in_number_of_packets": 69970,
+                "total_traffic_in_number_of_web_packets": 1068,
+                "total_transfer_time_in_seconds": 6.283392000000001,
+                "network_total_time_in_seconds": 6.499981641769409
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\", \"'TwoPhotonSeries'\", '(slice(0, 3, None), slice(0, 796, None), slice(0, 512, None))')": {
+                "amount_downloaded_in_bytes": 8064,
+                "amount_uploaded_in_bytes": 764,
+                "total_transfer_in_bytes": 8828,
+                "amount_downloaded_in_number_of_packets": 10,
+                "amount_uploaded_in_number_of_packets": 6,
+                "total_transfer_in_number_of_packets": 16,
+                "total_traffic_in_number_of_web_packets": 6,
+                "total_transfer_time_in_seconds": 0.344099,
+                "network_total_time_in_seconds": 0.5544230937957764
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\", \"'data_00002_AD0'\", '(slice(0, 30000, None),)')": {
+                "amount_downloaded_in_bytes": 0,
+                "amount_uploaded_in_bytes": 0,
+                "total_transfer_in_bytes": 0,
+                "amount_downloaded_in_number_of_packets": 0,
+                "amount_uploaded_in_number_of_packets": 0,
+                "total_transfer_in_number_of_packets": 0,
+                "total_traffic_in_number_of_web_packets": 0,
+                "total_transfer_time_in_seconds": 0.0,
+                "network_total_time_in_seconds": 0.16162991523742676
+            }
+        },
+        "network_tracking_remote_slicing.HDF5PyNWBRemfileNoCacheContinuousSliceBenchmark.track_network_during_slice": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\", \"'ElectricalSeries'\", '(slice(0, 30000, None), slice(0, 384, None))')": {
+                "amount_downloaded_in_bytes": 137356225,
+                "amount_uploaded_in_bytes": 76864,
+                "total_transfer_in_bytes": 137433089,
+                "amount_downloaded_in_number_of_packets": 94925,
+                "amount_uploaded_in_number_of_packets": 1039,
+                "total_transfer_in_number_of_packets": 95964,
+                "total_traffic_in_number_of_web_packets": 1039,
+                "total_transfer_time_in_seconds": 8.581199000000002,
+                "network_total_time_in_seconds": 8.864699840545654
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\", \"'TwoPhotonSeries'\", '(slice(0, 3, None), slice(0, 796, None), slice(0, 512, None))')": {
+                "amount_downloaded_in_bytes": 3526157,
+                "amount_uploaded_in_bytes": 6443,
+                "total_transfer_in_bytes": 3532600,
+                "amount_downloaded_in_number_of_packets": 2457,
+                "amount_uploaded_in_number_of_packets": 61,
+                "total_transfer_in_number_of_packets": 2518,
+                "total_traffic_in_number_of_web_packets": 61,
+                "total_transfer_time_in_seconds": 1.3074670000000002,
+                "network_total_time_in_seconds": 1.7727978229522705
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\", \"'data_00002_AD0'\", '(slice(0, 30000, None),)')": {
+                "amount_downloaded_in_bytes": 107367,
+                "amount_uploaded_in_bytes": 750,
+                "total_transfer_in_bytes": 108117,
+                "amount_downloaded_in_number_of_packets": 77,
+                "amount_uploaded_in_number_of_packets": 9,
+                "total_transfer_in_number_of_packets": 86,
+                "total_traffic_in_number_of_web_packets": 9,
+                "total_transfer_time_in_seconds": 0.08436700000000004,
+                "network_total_time_in_seconds": 0.28827595710754395
+            }
+        },
+        "network_tracking_remote_slicing.HDF5PyNWBRemfileWithCacheContinuousSliceBenchmark.track_network_during_slice": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\", \"'ElectricalSeries'\", '(slice(0, 30000, None), slice(0, 384, None))')": {
+                "amount_downloaded_in_bytes": 136243799,
+                "amount_uploaded_in_bytes": 67096,
+                "total_transfer_in_bytes": 136310895,
+                "amount_downloaded_in_number_of_packets": 93759,
+                "amount_uploaded_in_number_of_packets": 1089,
+                "total_transfer_in_number_of_packets": 94848,
+                "total_traffic_in_number_of_web_packets": 1089,
+                "total_transfer_time_in_seconds": 8.405738000000001,
+                "network_total_time_in_seconds": 8.654594898223877
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\", \"'TwoPhotonSeries'\", '(slice(0, 3, None), slice(0, 796, None), slice(0, 512, None))')": {
+                "amount_downloaded_in_bytes": 4528377,
+                "amount_uploaded_in_bytes": 8031,
+                "total_transfer_in_bytes": 4536408,
+                "amount_downloaded_in_number_of_packets": 3179,
+                "amount_uploaded_in_number_of_packets": 70,
+                "total_transfer_in_number_of_packets": 3249,
+                "total_traffic_in_number_of_web_packets": 70,
+                "total_transfer_time_in_seconds": 1.5978330000000003,
+                "network_total_time_in_seconds": 1.9012186527252197
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\", \"'data_00002_AD0'\", '(slice(0, 30000, None),)')": {
+                "amount_downloaded_in_bytes": 107367,
+                "amount_uploaded_in_bytes": 750,
+                "total_transfer_in_bytes": 108117,
+                "amount_downloaded_in_number_of_packets": 77,
+                "amount_uploaded_in_number_of_packets": 9,
+                "total_transfer_in_number_of_packets": 86,
+                "total_traffic_in_number_of_web_packets": 9,
+                "total_transfer_time_in_seconds": 0.09349000000000005,
+                "network_total_time_in_seconds": 0.2732360363006592
+            }
+        },
+        "network_tracking_remote_slicing.ZarrPyNWBS3ContinuousSliceBenchmark.track_network_during_slice": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/d097af6b-8fd8-4d83-b649-fc6518e95d25/'\", \"'ElectricalSeries'\", '(slice(0, 30000, None), slice(0, 384, None))')": {
+                "amount_downloaded_in_bytes": 101289874,
+                "amount_uploaded_in_bytes": 458320,
+                "total_transfer_in_bytes": 101748194,
+                "amount_downloaded_in_number_of_packets": 68110,
+                "amount_uploaded_in_number_of_packets": 5511,
+                "total_transfer_in_number_of_packets": 73621,
+                "total_traffic_in_number_of_web_packets": 5511,
+                "total_transfer_time_in_seconds": 15.546657999999999,
+                "network_total_time_in_seconds": 2.7167298793792725
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/c8c6b848-fbc6-4f58-85ff-e3f2618ee983/'\", \"'TwoPhotonSeries'\", '(slice(0, 3, None), slice(0, 796, None), slice(0, 512, None))')": {
+                "amount_downloaded_in_bytes": 12923726,
+                "amount_uploaded_in_bytes": 14085,
+                "total_transfer_in_bytes": 12937811,
+                "amount_downloaded_in_number_of_packets": 8728,
+                "amount_uploaded_in_number_of_packets": 206,
+                "total_transfer_in_number_of_packets": 8934,
+                "total_traffic_in_number_of_web_packets": 206,
+                "total_transfer_time_in_seconds": 0.7595950000000001,
+                "network_total_time_in_seconds": 0.9555408954620361
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/18e75d22-f527-4051-a4c8-c7e0f1e7dad1/'\", \"'data_00002_AD0'\", '(slice(0, 30000, None),)')": {
+                "amount_downloaded_in_bytes": 198,
+                "amount_uploaded_in_bytes": 5866,
+                "total_transfer_in_bytes": 6064,
+                "amount_downloaded_in_number_of_packets": 3,
+                "amount_uploaded_in_number_of_packets": 13,
+                "total_transfer_in_number_of_packets": 16,
+                "total_traffic_in_number_of_web_packets": 13,
+                "total_transfer_time_in_seconds": 0.210382,
+                "network_total_time_in_seconds": 0.5192277431488037
+            }
+        },
+        "network_tracking_remote_slicing.ZarrPyNWBS3ForceNoConsolidatedContinuousSliceBenchmark.track_network_during_slice": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/d097af6b-8fd8-4d83-b649-fc6518e95d25/'\", \"'ElectricalSeries'\", '(slice(0, 30000, None), slice(0, 384, None))')": {
+                "amount_downloaded_in_bytes": 100950156,
+                "amount_uploaded_in_bytes": 380274,
+                "total_transfer_in_bytes": 101330430,
+                "amount_downloaded_in_number_of_packets": 68082,
+                "amount_uploaded_in_number_of_packets": 4814,
+                "total_transfer_in_number_of_packets": 72896,
+                "total_traffic_in_number_of_web_packets": 4814,
+                "total_transfer_time_in_seconds": 14.637100000000002,
+                "network_total_time_in_seconds": 2.5622432231903076
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/c8c6b848-fbc6-4f58-85ff-e3f2618ee983/'\", \"'TwoPhotonSeries'\", '(slice(0, 3, None), slice(0, 796, None), slice(0, 512, None))')": {
+                "amount_downloaded_in_bytes": 13645846,
+                "amount_uploaded_in_bytes": 13071,
+                "total_transfer_in_bytes": 13658917,
+                "amount_downloaded_in_number_of_packets": 9276,
+                "amount_uploaded_in_number_of_packets": 233,
+                "total_transfer_in_number_of_packets": 9509,
+                "total_traffic_in_number_of_web_packets": 233,
+                "total_transfer_time_in_seconds": 1.163861,
+                "network_total_time_in_seconds": 1.3271911144256592
+            },
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/18e75d22-f527-4051-a4c8-c7e0f1e7dad1/'\", \"'data_00002_AD0'\", '(slice(0, 30000, None),)')": {
+                "amount_downloaded_in_bytes": 9130,
+                "amount_uploaded_in_bytes": 6010,
+                "total_transfer_in_bytes": 15140,
+                "amount_downloaded_in_number_of_packets": 10,
+                "amount_uploaded_in_number_of_packets": 15,
+                "total_transfer_in_number_of_packets": 25,
+                "total_traffic_in_number_of_web_packets": 15,
+                "total_transfer_time_in_seconds": 0.303201,
+                "network_total_time_in_seconds": 0.47380781173706055
+            }
+        },
+        "time_download_lindi.LindiDownloadBenchmark.time_download": {
+            "(\"'https://dandi-api-staging-dandisets.s3.amazonaws.com/blobs/7f0/aa4/7f0aa474-4169-42f8-a895-ada0af4072c7'\",)": [
+                0.24689062498509884
+            ],
+            "(\"'https://dandi-api-staging-dandisets.s3.amazonaws.com/blobs/813/1b9/8131b99f-004a-4946-8bde-f2895bf42504'\",)": [
+                3.963847458944656
+            ],
+            "(\"'https://dandi-api-staging-dandisets.s3.amazonaws.com/blobs/8b1/f9e/8b1f9e4e-c5bb-4c25-acee-3c99327aa841'\",)": [
+                0.2903888749424368
+            ]
+        },
+        "time_remote_file_reading.HDF5H5pyFileReadBenchmark.time_read_hdf5_h5py_fsspec_https_no_cache": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": [
+                1.1728491670219228
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": [
+                0.9688044158974662
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": [
+                0.8460501250810921
+            ]
+        },
+        "time_remote_file_reading.HDF5H5pyFileReadBenchmark.time_read_hdf5_h5py_fsspec_https_with_cache": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": [
+                1.1991881669964641
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": [
+                1.0940282079391181
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": [
+                0.9198190829483792
+            ]
+        },
+        "time_remote_file_reading.HDF5H5pyFileReadBenchmark.time_read_hdf5_h5py_fsspec_s3_no_cache": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": [
+                3.48997141700238
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": [
+                2.1998686250299215
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": [
+                1.992721249931492
+            ]
+        },
+        "time_remote_file_reading.HDF5H5pyFileReadBenchmark.time_read_hdf5_h5py_fsspec_s3_with_cache": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": [
+                3.767359875026159
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": [
+                2.4948515840806067
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": [
+                2.1523789579514414
+            ]
+        },
+        "time_remote_file_reading.HDF5H5pyFileReadBenchmark.time_read_hdf5_h5py_remfile_no_cache": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": [
+                0.8301586250308901
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": [
+                0.7156566669000313
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": [
+                0.6236548339948058
+            ]
+        },
+        "time_remote_file_reading.HDF5H5pyFileReadBenchmark.time_read_hdf5_h5py_remfile_with_cache": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": [
+                0.842959166970104
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": [
+                0.7533348749857396
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": [
+                0.6149329169420525
+            ]
+        },
+        "time_remote_file_reading.HDF5H5pyFileReadBenchmark.time_read_hdf5_h5py_ros3": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": [
+                1.071470082970336
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": [
+                1.1000678749987856
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": [
+                1.0665326670277864
+            ]
+        },
+        "time_remote_file_reading.HDF5PyNWBFileReadBenchmark.time_read_hdf5_pynwb_fsspec_https_no_cache": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": [
+                20.288423750083894
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": [
+                20.419785750098526
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": [
+                58.869355832925066
+            ]
+        },
+        "time_remote_file_reading.HDF5PyNWBFileReadBenchmark.time_read_hdf5_pynwb_fsspec_https_with_cache": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": [
+                8.828886415925808
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": [
+                2.157010665978305
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": [
+                3.437631958979182
+            ]
+        },
+        "time_remote_file_reading.HDF5PyNWBFileReadBenchmark.time_read_hdf5_pynwb_fsspec_s3_no_cache": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": [
+                104.33598591701593
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": [
+                77.97282208304387
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": [
+                36.00813241698779
+            ]
+        },
+        "time_remote_file_reading.HDF5PyNWBFileReadBenchmark.time_read_hdf5_pynwb_fsspec_s3_with_cache": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": [
+                39.50099400000181
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": [
+                8.142138332943432
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": [
+                3.2927571668988094
+            ]
+        },
+        "time_remote_file_reading.HDF5PyNWBFileReadBenchmark.time_read_hdf5_pynwb_remfile_no_cache": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": [
+                5.731985624996014
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": [
+                3.470776083995588
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": [
+                13.59926354198251
+            ]
+        },
+        "time_remote_file_reading.HDF5PyNWBFileReadBenchmark.time_read_hdf5_pynwb_remfile_with_cache": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": [
+                5.573580416035838
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": [
+                3.7440673750825226
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": [
+                14.106452957959846
+            ]
+        },
+        "time_remote_file_reading.HDF5PyNWBFileReadBenchmark.time_read_hdf5_pynwb_ros3": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": [
+                9.088154874974862
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": [
+                5.840282834018581
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": [
+                3.609587209066376
+            ]
+        },
+        "time_remote_file_reading.LindiLocalJSONFileReadBenchmark.time_read_lindi_h5py": {
+            "(\"'https://dandi-api-staging-dandisets.s3.amazonaws.com/blobs/7f0/aa4/7f0aa474-4169-42f8-a895-ada0af4072c7'\",)": [
+                0.0017774656469769338
+            ],
+            "(\"'https://dandi-api-staging-dandisets.s3.amazonaws.com/blobs/813/1b9/8131b99f-004a-4946-8bde-f2895bf42504'\",)": [
+                1.2085889159934595
+            ],
+            "(\"'https://dandi-api-staging-dandisets.s3.amazonaws.com/blobs/8b1/f9e/8b1f9e4e-c5bb-4c25-acee-3c99327aa841'\",)": [
+                0.041022042045369744
+            ]
+        },
+        "time_remote_file_reading.LindiLocalJSONFileReadBenchmark.time_read_lindi_pynwb": {
+            "(\"'https://dandi-api-staging-dandisets.s3.amazonaws.com/blobs/7f0/aa4/7f0aa474-4169-42f8-a895-ada0af4072c7'\",)": [
+                0.16172758303582668
+            ],
+            "(\"'https://dandi-api-staging-dandisets.s3.amazonaws.com/blobs/813/1b9/8131b99f-004a-4946-8bde-f2895bf42504'\",)": [
+                8.046418832964264
+            ],
+            "(\"'https://dandi-api-staging-dandisets.s3.amazonaws.com/blobs/8b1/f9e/8b1f9e4e-c5bb-4c25-acee-3c99327aa841'\",)": [
+                1.76957191596739
+            ]
+        },
+        "time_remote_file_reading.ZarrPyNWBFileReadBenchmark.time_read_zarr_pynwb_s3": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/d097af6b-8fd8-4d83-b649-fc6518e95d25/'\",)": [
+                10.989556874963455
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/c8c6b848-fbc6-4f58-85ff-e3f2618ee983/'\",)": [
+                10.744385750032961
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/18e75d22-f527-4051-a4c8-c7e0f1e7dad1/'\",)": [
+                96.80873908300418
+            ]
+        },
+        "time_remote_file_reading.ZarrPyNWBFileReadBenchmark.time_read_zarr_pynwb_s3_force_no_consolidated": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/d097af6b-8fd8-4d83-b649-fc6518e95d25/'\",)": [
+                60.85037312505301
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/c8c6b848-fbc6-4f58-85ff-e3f2618ee983/'\",)": [
+                72.61435995798092
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/18e75d22-f527-4051-a4c8-c7e0f1e7dad1/'\",)": [
+                915.2868550419807
+            ]
+        },
+        "time_remote_file_reading.ZarrZarrPythonFileReadBenchmark.time_read_zarr_https": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/d097af6b-8fd8-4d83-b649-fc6518e95d25/'\",)": [
+                0.1577225000364706
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/c8c6b848-fbc6-4f58-85ff-e3f2618ee983/'\",)": [
+                0.15677912498358637
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/18e75d22-f527-4051-a4c8-c7e0f1e7dad1/'\",)": [
+                0.35022141702938825
+            ]
+        },
+        "time_remote_file_reading.ZarrZarrPythonFileReadBenchmark.time_read_zarr_https_force_no_consolidated": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/d097af6b-8fd8-4d83-b649-fc6518e95d25/'\",)": [
+                0.3975694580003619
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/c8c6b848-fbc6-4f58-85ff-e3f2618ee983/'\",)": [
+                0.3884752501035109
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/18e75d22-f527-4051-a4c8-c7e0f1e7dad1/'\",)": [
+                0.38715379196219146
+            ]
+        },
+        "time_remote_file_reading.ZarrZarrPythonFileReadBenchmark.time_read_zarr_s3": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/d097af6b-8fd8-4d83-b649-fc6518e95d25/'\",)": [
+                0.15664099995046854
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/c8c6b848-fbc6-4f58-85ff-e3f2618ee983/'\",)": [
+                0.16132012498565018
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/18e75d22-f527-4051-a4c8-c7e0f1e7dad1/'\",)": [
+                0.1864410829730332
+            ]
+        },
+        "time_remote_file_reading.ZarrZarrPythonFileReadBenchmark.time_read_zarr_s3_force_no_consolidated": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/d097af6b-8fd8-4d83-b649-fc6518e95d25/'\",)": [
+                0.5502049999777228
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/c8c6b848-fbc6-4f58-85ff-e3f2618ee983/'\",)": [
+                0.5663793749408796
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/18e75d22-f527-4051-a4c8-c7e0f1e7dad1/'\",)": [
+                0.5579164169030264
+            ]
+        },
+        "time_remote_slicing.HDF5PyNWBFsspecHttpsNoCacheContinuousSliceBenchmark.time_slice": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\", \"'ElectricalSeries'\", '(slice(0, 30000, None), slice(0, 384, None))')": [
+                8.050223791971803
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\", \"'TwoPhotonSeries'\", '(slice(0, 3, None), slice(0, 796, None), slice(0, 512, None))')": [
+                2.542658374994062
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\", \"'data_00002_AD0'\", '(slice(0, 30000, None),)')": [
+                0.3954113330692053
+            ]
+        },
+        "time_remote_slicing.HDF5PyNWBFsspecHttpsWithCacheContinuousSliceBenchmark.time_slice": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\", \"'ElectricalSeries'\", '(slice(0, 30000, None), slice(0, 384, None))')": [
+                7.1577631660038605
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\", \"'TwoPhotonSeries'\", '(slice(0, 3, None), slice(0, 796, None), slice(0, 512, None))')": [
+                0.6141440829960629
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\", \"'data_00002_AD0'\", '(slice(0, 30000, None),)')": [
+                0.205148582928814
+            ]
+        },
+        "time_remote_slicing.HDF5PyNWBFsspecS3NoCacheContinuousSliceBenchmark.time_slice": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\", \"'ElectricalSeries'\", '(slice(0, 30000, None), slice(0, 384, None))')": [
+                24.651211875025183
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\", \"'TwoPhotonSeries'\", '(slice(0, 3, None), slice(0, 796, None), slice(0, 512, None))')": [
+                6.461524000042118
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\", \"'data_00002_AD0'\", '(slice(0, 30000, None),)')": [
+                1.2903618029719783e-05
+            ]
+        },
+        "time_remote_slicing.HDF5PyNWBFsspecS3WithCacheContinuousSliceBenchmark.time_slice": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\", \"'ElectricalSeries'\", '(slice(0, 30000, None), slice(0, 384, None))')": [
+                21.604792792000808
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\", \"'TwoPhotonSeries'\", '(slice(0, 3, None), slice(0, 796, None), slice(0, 512, None))')": [
+                1.37675637495704
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\", \"'data_00002_AD0'\", '(slice(0, 30000, None),)')": [
+                1.3019729472839578e-05
+            ]
+        },
+        "time_remote_slicing.HDF5PyNWBROS3ContinuousSliceBenchmark.time_slice": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\", \"'ElectricalSeries'\", '(slice(0, 30000, None), slice(0, 384, None))')": [
+                5.68448754097335
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\", \"'TwoPhotonSeries'\", '(slice(0, 3, None), slice(0, 796, None), slice(0, 512, None))')": [
+                0.0007049159612506628
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\", \"'data_00002_AD0'\", '(slice(0, 30000, None),)')": [
+                1.255520879073358e-05
+            ]
+        },
+        "time_remote_slicing.HDF5PyNWBRemfileNoCacheContinuousSliceBenchmark.time_slice": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\", \"'ElectricalSeries'\", '(slice(0, 30000, None), slice(0, 384, None))')": [
+                7.690755082992837
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\", \"'TwoPhotonSeries'\", '(slice(0, 3, None), slice(0, 796, None), slice(0, 512, None))')": [
+                1.5678110839799047
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\", \"'data_00002_AD0'\", '(slice(0, 30000, None),)')": [
+                0.00017785954053839504
+            ]
+        },
+        "time_remote_slicing.HDF5PyNWBRemfileWithCacheContinuousSliceBenchmark.time_slice": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\", \"'ElectricalSeries'\", '(slice(0, 30000, None), slice(0, 384, None))')": [
+                8.303599167033099
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\", \"'TwoPhotonSeries'\", '(slice(0, 3, None), slice(0, 796, None), slice(0, 512, None))')": [
+                1.7193918749690056
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\", \"'data_00002_AD0'\", '(slice(0, 30000, None),)')": [
+                0.00012851894772168072
+            ]
+        },
+        "time_remote_slicing.ZarrPyNWBS3ContinuousSliceBenchmark.time_slice": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/d097af6b-8fd8-4d83-b649-fc6518e95d25/'\", \"'ElectricalSeries'\", '(slice(0, 30000, None), slice(0, 384, None))')": [
+                2.541027665953152
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/c8c6b848-fbc6-4f58-85ff-e3f2618ee983/'\", \"'TwoPhotonSeries'\", '(slice(0, 3, None), slice(0, 796, None), slice(0, 512, None))')": [
+                1.0989075830439106
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/18e75d22-f527-4051-a4c8-c7e0f1e7dad1/'\", \"'data_00002_AD0'\", '(slice(0, 30000, None),)')": [
+                0.2687039999291301
+            ]
+        },
+        "time_remote_slicing.ZarrPyNWBS3ForceNoConsolidatedContinuousSliceBenchmark.time_slice": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/d097af6b-8fd8-4d83-b649-fc6518e95d25/'\", \"'ElectricalSeries'\", '(slice(0, 30000, None), slice(0, 384, None))')": [
+                2.6567900410154834
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/c8c6b848-fbc6-4f58-85ff-e3f2618ee983/'\", \"'TwoPhotonSeries'\", '(slice(0, 3, None), slice(0, 796, None), slice(0, 512, None))')": [
+                1.1444940420333296
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/18e75d22-f527-4051-a4c8-c7e0f1e7dad1/'\", \"'data_00002_AD0'\", '(slice(0, 30000, None),)')": [
+                0.27167658298276365
+            ]
+        }
+    }
+}
