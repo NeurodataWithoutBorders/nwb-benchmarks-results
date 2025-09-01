@@ -1,5 +1,5 @@
 {
-    "name": "GreenEthernet",
+    "name": "FaithfulPleasure",
     "version": "1.4.0",
     "os": {
         "cpu_count": 32
@@ -151,7 +151,7 @@
         "cache_directory": "E:\\nwb_benchmarks"
     },
     "asv": {
-        "GreenEthernet": {
+        "FaithfulPleasure": {
             "arch": "AMD64",
             "cpu": "Intel(R) Core(TM) i9-14900K",
             "num_cpu": "32",
