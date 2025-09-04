@@ -1,0 +1,44 @@
+{
+    "database_version": "2.0.0",
+    "timestamp": "2025-08-31-17-08-42",
+    "commit_hash": "0a7bfcf1f0da8753cd1a8fcd085f7ed7861d75c2",
+    "environment_id": "4687b11d1867450bb1253420860127d886cf4a76",
+    "machine_id": "5df809905fba1d313aecbf017e85c0d96da56c41",
+    "results": {
+        "network_tracking_remote_slicing.LindiLocalJSONContinuousSliceBenchmark.track_network_during_slice": {
+            "(\"'https://dandi-api-staging-dandisets.s3.amazonaws.com/blobs/7f0/aa4/7f0aa474-4169-42f8-a895-ada0af4072c7'\", \"'ElectricalSeries'\", '(slice(0, 30000, None), slice(0, 384, None))')": {
+                "amount_downloaded_in_bytes": 176080418,
+                "amount_uploaded_in_bytes": 279102,
+                "total_transfer_in_bytes": 176359520,
+                "amount_downloaded_in_number_of_packets": 118829,
+                "amount_uploaded_in_number_of_packets": 4455,
+                "total_transfer_in_number_of_packets": 123284,
+                "total_traffic_in_number_of_web_packets": 4455,
+                "total_transfer_time_in_seconds": 45.862639,
+                "network_total_time_in_seconds": 45.74817109107971
+            },
+            "(\"'https://dandi-api-staging-dandisets.s3.amazonaws.com/blobs/813/1b9/8131b99f-004a-4946-8bde-f2895bf42504'\", \"'TwoPhotonSeries'\", '(slice(0, 3, None), slice(0, 796, None), slice(0, 512, None))')": {
+                "amount_downloaded_in_bytes": 3531366,
+                "amount_uploaded_in_bytes": 408684,
+                "total_transfer_in_bytes": 3940050,
+                "amount_downloaded_in_number_of_packets": 3918,
+                "amount_uploaded_in_number_of_packets": 1909,
+                "total_transfer_in_number_of_packets": 5827,
+                "total_traffic_in_number_of_web_packets": 1909,
+                "total_transfer_time_in_seconds": 40.544292,
+                "network_total_time_in_seconds": 31.701170921325684
+            },
+            "(\"'https://dandi-api-staging-dandisets.s3.amazonaws.com/blobs/8b1/f9e/8b1f9e4e-c5bb-4c25-acee-3c99327aa841'\", \"'data_00002_AD0'\", '(slice(0, 30000, None),)')": {
+                "amount_downloaded_in_bytes": 49437,
+                "amount_uploaded_in_bytes": 9252,
+                "total_transfer_in_bytes": 58689,
+                "amount_downloaded_in_number_of_packets": 68,
+                "amount_uploaded_in_number_of_packets": 39,
+                "total_transfer_in_number_of_packets": 107,
+                "total_traffic_in_number_of_web_packets": 39,
+                "total_transfer_time_in_seconds": 1.0366279999999999,
+                "network_total_time_in_seconds": 1.2320048809051514
+            }
+        }
+    }
+}
