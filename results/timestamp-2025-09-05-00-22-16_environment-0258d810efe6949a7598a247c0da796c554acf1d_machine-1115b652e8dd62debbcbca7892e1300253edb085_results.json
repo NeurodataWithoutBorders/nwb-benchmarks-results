@@ -1,0 +1,251 @@
+{
+    "database_version": "2.0.0",
+    "timestamp": "2025-09-05-00-22-16",
+    "commit_hash": "ed8e5cdcc97525092d0f83d09cce9ebeaa50e091",
+    "environment_id": "0258d810efe6949a7598a247c0da796c554acf1d",
+    "machine_id": "1115b652e8dd62debbcbca7892e1300253edb085",
+    "results": {
+        "time_remote_file_reading.HDF5H5pyFileReadBenchmark.time_read_hdf5_h5py_fsspec_https_no_cache": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": [
+                0.998980600037612
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": [
+                0.5902992999181151
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": [
+                0.6106933000264689
+            ]
+        },
+        "time_remote_file_reading.HDF5H5pyFileReadBenchmark.time_read_hdf5_h5py_fsspec_https_with_cache": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": [
+                73.00791729998309
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": [
+                31.52340649999678
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": [
+                0.5380734000355005
+            ]
+        },
+        "time_remote_file_reading.HDF5H5pyFileReadBenchmark.time_read_hdf5_h5py_fsspec_s3_no_cache": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": [
+                4.431667800061405
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": [
+                2.9072639000369236
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": [
+                2.250410999986343
+            ]
+        },
+        "time_remote_file_reading.HDF5H5pyFileReadBenchmark.time_read_hdf5_h5py_fsspec_s3_with_cache": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": [
+                120.27531229995657
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": [
+                31.45519249991048
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": [
+                1.8548163999803364
+            ]
+        },
+        "time_remote_file_reading.HDF5H5pyFileReadBenchmark.time_read_hdf5_h5py_remfile_no_cache": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": [
+                0.5624641000758857
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": [
+                0.4989314000122249
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": [
+                0.4233750000130385
+            ]
+        },
+        "time_remote_file_reading.HDF5H5pyFileReadBenchmark.time_read_hdf5_h5py_remfile_with_cache": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": [
+                0.5307972000446171
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": [
+                0.5103494001086801
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": [
+                0.39027999993413687
+            ]
+        },
+        "time_remote_file_reading.HDF5H5pyFileReadBenchmark.time_read_hdf5_h5py_ros3": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": [
+                1.0145961999660358
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": [
+                0.8943626000545919
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": [
+                1.4254459999501705
+            ]
+        },
+        "time_remote_file_reading.HDF5PyNWBFileReadBenchmark.time_read_hdf5_pynwb_fsspec_https_no_cache": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": [
+                23.51282539998647
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": [
+                31.512301499955356
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": [
+                66.60643809998874
+            ]
+        },
+        "time_remote_file_reading.HDF5PyNWBFileReadBenchmark.time_read_hdf5_pynwb_fsspec_https_with_cache": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": [
+                102.88915429997724
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": [
+                25.766250499989837
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": [
+                5.949648900073953
+            ]
+        },
+        "time_remote_file_reading.HDF5PyNWBFileReadBenchmark.time_read_hdf5_pynwb_fsspec_s3_no_cache": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": [
+                144.16809280007146
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": [
+                121.5620805999497
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": [
+                47.37247289996594
+            ]
+        },
+        "time_remote_file_reading.HDF5PyNWBFileReadBenchmark.time_read_hdf5_pynwb_fsspec_s3_with_cache": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": [
+                104.41555450006854
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": [
+                48.072930500027724
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": [
+                5.78973550000228
+            ]
+        },
+        "time_remote_file_reading.HDF5PyNWBFileReadBenchmark.time_read_hdf5_pynwb_remfile_no_cache": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": [
+                5.021538199973293
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": [
+                2.214449599967338
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": [
+                9.022699199966155
+            ]
+        },
+        "time_remote_file_reading.HDF5PyNWBFileReadBenchmark.time_read_hdf5_pynwb_remfile_with_cache": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": [
+                4.57544990000315
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": [
+                2.2140006999252364
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": [
+                9.93718460004311
+            ]
+        },
+        "time_remote_file_reading.HDF5PyNWBFileReadBenchmark.time_read_hdf5_pynwb_ros3": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'\",)": [
+                7.1482229001121596
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/38c/c24/38cc240b-77c5-418a-9040-a7f582ff6541'\",)": [
+                4.733366100001149
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'\",)": [
+                3.098929699975997
+            ]
+        },
+        "time_remote_file_reading.LindiLocalJSONFileReadBenchmark.time_read_lindi_h5py": {
+            "(\"'https://dandi-api-staging-dandisets.s3.amazonaws.com/blobs/e76/09d/e7609d6f-a399-4936-a298-fa5c2dde91e6'\",)": [
+                0.04754049994517118
+            ],
+            "(\"'https://dandi-api-staging-dandisets.s3.amazonaws.com/blobs/813/1b9/8131b99f-004a-4946-8bde-f2895bf42504'\",)": [
+                1.9951241000089794
+            ],
+            "(\"'https://dandi-api-staging-dandisets.s3.amazonaws.com/blobs/8b1/f9e/8b1f9e4e-c5bb-4c25-acee-3c99327aa841'\",)": [
+                0.025799600058235228
+            ]
+        },
+        "time_remote_file_reading.LindiLocalJSONFileReadBenchmark.time_read_lindi_pynwb": {
+            "(\"'https://dandi-api-staging-dandisets.s3.amazonaws.com/blobs/e76/09d/e7609d6f-a399-4936-a298-fa5c2dde91e6'\",)": [
+                0.8026921000564471
+            ],
+            "(\"'https://dandi-api-staging-dandisets.s3.amazonaws.com/blobs/813/1b9/8131b99f-004a-4946-8bde-f2895bf42504'\",)": [
+                13.669104799977504
+            ],
+            "(\"'https://dandi-api-staging-dandisets.s3.amazonaws.com/blobs/8b1/f9e/8b1f9e4e-c5bb-4c25-acee-3c99327aa841'\",)": [
+                3.0384139000670984
+            ]
+        },
+        "time_remote_file_reading.ZarrPyNWBFileReadBenchmark.time_read_zarr_pynwb_s3": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/d097af6b-8fd8-4d83-b649-fc6518e95d25/'\",)": [
+                6.874971400015056
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/c8c6b848-fbc6-4f58-85ff-e3f2618ee983/'\",)": [
+                6.584043800015934
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/18e75d22-f527-4051-a4c8-c7e0f1e7dad1/'\",)": [
+                60.00624590006191
+            ]
+        },
+        "time_remote_file_reading.ZarrPyNWBFileReadBenchmark.time_read_zarr_pynwb_s3_force_no_consolidated": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/d097af6b-8fd8-4d83-b649-fc6518e95d25/'\",)": [
+                40.50713619997259
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/c8c6b848-fbc6-4f58-85ff-e3f2618ee983/'\",)": [
+                47.94379749998916
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/18e75d22-f527-4051-a4c8-c7e0f1e7dad1/'\",)": [
+                607.2888556000544
+            ]
+        },
+        "time_remote_file_reading.ZarrZarrPythonFileReadBenchmark.time_read_zarr_https": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/d097af6b-8fd8-4d83-b649-fc6518e95d25/'\",)": [
+                0.10863829997833818
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/c8c6b848-fbc6-4f58-85ff-e3f2618ee983/'\",)": [
+                0.0567665999988094
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/18e75d22-f527-4051-a4c8-c7e0f1e7dad1/'\",)": [
+                0.12272079999092966
+            ]
+        },
+        "time_remote_file_reading.ZarrZarrPythonFileReadBenchmark.time_read_zarr_https_force_no_consolidated": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/d097af6b-8fd8-4d83-b649-fc6518e95d25/'\",)": [
+                0.2442861000308767
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/c8c6b848-fbc6-4f58-85ff-e3f2618ee983/'\",)": [
+                0.2473875000141561
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/18e75d22-f527-4051-a4c8-c7e0f1e7dad1/'\",)": [
+                0.282419600058347
+            ]
+        },
+        "time_remote_file_reading.ZarrZarrPythonFileReadBenchmark.time_read_zarr_s3": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/d097af6b-8fd8-4d83-b649-fc6518e95d25/'\",)": [
+                0.05678139999508858
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/c8c6b848-fbc6-4f58-85ff-e3f2618ee983/'\",)": [
+                0.05675450002308935
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/18e75d22-f527-4051-a4c8-c7e0f1e7dad1/'\",)": [
+                0.10893360001500696
+            ]
+        },
+        "time_remote_file_reading.ZarrZarrPythonFileReadBenchmark.time_read_zarr_s3_force_no_consolidated": {
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/d097af6b-8fd8-4d83-b649-fc6518e95d25/'\",)": [
+                0.3297399999573827
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/c8c6b848-fbc6-4f58-85ff-e3f2618ee983/'\",)": [
+                0.3928581998916343
+            ],
+            "(\"'https://dandiarchive.s3.amazonaws.com/zarr/18e75d22-f527-4051-a4c8-c7e0f1e7dad1/'\",)": [
+                0.3441841999301687
+            ]
+        }
+    }
+}
