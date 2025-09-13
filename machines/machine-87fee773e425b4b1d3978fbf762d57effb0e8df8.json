@@ -1,0 +1,66 @@
+{
+    "name": "SincereCornucopia",
+    "version": "1.4.1",
+    "os": {
+        "cpu_count": 8
+    },
+    "sys": {
+        "platform": "darwin"
+    },
+    "platform": {
+        "architecture": [
+            "64bit",
+            ""
+        ],
+        "machine": "x86_64",
+        "platform": "macOS-12.7.6-x86_64-i386-64bit",
+        "processor": "i386",
+        "system": "Darwin"
+    },
+    "psutil": {
+        "number_of_processes": 4,
+        "number_of_threads": 8,
+        "total_virtual_memory": 34359738368,
+        "total_swap_memory": 0,
+        "disk_partitions": [
+            {
+                "device": "/dev/disk1s5s1",
+                "mountpoint": "/",
+                "fstype": "apfs",
+                "opts": "ro,local,rootfs,dovolfs,journaled,multilabel"
+            },
+            {
+                "device": "/dev/disk1s4",
+                "mountpoint": "/System/Volumes/VM",
+                "fstype": "apfs",
+                "opts": "rw,noexec,local,dovolfs,dontbrowse,journaled,multilabel,noatime"
+            },
+            {
+                "device": "/dev/disk1s2",
+                "mountpoint": "/System/Volumes/Preboot",
+                "fstype": "apfs",
+                "opts": "rw,local,dovolfs,dontbrowse,journaled,multilabel"
+            },
+            {
+                "device": "/dev/disk1s6",
+                "mountpoint": "/System/Volumes/Update",
+                "fstype": "apfs",
+                "opts": "rw,local,dovolfs,dontbrowse,journaled,multilabel"
+            },
+            {
+                "device": "/dev/disk1s1",
+                "mountpoint": "/System/Volumes/Data",
+                "fstype": "apfs",
+                "opts": "rw,local,dovolfs,dontbrowse,journaled,multilabel"
+            }
+        ]
+    },
+    "config": {},
+    "asv": {
+        "arch": "x86_64",
+        "cpu": "Intel(R) Xeon(R) CPU E5-1620 v2 @ 3.70GHz",
+        "num_cpu": "8",
+        "os": "Darwin 21.6.0",
+        "ram": "34359738368"
+    }
+}
