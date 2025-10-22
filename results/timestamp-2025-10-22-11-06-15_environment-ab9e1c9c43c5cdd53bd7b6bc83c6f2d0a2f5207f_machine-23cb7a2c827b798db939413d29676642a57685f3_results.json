@@ -1,0 +1,14 @@
+{
+    "database_version": "3.0.0",
+    "timestamp": "2025-10-22-11-06-15",
+    "commit_hash": "2e3ab14a0b83cd21b2b49b54b28b33d64f4745eb",
+    "environment_id": "ab9e1c9c43c5cdd53bd7b6bc83c6f2d0a2f5207f",
+    "machine_id": "23cb7a2c827b798db939413d29676642a57685f3",
+    "results": {
+        "time_download.HDF5DownloadDandiAPIBenchmark.time_download_hdf5_dandi_api": {
+            "{'name': 'IcephysTestCase', 'https_url': 'https://api.dandiarchive.org/api/assets/471ef39b-806c-4946-80b5-125b55839854/download/'}": [
+                9.975936709088273
+            ]
+        }
+    }
+}
