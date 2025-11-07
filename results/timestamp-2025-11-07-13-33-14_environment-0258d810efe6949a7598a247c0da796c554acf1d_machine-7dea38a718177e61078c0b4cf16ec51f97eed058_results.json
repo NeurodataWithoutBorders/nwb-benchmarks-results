@@ -1,0 +1,20 @@
+{
+    "database_version": "3.0.0",
+    "timestamp": "2025-11-07-13-33-14",
+    "commit_hash": "6ffd7ac2306a7b033a5dd00f21ab5b85e2d97d0f",
+    "environment_id": "0258d810efe6949a7598a247c0da796c554acf1d",
+    "machine_id": "7dea38a718177e61078c0b4cf16ec51f97eed058",
+    "results": {
+        "time_download.LindiDandiAPIDownloadBenchmark.time_download_lindi_dandi_api": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://api.sandbox.dandiarchive.org/api/assets/9e9c67dc-279a-4df3-94d5-00366c164b90/download/'}": [
+                1.156956299993908
+            ],
+            "{'name': 'OphysTestCase', 'https_url': 'https://api.sandbox.dandiarchive.org/api/assets/62182082-ab1d-4901-929c-2c9747efa8aa/download/'}": [
+                2.1001662999915425
+            ],
+            "{'name': 'IcephysTestCase', 'https_url': 'https://api.sandbox.dandiarchive.org/api/assets/280cc5b5-08da-48ee-850b-7ffe599bdff5/download/'}": [
+                1.0507737000007182
+            ]
+        }
+    }
+}
