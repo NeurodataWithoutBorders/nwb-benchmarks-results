@@ -1,0 +1,328 @@
+{
+    "database_version": "4.0.0",
+    "timestamp": "2025-11-08-16-53-21",
+    "commit_hash": "20cd2ca2d41284f838572e721c2e291219fdf09c",
+    "environment_id": "0258d810efe6949a7598a247c0da796c554acf1d",
+    "machine_id": "7dea38a718177e61078c0b4cf16ec51f97eed058",
+    "results": {
+        "time_remote_file_reading.HDF5H5pyFileReadBenchmark.time_read_hdf5_h5py_fsspec_https_no_cache": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": [
+                0.9390386000159197
+            ],
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": [
+                0.668087199999718
+            ],
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": [
+                0.5494215000071563
+            ]
+        },
+        "time_remote_file_reading.HDF5H5pyFileReadBenchmark.time_read_hdf5_h5py_fsspec_https_with_cache": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": [
+                635.5858592999866
+            ],
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": [
+                156.94897260001744
+            ],
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": [
+                0.7391578999813646
+            ]
+        },
+        "time_remote_file_reading.HDF5H5pyFileReadBenchmark.time_read_hdf5_h5py_fsspec_s3_no_cache": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": [
+                4.561226399993757
+            ],
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": [
+                2.407263100001728
+            ],
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": [
+                2.3159511999983806
+            ]
+        },
+        "time_remote_file_reading.HDF5H5pyFileReadBenchmark.time_read_hdf5_h5py_fsspec_s3_with_cache": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": [
+                640.6034354000003
+            ],
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": [
+                159.71219510000083
+            ],
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": [
+                3.401249899994582
+            ]
+        },
+        "time_remote_file_reading.HDF5H5pyFileReadBenchmark.time_read_hdf5_h5py_remfile_no_cache": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": [
+                0.5983898999984376
+            ],
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": [
+                0.4707691000076011
+            ],
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": [
+                0.39743639997323044
+            ]
+        },
+        "time_remote_file_reading.HDF5H5pyFileReadBenchmark.time_read_hdf5_h5py_remfile_with_cache": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": [
+                0.5705131000140682
+            ],
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": [
+                0.4864751999848522
+            ],
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": [
+                0.4408619999885559
+            ]
+        },
+        "time_remote_file_reading.HDF5H5pyFileReadBenchmark.time_read_hdf5_h5py_ros3": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": [
+                1.569476200005738
+            ],
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": [
+                1.1087026000022888
+            ],
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": [
+                2.0049976000154857
+            ]
+        },
+        "time_remote_file_reading.HDF5PyNWBFileReadBenchmark.time_read_hdf5_pynwb_fsspec_https_no_cache": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": [
+                22.579662600008305
+            ],
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": [
+                16.662838599993847
+            ],
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": [
+                97.39467409998178
+            ]
+        },
+        "time_remote_file_reading.HDF5PyNWBFileReadBenchmark.time_read_hdf5_pynwb_fsspec_https_with_cache": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": [
+                646.1155038000143
+            ],
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": [
+                159.03040209997562
+            ],
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": [
+                4.686183200014057
+            ]
+        },
+        "time_remote_file_reading.HDF5PyNWBFileReadBenchmark.time_read_hdf5_pynwb_fsspec_s3_no_cache": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": [
+                178.4332790999906
+            ],
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": [
+                104.8984053999884
+            ],
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": [
+                73.39734130000579
+            ]
+        },
+        "time_remote_file_reading.HDF5PyNWBFileReadBenchmark.time_read_hdf5_pynwb_fsspec_s3_with_cache": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": [
+                696.4700744000147
+            ],
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": [
+                168.18002289999276
+            ],
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": [
+                4.365578099997947
+            ]
+        },
+        "time_remote_file_reading.HDF5PyNWBFileReadBenchmark.time_read_hdf5_pynwb_remfile_no_cache": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": [
+                3.3387509000021964
+            ],
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": [
+                2.1989440000033937
+            ],
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": [
+                10.214515100000426
+            ]
+        },
+        "time_remote_file_reading.HDF5PyNWBFileReadBenchmark.time_read_hdf5_pynwb_remfile_with_cache": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": [
+                2.835172399994917
+            ],
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": [
+                2.2431050000013784
+            ],
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": [
+                9.72724060001201
+            ]
+        },
+        "time_remote_file_reading.HDF5PyNWBFileReadBenchmark.time_read_hdf5_pynwb_ros3": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": [
+                35.58645219999016
+            ],
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": [
+                41.18015679999371
+            ],
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": [
+                337.7729586000205
+            ]
+        },
+        "time_remote_file_reading.HDF5PyNWBFsspecHttpsPreloadedNoCacheFileReadBenchmark.time_read_hdf5_pynwb_fsspec_https_preloaded_no_cache": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": [
+                23.030211000004783
+            ],
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": [
+                19.800488000008045
+            ],
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": [
+                95.74182900000596
+            ]
+        },
+        "time_remote_file_reading.HDF5PyNWBFsspecHttpsPreloadedWithCacheFileReadBenchmark.time_read_hdf5_pynwb_fsspec_https_preloaded_with_cache": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": [
+                646.5609375999775
+            ],
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": [
+                160.95182529999875
+            ],
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": [
+                3.8960076999792363
+            ]
+        },
+        "time_remote_file_reading.HDF5PyNWBFsspecS3PreloadedNoCacheFileReadBenchmark.time_read_hdf5_pynwb_fsspec_s3_preloaded_no_cache": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": [
+                175.28507650000392
+            ],
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": [
+                82.29378330000327
+            ],
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": [
+                53.59989610000048
+            ]
+        },
+        "time_remote_file_reading.HDF5PyNWBFsspecS3PreloadedWithCacheFileReadBenchmark.time_read_hdf5_pynwb_fsspec_s3_preloaded_with_cache": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": [
+                712.5515125999809
+            ],
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": [
+                170.06524320002063
+            ],
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": [
+                3.395544600003632
+            ]
+        },
+        "time_remote_file_reading.HDF5PyNWBRemfilePreloadedNoCacheFileReadBenchmark.time_read_hdf5_pynwb_remfile_preloaded_no_cache": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": [
+                2.736793599993689
+            ],
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": [
+                2.0991045999980997
+            ],
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": [
+                10.180396500014467
+            ]
+        },
+        "time_remote_file_reading.HDF5PyNWBRemfilePreloadedWithCacheFileReadBenchmark.time_read_hdf5_pynwb_remfile_preloaded_with_cache": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": [
+                2.5951895999896806
+            ],
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": [
+                2.301118300005328
+            ],
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": [
+                11.62111539999023
+            ]
+        },
+        "time_remote_file_reading.HDF5PyNWBRos3PreloadedFileReadBenchmark.time_read_hdf5_pynwb_ros3_preloaded_with_cache": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": [
+                2.857902300020214
+            ],
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": [
+                3.0080121999781113
+            ],
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": [
+                3.129068400012329
+            ]
+        },
+        "time_remote_file_reading.LindiLocalJSONFileReadBenchmark.time_read_lindi_h5py": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://api.sandbox.dandiarchive.org/api/assets/9e9c67dc-279a-4df3-94d5-00366c164b90/download/'}": [
+                0.04145640000933781
+            ],
+            "{'name': 'OphysTestCase', 'https_url': 'https://api.sandbox.dandiarchive.org/api/assets/62182082-ab1d-4901-929c-2c9747efa8aa/download/'}": [
+                0.13648439999087714
+            ],
+            "{'name': 'IcephysTestCase', 'https_url': 'https://api.sandbox.dandiarchive.org/api/assets/280cc5b5-08da-48ee-850b-7ffe599bdff5/download/'}": [
+                0.020063600008143112
+            ]
+        },
+        "time_remote_file_reading.LindiLocalJSONFileReadBenchmark.time_read_lindi_pynwb": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://api.sandbox.dandiarchive.org/api/assets/9e9c67dc-279a-4df3-94d5-00366c164b90/download/'}": [
+                0.450621099997079
+            ],
+            "{'name': 'OphysTestCase', 'https_url': 'https://api.sandbox.dandiarchive.org/api/assets/62182082-ab1d-4901-929c-2c9747efa8aa/download/'}": [
+                1.3155996999994386
+            ],
+            "{'name': 'IcephysTestCase', 'https_url': 'https://api.sandbox.dandiarchive.org/api/assets/280cc5b5-08da-48ee-850b-7ffe599bdff5/download/'}": [
+                1.8214757000096142
+            ]
+        },
+        "time_remote_file_reading.ZarrPyNWBFileReadBenchmark.time_read_zarr_pynwb_s3": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/zarr/d097af6b-8fd8-4d83-b649-fc6518e95d25/'}": [
+                6.774251099996036
+            ],
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/zarr/c8c6b848-fbc6-4f58-85ff-e3f2618ee983/'}": [
+                7.611782099993434
+            ],
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/zarr/18e75d22-f527-4051-a4c8-c7e0f1e7dad1/'}": [
+                63.795993200008525
+            ]
+        },
+        "time_remote_file_reading.ZarrPyNWBFileReadBenchmark.time_read_zarr_pynwb_s3_force_no_consolidated": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/zarr/d097af6b-8fd8-4d83-b649-fc6518e95d25/'}": [
+                39.91634049999993
+            ],
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/zarr/c8c6b848-fbc6-4f58-85ff-e3f2618ee983/'}": [
+                49.0026653999812
+            ],
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/zarr/18e75d22-f527-4051-a4c8-c7e0f1e7dad1/'}": [
+                616.3473178000131
+            ]
+        },
+        "time_remote_file_reading.ZarrZarrPythonFileReadBenchmark.time_read_zarr_https": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/zarr/d097af6b-8fd8-4d83-b649-fc6518e95d25/'}": [
+                0.0998562999884598
+            ],
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/zarr/c8c6b848-fbc6-4f58-85ff-e3f2618ee983/'}": [
+                0.06329680001363158
+            ],
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/zarr/18e75d22-f527-4051-a4c8-c7e0f1e7dad1/'}": [
+                0.12110499999835156
+            ]
+        },
+        "time_remote_file_reading.ZarrZarrPythonFileReadBenchmark.time_read_zarr_https_force_no_consolidated": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/zarr/d097af6b-8fd8-4d83-b649-fc6518e95d25/'}": [
+                0.2546602000074927
+            ],
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/zarr/c8c6b848-fbc6-4f58-85ff-e3f2618ee983/'}": [
+                0.39464240000233985
+            ],
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/zarr/18e75d22-f527-4051-a4c8-c7e0f1e7dad1/'}": [
+                0.2713749000104144
+            ]
+        },
+        "time_remote_file_reading.ZarrZarrPythonFileReadBenchmark.time_read_zarr_s3": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/zarr/d097af6b-8fd8-4d83-b649-fc6518e95d25/'}": [
+                0.10555820001172833
+            ],
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/zarr/c8c6b848-fbc6-4f58-85ff-e3f2618ee983/'}": [
+                0.06471920001786202
+            ],
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/zarr/18e75d22-f527-4051-a4c8-c7e0f1e7dad1/'}": [
+                0.11173160001635551
+            ]
+        },
+        "time_remote_file_reading.ZarrZarrPythonFileReadBenchmark.time_read_zarr_s3_force_no_consolidated": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/zarr/d097af6b-8fd8-4d83-b649-fc6518e95d25/'}": [
+                0.34133110000402667
+            ],
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/zarr/c8c6b848-fbc6-4f58-85ff-e3f2618ee983/'}": [
+                0.35335429999395274
+            ],
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/zarr/18e75d22-f527-4051-a4c8-c7e0f1e7dad1/'}": [
+                0.3438667999871541
+            ]
+        }
+    }
+}
