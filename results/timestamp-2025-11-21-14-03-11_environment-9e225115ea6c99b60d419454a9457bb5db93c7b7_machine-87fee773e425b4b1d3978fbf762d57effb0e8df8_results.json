@@ -1,0 +1,1024 @@
+{
+    "database_version": "4.0.0",
+    "timestamp": "2025-11-21-14-03-11",
+    "commit_hash": "b655ecd602db7737d6e3c2b8383349877d7dc074",
+    "environment_id": "9e225115ea6c99b60d419454a9457bb5db93c7b7",
+    "machine_id": "87fee773e425b4b1d3978fbf762d57effb0e8df8",
+    "results": {
+        "network_tracking_remote_file_reading.HDF5H5pyFileReadBenchmark.track_network_read_hdf5_h5py_fsspec_https_no_cache": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": {
+                "total_transfer_in_number_of_packets": 0,
+                "total_traffic_in_number_of_web_packets": 0,
+                "amount_downloaded_in_number_of_packets": 0,
+                "amount_uploaded_in_number_of_packets": 0,
+                "total_transfer_in_bytes": 0,
+                "amount_downloaded_in_bytes": 0,
+                "amount_uploaded_in_bytes": 0,
+                "total_transfer_time_in_seconds": 0.0,
+                "network_total_time_in_seconds": 1.6404497623443604
+            },
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": {
+                "total_transfer_in_number_of_packets": 5310,
+                "total_traffic_in_number_of_web_packets": 1668,
+                "amount_downloaded_in_number_of_packets": 3642,
+                "amount_uploaded_in_number_of_packets": 1668,
+                "total_transfer_in_bytes": 5565109,
+                "amount_downloaded_in_bytes": 5417137,
+                "amount_uploaded_in_bytes": 147972,
+                "total_transfer_time_in_seconds": 0.9298910000000389,
+                "network_total_time_in_seconds": 1.194610834121704
+            },
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": {
+                "total_transfer_in_number_of_packets": 5488,
+                "total_traffic_in_number_of_web_packets": 2080,
+                "amount_downloaded_in_number_of_packets": 3408,
+                "amount_uploaded_in_number_of_packets": 2080,
+                "total_transfer_in_bytes": 5229595,
+                "amount_downloaded_in_bytes": 5044495,
+                "amount_uploaded_in_bytes": 185100,
+                "total_transfer_time_in_seconds": 0.8175770000000397,
+                "network_total_time_in_seconds": 0.9899430274963379
+            }
+        },
+        "network_tracking_remote_file_reading.HDF5H5pyFileReadBenchmark.track_network_read_hdf5_h5py_fsspec_https_with_cache": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": {
+                "total_transfer_in_number_of_packets": 10528,
+                "total_traffic_in_number_of_web_packets": 2976,
+                "amount_downloaded_in_number_of_packets": 7552,
+                "amount_uploaded_in_number_of_packets": 2976,
+                "total_transfer_in_bytes": 11401745,
+                "amount_downloaded_in_bytes": 11147599,
+                "amount_uploaded_in_bytes": 254146,
+                "total_transfer_time_in_seconds": 1.4266559999998745,
+                "network_total_time_in_seconds": 1.5835909843444824
+            },
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": {
+                "total_transfer_in_number_of_packets": 9628,
+                "total_traffic_in_number_of_web_packets": 2409,
+                "amount_downloaded_in_number_of_packets": 7219,
+                "amount_uploaded_in_number_of_packets": 2409,
+                "total_transfer_in_bytes": 10863540,
+                "amount_downloaded_in_bytes": 10662849,
+                "amount_uploaded_in_bytes": 200691,
+                "total_transfer_time_in_seconds": 1.3776969999998772,
+                "network_total_time_in_seconds": 1.5454049110412598
+            },
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": {
+                "total_transfer_in_number_of_packets": 4881,
+                "total_traffic_in_number_of_web_packets": 1425,
+                "amount_downloaded_in_number_of_packets": 3456,
+                "amount_uploaded_in_number_of_packets": 1425,
+                "total_transfer_in_bytes": 5241259,
+                "amount_downloaded_in_bytes": 5119469,
+                "amount_uploaded_in_bytes": 121790,
+                "total_transfer_time_in_seconds": 0.8829650000000383,
+                "network_total_time_in_seconds": 1.1065058708190918
+            }
+        },
+        "network_tracking_remote_file_reading.HDF5H5pyFileReadBenchmark.track_network_read_hdf5_h5py_fsspec_s3_no_cache": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": {
+                "total_transfer_in_number_of_packets": 9075,
+                "total_traffic_in_number_of_web_packets": 1708,
+                "amount_downloaded_in_number_of_packets": 7367,
+                "amount_uploaded_in_number_of_packets": 1708,
+                "total_transfer_in_bytes": 11030984,
+                "amount_downloaded_in_bytes": 10893227,
+                "amount_uploaded_in_bytes": 137757,
+                "total_transfer_time_in_seconds": 1.3767489999998939,
+                "network_total_time_in_seconds": 1.8478589057922363
+            },
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": {
+                "total_transfer_in_number_of_packets": 4983,
+                "total_traffic_in_number_of_web_packets": 1456,
+                "amount_downloaded_in_number_of_packets": 3527,
+                "amount_uploaded_in_number_of_packets": 1456,
+                "total_transfer_in_bytes": 5350120,
+                "amount_downloaded_in_bytes": 5224743,
+                "amount_uploaded_in_bytes": 125377,
+                "total_transfer_time_in_seconds": 0.8771070000000265,
+                "network_total_time_in_seconds": 1.3860769271850586
+            },
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": {
+                "total_transfer_in_number_of_packets": 5114,
+                "total_traffic_in_number_of_web_packets": 1440,
+                "amount_downloaded_in_number_of_packets": 3674,
+                "amount_uploaded_in_number_of_packets": 1440,
+                "total_transfer_in_bytes": 5565486,
+                "amount_downloaded_in_bytes": 5441991,
+                "amount_uploaded_in_bytes": 123495,
+                "total_transfer_time_in_seconds": 0.8384870000000284,
+                "network_total_time_in_seconds": 1.174041986465454
+            }
+        },
+        "network_tracking_remote_file_reading.HDF5H5pyFileReadBenchmark.track_network_read_hdf5_h5py_fsspec_s3_with_cache": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": {
+                "total_transfer_in_number_of_packets": 11116,
+                "total_traffic_in_number_of_web_packets": 3672,
+                "amount_downloaded_in_number_of_packets": 7444,
+                "amount_uploaded_in_number_of_packets": 3672,
+                "total_transfer_in_bytes": 11416393,
+                "amount_downloaded_in_bytes": 11079936,
+                "amount_uploaded_in_bytes": 336457,
+                "total_transfer_time_in_seconds": 1.3819409999998626,
+                "network_total_time_in_seconds": 1.7353391647338867
+            },
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": {
+                "total_transfer_in_number_of_packets": 9248,
+                "total_traffic_in_number_of_web_packets": 2355,
+                "amount_downloaded_in_number_of_packets": 6893,
+                "amount_uploaded_in_number_of_packets": 2355,
+                "total_transfer_in_bytes": 10404672,
+                "amount_downloaded_in_bytes": 10207068,
+                "amount_uploaded_in_bytes": 197604,
+                "total_transfer_time_in_seconds": 1.4201179999998836,
+                "network_total_time_in_seconds": 1.7846240997314453
+            },
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": {
+                "total_transfer_in_number_of_packets": 4952,
+                "total_traffic_in_number_of_web_packets": 1421,
+                "amount_downloaded_in_number_of_packets": 3531,
+                "amount_uploaded_in_number_of_packets": 1421,
+                "total_transfer_in_bytes": 5352694,
+                "amount_downloaded_in_bytes": 5229972,
+                "amount_uploaded_in_bytes": 122722,
+                "total_transfer_time_in_seconds": 0.8439310000000244,
+                "network_total_time_in_seconds": 1.25087308883667
+            }
+        },
+        "network_tracking_remote_file_reading.HDF5H5pyFileReadBenchmark.track_network_read_hdf5_h5py_remfile_no_cache": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": {
+                "total_transfer_in_number_of_packets": 192,
+                "total_traffic_in_number_of_web_packets": 58,
+                "amount_downloaded_in_number_of_packets": 134,
+                "amount_uploaded_in_number_of_packets": 58,
+                "total_transfer_in_bytes": 176886,
+                "amount_downloaded_in_bytes": 169721,
+                "amount_uploaded_in_bytes": 7165,
+                "total_transfer_time_in_seconds": 0.7437959999999982,
+                "network_total_time_in_seconds": 1.0019259452819824
+            },
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": {
+                "total_transfer_in_number_of_packets": 192,
+                "total_traffic_in_number_of_web_packets": 59,
+                "amount_downloaded_in_number_of_packets": 133,
+                "amount_uploaded_in_number_of_packets": 59,
+                "total_transfer_in_bytes": 176669,
+                "amount_downloaded_in_bytes": 169452,
+                "amount_uploaded_in_bytes": 7217,
+                "total_transfer_time_in_seconds": 0.7099829999999987,
+                "network_total_time_in_seconds": 0.8980972766876221
+            },
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": {
+                "total_transfer_in_number_of_packets": 132,
+                "total_traffic_in_number_of_web_packets": 56,
+                "amount_downloaded_in_number_of_packets": 76,
+                "amount_uploaded_in_number_of_packets": 56,
+                "total_transfer_in_bytes": 96116,
+                "amount_downloaded_in_bytes": 88755,
+                "amount_uploaded_in_bytes": 7361,
+                "total_transfer_time_in_seconds": 0.47209899999999944,
+                "network_total_time_in_seconds": 0.7189412117004395
+            }
+        },
+        "network_tracking_remote_file_reading.HDF5H5pyFileReadBenchmark.track_network_read_hdf5_h5py_remfile_with_cache": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": {
+                "total_transfer_in_number_of_packets": 193,
+                "total_traffic_in_number_of_web_packets": 59,
+                "amount_downloaded_in_number_of_packets": 134,
+                "amount_uploaded_in_number_of_packets": 59,
+                "total_transfer_in_bytes": 176940,
+                "amount_downloaded_in_bytes": 169721,
+                "amount_uploaded_in_bytes": 7219,
+                "total_transfer_time_in_seconds": 0.7441509999999985,
+                "network_total_time_in_seconds": 0.9698669910430908
+            },
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": {
+                "total_transfer_in_number_of_packets": 104,
+                "total_traffic_in_number_of_web_packets": 46,
+                "amount_downloaded_in_number_of_packets": 58,
+                "amount_uploaded_in_number_of_packets": 46,
+                "total_transfer_in_bytes": 67550,
+                "amount_downloaded_in_bytes": 61305,
+                "amount_uploaded_in_bytes": 6245,
+                "total_transfer_time_in_seconds": 0.47465399999999963,
+                "network_total_time_in_seconds": 0.7838022708892822
+            },
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": {
+                "total_transfer_in_number_of_packets": 175,
+                "total_traffic_in_number_of_web_packets": 76,
+                "amount_downloaded_in_number_of_packets": 99,
+                "amount_uploaded_in_number_of_packets": 76,
+                "total_transfer_in_bytes": 130554,
+                "amount_downloaded_in_bytes": 121885,
+                "amount_uploaded_in_bytes": 8669,
+                "total_transfer_time_in_seconds": 0.4676859999999992,
+                "network_total_time_in_seconds": 0.662848949432373
+            }
+        },
+        "network_tracking_remote_file_reading.HDF5H5pyFileReadBenchmark.track_network_read_hdf5_h5py_ros3": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": {
+                "total_transfer_in_number_of_packets": 15501,
+                "total_traffic_in_number_of_web_packets": 3740,
+                "amount_downloaded_in_number_of_packets": 11761,
+                "amount_uploaded_in_number_of_packets": 3740,
+                "total_transfer_in_bytes": 17752863,
+                "amount_downloaded_in_bytes": 17446165,
+                "amount_uploaded_in_bytes": 306698,
+                "total_transfer_time_in_seconds": 1.493591999999966,
+                "network_total_time_in_seconds": 1.878108263015747
+            },
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": {
+                "total_transfer_in_number_of_packets": 14226,
+                "total_traffic_in_number_of_web_packets": 2465,
+                "amount_downloaded_in_number_of_packets": 11761,
+                "amount_uploaded_in_number_of_packets": 2465,
+                "total_transfer_in_bytes": 17762185,
+                "amount_downloaded_in_bytes": 17555205,
+                "amount_uploaded_in_bytes": 206980,
+                "total_transfer_time_in_seconds": 1.3161739999999151,
+                "network_total_time_in_seconds": 1.707615852355957
+            },
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": {
+                "total_transfer_in_number_of_packets": 13619,
+                "total_traffic_in_number_of_web_packets": 2109,
+                "amount_downloaded_in_number_of_packets": 11510,
+                "amount_uploaded_in_number_of_packets": 2109,
+                "total_transfer_in_bytes": 17243521,
+                "amount_downloaded_in_bytes": 17085149,
+                "amount_uploaded_in_bytes": 158372,
+                "total_transfer_time_in_seconds": 1.5561809999998866,
+                "network_total_time_in_seconds": 1.7179267406463623
+            }
+        },
+        "network_tracking_remote_file_reading.HDF5PyNWBFileReadBenchmark.track_network_read_hdf5_pynwb_fsspec_https_no_cache": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": {
+                "total_transfer_in_number_of_packets": 311609,
+                "total_traffic_in_number_of_web_packets": 27331,
+                "amount_downloaded_in_number_of_packets": 284278,
+                "amount_uploaded_in_number_of_packets": 27331,
+                "total_transfer_in_bytes": 425754550,
+                "amount_downloaded_in_bytes": 423795641,
+                "amount_uploaded_in_bytes": 1958909,
+                "total_transfer_time_in_seconds": 54.97233099986672,
+                "network_total_time_in_seconds": 55.122472047805786
+            },
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": {
+                "total_transfer_in_number_of_packets": 276361,
+                "total_traffic_in_number_of_web_packets": 23653,
+                "amount_downloaded_in_number_of_packets": 252708,
+                "amount_uploaded_in_number_of_packets": 23653,
+                "total_transfer_in_bytes": 376195424,
+                "amount_downloaded_in_bytes": 374725765,
+                "amount_uploaded_in_bytes": 1469659,
+                "total_transfer_time_in_seconds": 56.119825999873925,
+                "network_total_time_in_seconds": 56.26619482040405
+            },
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": {
+                "total_transfer_in_number_of_packets": 1141944,
+                "total_traffic_in_number_of_web_packets": 96777,
+                "amount_downloaded_in_number_of_packets": 1045167,
+                "amount_uploaded_in_number_of_packets": 96777,
+                "total_transfer_in_bytes": 1560186959,
+                "amount_downloaded_in_bytes": 1553920837,
+                "amount_uploaded_in_bytes": 6266122,
+                "total_transfer_time_in_seconds": 215.5599879981891,
+                "network_total_time_in_seconds": 215.66026997566223
+            }
+        },
+        "network_tracking_remote_file_reading.HDF5PyNWBFileReadBenchmark.track_network_read_hdf5_pynwb_fsspec_https_with_cache": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": {
+                "total_transfer_in_number_of_packets": 118901,
+                "total_traffic_in_number_of_web_packets": 11786,
+                "amount_downloaded_in_number_of_packets": 107115,
+                "amount_uploaded_in_number_of_packets": 11786,
+                "total_transfer_in_bytes": 159413377,
+                "amount_downloaded_in_bytes": 158658350,
+                "amount_uploaded_in_bytes": 755027,
+                "total_transfer_time_in_seconds": 24.28574900000273,
+                "network_total_time_in_seconds": 24.462526082992554
+            },
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": {
+                "total_transfer_in_number_of_packets": 38324,
+                "total_traffic_in_number_of_web_packets": 5295,
+                "amount_downloaded_in_number_of_packets": 33029,
+                "amount_uploaded_in_number_of_packets": 5295,
+                "total_transfer_in_bytes": 49280039,
+                "amount_downloaded_in_bytes": 48900421,
+                "amount_uploaded_in_bytes": 379618,
+                "total_transfer_time_in_seconds": 6.654354000002117,
+                "network_total_time_in_seconds": 7.082850217819214
+            },
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": {
+                "total_transfer_in_number_of_packets": 40838,
+                "total_traffic_in_number_of_web_packets": 5191,
+                "amount_downloaded_in_number_of_packets": 35647,
+                "amount_uploaded_in_number_of_packets": 5191,
+                "total_transfer_in_bytes": 53211466,
+                "amount_downloaded_in_bytes": 52839790,
+                "amount_uploaded_in_bytes": 371676,
+                "total_transfer_time_in_seconds": 8.527105000000459,
+                "network_total_time_in_seconds": 10.935877084732056
+            }
+        },
+        "network_tracking_remote_file_reading.HDF5PyNWBFileReadBenchmark.track_network_read_hdf5_pynwb_fsspec_s3_no_cache": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": {
+                "total_transfer_in_number_of_packets": 309808,
+                "total_traffic_in_number_of_web_packets": 26539,
+                "amount_downloaded_in_number_of_packets": 283269,
+                "amount_uploaded_in_number_of_packets": 26539,
+                "total_transfer_in_bytes": 421626723,
+                "amount_downloaded_in_bytes": 420001452,
+                "amount_uploaded_in_bytes": 1625271,
+                "total_transfer_time_in_seconds": 59.3164419998481,
+                "network_total_time_in_seconds": 59.73062324523926
+            },
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": {
+                "total_transfer_in_number_of_packets": 297311,
+                "total_traffic_in_number_of_web_packets": 25046,
+                "amount_downloaded_in_number_of_packets": 272265,
+                "amount_uploaded_in_number_of_packets": 25046,
+                "total_transfer_in_bytes": 405030315,
+                "amount_downloaded_in_bytes": 403470678,
+                "amount_uploaded_in_bytes": 1559637,
+                "total_transfer_time_in_seconds": 52.05903299988563,
+                "network_total_time_in_seconds": 52.4755380153656
+            },
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": {
+                "total_transfer_in_number_of_packets": 985918,
+                "total_traffic_in_number_of_web_packets": 82227,
+                "amount_downloaded_in_number_of_packets": 903691,
+                "amount_uploaded_in_number_of_packets": 82227,
+                "total_transfer_in_bytes": 1351087955,
+                "amount_downloaded_in_bytes": 1345406050,
+                "amount_uploaded_in_bytes": 5681905,
+                "total_transfer_time_in_seconds": 173.0441719986005,
+                "network_total_time_in_seconds": 173.40290689468384
+            }
+        },
+        "network_tracking_remote_file_reading.HDF5PyNWBFileReadBenchmark.track_network_read_hdf5_pynwb_fsspec_s3_with_cache": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": {
+                "total_transfer_in_number_of_packets": 118635,
+                "total_traffic_in_number_of_web_packets": 11528,
+                "amount_downloaded_in_number_of_packets": 107107,
+                "amount_uploaded_in_number_of_packets": 11528,
+                "total_transfer_in_bytes": 160716153,
+                "amount_downloaded_in_bytes": 159851159,
+                "amount_uploaded_in_bytes": 864994,
+                "total_transfer_time_in_seconds": 23.522068000002864,
+                "network_total_time_in_seconds": 23.902339220046997
+            },
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": {
+                "total_transfer_in_number_of_packets": 38251,
+                "total_traffic_in_number_of_web_packets": 5230,
+                "amount_downloaded_in_number_of_packets": 33021,
+                "amount_uploaded_in_number_of_packets": 5230,
+                "total_transfer_in_bytes": 49274660,
+                "amount_downloaded_in_bytes": 48885986,
+                "amount_uploaded_in_bytes": 388674,
+                "total_transfer_time_in_seconds": 6.416356000002178,
+                "network_total_time_in_seconds": 7.054938316345215
+            },
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": {
+                "total_transfer_in_number_of_packets": 41730,
+                "total_traffic_in_number_of_web_packets": 5882,
+                "amount_downloaded_in_number_of_packets": 35848,
+                "amount_uploaded_in_number_of_packets": 5882,
+                "total_transfer_in_bytes": 53769548,
+                "amount_downloaded_in_bytes": 53284453,
+                "amount_uploaded_in_bytes": 485095,
+                "total_transfer_time_in_seconds": 8.060227000001822,
+                "network_total_time_in_seconds": 10.543909072875977
+            }
+        },
+        "network_tracking_remote_file_reading.HDF5PyNWBFileReadBenchmark.track_network_read_hdf5_pynwb_remfile_no_cache": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": {
+                "total_transfer_in_number_of_packets": 4015,
+                "total_traffic_in_number_of_web_packets": 265,
+                "amount_downloaded_in_number_of_packets": 3750,
+                "amount_uploaded_in_number_of_packets": 265,
+                "total_transfer_in_bytes": 5264008,
+                "amount_downloaded_in_bytes": 5237825,
+                "amount_uploaded_in_bytes": 26183,
+                "total_transfer_time_in_seconds": 6.020941000000316,
+                "network_total_time_in_seconds": 6.250457286834717
+            },
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": {
+                "total_transfer_in_number_of_packets": 3801,
+                "total_traffic_in_number_of_web_packets": 344,
+                "amount_downloaded_in_number_of_packets": 3457,
+                "amount_uploaded_in_number_of_packets": 344,
+                "total_transfer_in_bytes": 5055501,
+                "amount_downloaded_in_bytes": 5022652,
+                "amount_uploaded_in_bytes": 32849,
+                "total_transfer_time_in_seconds": 3.5500510000000234,
+                "network_total_time_in_seconds": 3.7716658115386963
+            },
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": {
+                "total_transfer_in_number_of_packets": 35305,
+                "total_traffic_in_number_of_web_packets": 4234,
+                "amount_downloaded_in_number_of_packets": 31071,
+                "amount_uploaded_in_number_of_packets": 4234,
+                "total_transfer_in_bytes": 45899644,
+                "amount_downloaded_in_bytes": 45541539,
+                "amount_uploaded_in_bytes": 358105,
+                "total_transfer_time_in_seconds": 14.920990999992066,
+                "network_total_time_in_seconds": 17.063663959503174
+            }
+        },
+        "network_tracking_remote_file_reading.HDF5PyNWBFileReadBenchmark.track_network_read_hdf5_pynwb_remfile_with_cache": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": {
+                "total_transfer_in_number_of_packets": 4225,
+                "total_traffic_in_number_of_web_packets": 413,
+                "amount_downloaded_in_number_of_packets": 3812,
+                "amount_uploaded_in_number_of_packets": 413,
+                "total_transfer_in_bytes": 5543812,
+                "amount_downloaded_in_bytes": 5504741,
+                "amount_uploaded_in_bytes": 39071,
+                "total_transfer_time_in_seconds": 6.021943000000348,
+                "network_total_time_in_seconds": 6.121506929397583
+            },
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": {
+                "total_transfer_in_number_of_packets": 3813,
+                "total_traffic_in_number_of_web_packets": 220,
+                "amount_downloaded_in_number_of_packets": 3593,
+                "amount_uploaded_in_number_of_packets": 220,
+                "total_transfer_in_bytes": 5105639,
+                "amount_downloaded_in_bytes": 5083518,
+                "amount_uploaded_in_bytes": 22121,
+                "total_transfer_time_in_seconds": 3.5028130000000637,
+                "network_total_time_in_seconds": 3.711544990539551
+            },
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": {
+                "total_transfer_in_number_of_packets": 35523,
+                "total_traffic_in_number_of_web_packets": 4035,
+                "amount_downloaded_in_number_of_packets": 31488,
+                "amount_uploaded_in_number_of_packets": 4035,
+                "total_transfer_in_bytes": 46119774,
+                "amount_downloaded_in_bytes": 45772483,
+                "amount_uploaded_in_bytes": 347291,
+                "total_transfer_time_in_seconds": 15.367695999992607,
+                "network_total_time_in_seconds": 17.57128405570984
+            }
+        },
+        "network_tracking_remote_file_reading.HDF5PyNWBFileReadBenchmark.track_network_read_hdf5_pynwb_ros3": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": {
+                "total_transfer_in_number_of_packets": 30182,
+                "total_traffic_in_number_of_web_packets": 5574,
+                "amount_downloaded_in_number_of_packets": 24608,
+                "amount_uploaded_in_number_of_packets": 5574,
+                "total_transfer_in_bytes": 35992122,
+                "amount_downloaded_in_bytes": 35505222,
+                "amount_uploaded_in_bytes": 486900,
+                "total_transfer_time_in_seconds": 43.4613589999978,
+                "network_total_time_in_seconds": 43.48509907722473
+            },
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": {
+                "total_transfer_in_number_of_packets": 30110,
+                "total_traffic_in_number_of_web_packets": 5748,
+                "amount_downloaded_in_number_of_packets": 24362,
+                "amount_uploaded_in_number_of_packets": 5748,
+                "total_transfer_in_bytes": 35875254,
+                "amount_downloaded_in_bytes": 35381258,
+                "amount_uploaded_in_bytes": 493996,
+                "total_transfer_time_in_seconds": 33.80432499999605,
+                "network_total_time_in_seconds": 50.09586000442505
+            },
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": {
+                "total_transfer_in_number_of_packets": 72310,
+                "total_traffic_in_number_of_web_packets": 23968,
+                "amount_downloaded_in_number_of_packets": 48342,
+                "amount_uploaded_in_number_of_packets": 23968,
+                "total_transfer_in_bytes": 63888729,
+                "amount_downloaded_in_bytes": 61377425,
+                "amount_uploaded_in_bytes": 2511304,
+                "total_transfer_time_in_seconds": 421.7115989999251,
+                "network_total_time_in_seconds": 419.4014129638672
+            }
+        },
+        "network_tracking_remote_file_reading.HDF5PyNWBFsspecHttpsPreloadedNoCacheFileReadBenchmark.track_network_read_hdf5_pynwb_fsspec_https_preloaded_no_cache": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": {
+                "total_transfer_in_number_of_packets": 309142,
+                "total_traffic_in_number_of_web_packets": 25707,
+                "amount_downloaded_in_number_of_packets": 283435,
+                "amount_uploaded_in_number_of_packets": 25707,
+                "total_transfer_in_bytes": 421755538,
+                "amount_downloaded_in_bytes": 420184897,
+                "amount_uploaded_in_bytes": 1570641,
+                "total_transfer_time_in_seconds": 64.359227999835,
+                "network_total_time_in_seconds": 64.39946508407593
+            },
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": {
+                "total_transfer_in_number_of_packets": 277283,
+                "total_traffic_in_number_of_web_packets": 24168,
+                "amount_downloaded_in_number_of_packets": 253115,
+                "amount_uploaded_in_number_of_packets": 24168,
+                "total_transfer_in_bytes": 379087436,
+                "amount_downloaded_in_bytes": 377346351,
+                "amount_uploaded_in_bytes": 1741085,
+                "total_transfer_time_in_seconds": 51.81007199989968,
+                "network_total_time_in_seconds": 51.913315296173096
+            },
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": {
+                "total_transfer_in_number_of_packets": 1141708,
+                "total_traffic_in_number_of_web_packets": 96781,
+                "amount_downloaded_in_number_of_packets": 1044927,
+                "amount_uploaded_in_number_of_packets": 96781,
+                "total_transfer_in_bytes": 1555582872,
+                "amount_downloaded_in_bytes": 1549743390,
+                "amount_uploaded_in_bytes": 5839482,
+                "total_transfer_time_in_seconds": 209.89851199820603,
+                "network_total_time_in_seconds": 209.8908998966217
+            }
+        },
+        "network_tracking_remote_file_reading.HDF5PyNWBFsspecHttpsPreloadedWithCacheFileReadBenchmark.track_network_read_hdf5_pynwb_fsspec_https_preloaded_with_cache": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": {
+                "total_transfer_in_number_of_packets": 121798,
+                "total_traffic_in_number_of_web_packets": 14558,
+                "amount_downloaded_in_number_of_packets": 107240,
+                "amount_uploaded_in_number_of_packets": 14558,
+                "total_transfer_in_bytes": 160907092,
+                "amount_downloaded_in_bytes": 159763105,
+                "amount_uploaded_in_bytes": 1143987,
+                "total_transfer_time_in_seconds": 22.871149999999776,
+                "network_total_time_in_seconds": 23.105130910873413
+            },
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": {
+                "total_transfer_in_number_of_packets": 38769,
+                "total_traffic_in_number_of_web_packets": 5677,
+                "amount_downloaded_in_number_of_packets": 33092,
+                "amount_uploaded_in_number_of_packets": 5677,
+                "total_transfer_in_bytes": 49759241,
+                "amount_downloaded_in_bytes": 49294315,
+                "amount_uploaded_in_bytes": 464926,
+                "total_transfer_time_in_seconds": 6.473259000001881,
+                "network_total_time_in_seconds": 6.888742923736572
+            },
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": {
+                "total_transfer_in_number_of_packets": 43337,
+                "total_traffic_in_number_of_web_packets": 7623,
+                "amount_downloaded_in_number_of_packets": 35714,
+                "amount_uploaded_in_number_of_packets": 7623,
+                "total_transfer_in_bytes": 53919420,
+                "amount_downloaded_in_bytes": 53276884,
+                "amount_uploaded_in_bytes": 642536,
+                "total_transfer_time_in_seconds": 8.1895160000013,
+                "network_total_time_in_seconds": 10.52310299873352
+            }
+        },
+        "network_tracking_remote_file_reading.HDF5PyNWBFsspecS3PreloadedNoCacheFileReadBenchmark.track_network_read_hdf5_pynwb_fsspec_s3_preloaded_no_cache": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": {
+                "total_transfer_in_number_of_packets": 310702,
+                "total_traffic_in_number_of_web_packets": 26437,
+                "amount_downloaded_in_number_of_packets": 284265,
+                "amount_uploaded_in_number_of_packets": 26437,
+                "total_transfer_in_bytes": 425748127,
+                "amount_downloaded_in_bytes": 423824752,
+                "amount_uploaded_in_bytes": 1923375,
+                "total_transfer_time_in_seconds": 60.082765999851595,
+                "network_total_time_in_seconds": 60.2352659702301
+            },
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": {
+                "total_transfer_in_number_of_packets": 298422,
+                "total_traffic_in_number_of_web_packets": 26156,
+                "amount_downloaded_in_number_of_packets": 272266,
+                "amount_uploaded_in_number_of_packets": 26156,
+                "total_transfer_in_bytes": 405288259,
+                "amount_downloaded_in_bytes": 403629206,
+                "amount_uploaded_in_bytes": 1659053,
+                "total_transfer_time_in_seconds": 49.1763469999022,
+                "network_total_time_in_seconds": 49.35037183761597
+            },
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": {
+                "total_transfer_in_number_of_packets": 987622,
+                "total_traffic_in_number_of_web_packets": 85028,
+                "amount_downloaded_in_number_of_packets": 902594,
+                "amount_uploaded_in_number_of_packets": 85028,
+                "total_transfer_in_bytes": 1350296760,
+                "amount_downloaded_in_bytes": 1344414973,
+                "amount_uploaded_in_bytes": 5881787,
+                "total_transfer_time_in_seconds": 167.57413499858697,
+                "network_total_time_in_seconds": 167.72405195236206
+            }
+        },
+        "network_tracking_remote_file_reading.HDF5PyNWBFsspecS3PreloadedWithCacheFileReadBenchmark.track_network_read_hdf5_pynwb_fsspec_s3_preloaded_with_cache": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": {
+                "total_transfer_in_number_of_packets": 121081,
+                "total_traffic_in_number_of_web_packets": 13957,
+                "amount_downloaded_in_number_of_packets": 107124,
+                "amount_uploaded_in_number_of_packets": 13957,
+                "total_transfer_in_bytes": 159615075,
+                "amount_downloaded_in_bytes": 158621975,
+                "amount_uploaded_in_bytes": 993100,
+                "total_transfer_time_in_seconds": 22.300559000000227,
+                "network_total_time_in_seconds": 22.467822074890137
+            },
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": {
+                "total_transfer_in_number_of_packets": 37894,
+                "total_traffic_in_number_of_web_packets": 4851,
+                "amount_downloaded_in_number_of_packets": 33043,
+                "amount_uploaded_in_number_of_packets": 4851,
+                "total_transfer_in_bytes": 49247764,
+                "amount_downloaded_in_bytes": 48893928,
+                "amount_uploaded_in_bytes": 353836,
+                "total_transfer_time_in_seconds": 5.69760300000182,
+                "network_total_time_in_seconds": 6.223984003067017
+            },
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": {
+                "total_transfer_in_number_of_packets": 41096,
+                "total_traffic_in_number_of_web_packets": 5438,
+                "amount_downloaded_in_number_of_packets": 35658,
+                "amount_uploaded_in_number_of_packets": 5438,
+                "total_transfer_in_bytes": 53246974,
+                "amount_downloaded_in_bytes": 52844327,
+                "amount_uploaded_in_bytes": 402647,
+                "total_transfer_time_in_seconds": 8.025033000002189,
+                "network_total_time_in_seconds": 10.54190182685852
+            }
+        },
+        "network_tracking_remote_file_reading.HDF5PyNWBRemfilePreloadedNoCacheFileReadBenchmark.track_network_read_hdf5_pynwb_remfile_preloaded_no_cache": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": {
+                "total_transfer_in_number_of_packets": 3966,
+                "total_traffic_in_number_of_web_packets": 272,
+                "amount_downloaded_in_number_of_packets": 3694,
+                "amount_uploaded_in_number_of_packets": 272,
+                "total_transfer_in_bytes": 5260106,
+                "amount_downloaded_in_bytes": 5233545,
+                "amount_uploaded_in_bytes": 26561,
+                "total_transfer_time_in_seconds": 5.476550000000284,
+                "network_total_time_in_seconds": 5.691589832305908
+            },
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": {
+                "total_transfer_in_number_of_packets": 3685,
+                "total_traffic_in_number_of_web_packets": 212,
+                "amount_downloaded_in_number_of_packets": 3473,
+                "amount_uploaded_in_number_of_packets": 212,
+                "total_transfer_in_bytes": 4976868,
+                "amount_downloaded_in_bytes": 4955179,
+                "amount_uploaded_in_bytes": 21689,
+                "total_transfer_time_in_seconds": 2.9462459999999986,
+                "network_total_time_in_seconds": 3.1470420360565186
+            },
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": {
+                "total_transfer_in_number_of_packets": 33980,
+                "total_traffic_in_number_of_web_packets": 2726,
+                "amount_downloaded_in_number_of_packets": 31254,
+                "amount_uploaded_in_number_of_packets": 2726,
+                "total_transfer_in_bytes": 45566008,
+                "amount_downloaded_in_bytes": 45351891,
+                "amount_uploaded_in_bytes": 214117,
+                "total_transfer_time_in_seconds": 14.745532999992882,
+                "network_total_time_in_seconds": 16.88180422782898
+            }
+        },
+        "network_tracking_remote_file_reading.HDF5PyNWBRemfilePreloadedWithCacheFileReadBenchmark.track_network_read_hdf5_pynwb_remfile_preloaded_with_cache": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": {
+                "total_transfer_in_number_of_packets": 4104,
+                "total_traffic_in_number_of_web_packets": 391,
+                "amount_downloaded_in_number_of_packets": 3713,
+                "amount_uploaded_in_number_of_packets": 391,
+                "total_transfer_in_bytes": 5350038,
+                "amount_downloaded_in_bytes": 5312467,
+                "amount_uploaded_in_bytes": 37571,
+                "total_transfer_time_in_seconds": 4.7875730000002505,
+                "network_total_time_in_seconds": 4.981086015701294
+            },
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": {
+                "total_transfer_in_number_of_packets": 3535,
+                "total_traffic_in_number_of_web_packets": 228,
+                "amount_downloaded_in_number_of_packets": 3307,
+                "amount_uploaded_in_number_of_packets": 228,
+                "total_transfer_in_bytes": 4761983,
+                "amount_downloaded_in_bytes": 4739700,
+                "amount_uploaded_in_bytes": 22283,
+                "total_transfer_time_in_seconds": 2.7752369999999837,
+                "network_total_time_in_seconds": 3.083415985107422
+            },
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": {
+                "total_transfer_in_number_of_packets": 33994,
+                "total_traffic_in_number_of_web_packets": 2970,
+                "amount_downloaded_in_number_of_packets": 31024,
+                "amount_uploaded_in_number_of_packets": 2970,
+                "total_transfer_in_bytes": 45786980,
+                "amount_downloaded_in_bytes": 45540147,
+                "amount_uploaded_in_bytes": 246833,
+                "total_transfer_time_in_seconds": 15.909059999992632,
+                "network_total_time_in_seconds": 18.205705165863037
+            }
+        },
+        "network_tracking_remote_file_reading.HDF5PyNWBRos3PreloadedFileReadBenchmark.track_network_read_hdf5_pynwb_ros3_preloaded_with_cache": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": {
+                "total_transfer_in_number_of_packets": 348,
+                "total_traffic_in_number_of_web_packets": 197,
+                "amount_downloaded_in_number_of_packets": 151,
+                "amount_uploaded_in_number_of_packets": 197,
+                "total_transfer_in_bytes": 112348,
+                "amount_downloaded_in_bytes": 88810,
+                "amount_uploaded_in_bytes": 23538,
+                "total_transfer_time_in_seconds": 6.126682000000007,
+                "network_total_time_in_seconds": 9.463611125946045
+            },
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": {
+                "total_transfer_in_number_of_packets": 294,
+                "total_traffic_in_number_of_web_packets": 157,
+                "amount_downloaded_in_number_of_packets": 137,
+                "amount_uploaded_in_number_of_packets": 157,
+                "total_transfer_in_bytes": 120533,
+                "amount_downloaded_in_bytes": 102091,
+                "amount_uploaded_in_bytes": 18442,
+                "total_transfer_time_in_seconds": 4.7882800000000065,
+                "network_total_time_in_seconds": 8.64018702507019
+            },
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": {
+                "total_transfer_in_number_of_packets": 451,
+                "total_traffic_in_number_of_web_packets": 263,
+                "amount_downloaded_in_number_of_packets": 188,
+                "amount_uploaded_in_number_of_packets": 263,
+                "total_transfer_in_bytes": 166176,
+                "amount_downloaded_in_bytes": 136300,
+                "amount_uploaded_in_bytes": 29876,
+                "total_transfer_time_in_seconds": 8.086018000000008,
+                "network_total_time_in_seconds": 13.306474924087524
+            }
+        },
+        "network_tracking_remote_file_reading.LindiLocalJSONFileReadBenchmark.track_network_read_lindi_h5py": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://api.sandbox.dandiarchive.org/api/assets/9e9c67dc-279a-4df3-94d5-00366c164b90/download/'}": {
+                "total_transfer_in_number_of_packets": 0,
+                "total_traffic_in_number_of_web_packets": 0,
+                "amount_downloaded_in_number_of_packets": 0,
+                "amount_uploaded_in_number_of_packets": 0,
+                "total_transfer_in_bytes": 0,
+                "amount_downloaded_in_bytes": 0,
+                "amount_uploaded_in_bytes": 0,
+                "total_transfer_time_in_seconds": 0.0,
+                "network_total_time_in_seconds": 0.28733205795288086
+            },
+            "{'name': 'OphysTestCase', 'https_url': 'https://api.sandbox.dandiarchive.org/api/assets/62182082-ab1d-4901-929c-2c9747efa8aa/download/'}": {
+                "total_transfer_in_number_of_packets": 0,
+                "total_traffic_in_number_of_web_packets": 0,
+                "amount_downloaded_in_number_of_packets": 0,
+                "amount_uploaded_in_number_of_packets": 0,
+                "total_transfer_in_bytes": 0,
+                "amount_downloaded_in_bytes": 0,
+                "amount_uploaded_in_bytes": 0,
+                "total_transfer_time_in_seconds": 0.0,
+                "network_total_time_in_seconds": 0.5503087043762207
+            },
+            "{'name': 'IcephysTestCase', 'https_url': 'https://api.sandbox.dandiarchive.org/api/assets/280cc5b5-08da-48ee-850b-7ffe599bdff5/download/'}": {
+                "total_transfer_in_number_of_packets": 0,
+                "total_traffic_in_number_of_web_packets": 0,
+                "amount_downloaded_in_number_of_packets": 0,
+                "amount_uploaded_in_number_of_packets": 0,
+                "total_transfer_in_bytes": 0,
+                "amount_downloaded_in_bytes": 0,
+                "amount_uploaded_in_bytes": 0,
+                "total_transfer_time_in_seconds": 0.0,
+                "network_total_time_in_seconds": 0.24650096893310547
+            }
+        },
+        "network_tracking_remote_file_reading.LindiLocalJSONFileReadBenchmark.track_network_read_lindi_pynwb": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://api.sandbox.dandiarchive.org/api/assets/9e9c67dc-279a-4df3-94d5-00366c164b90/download/'}": {
+                "total_transfer_in_number_of_packets": 0,
+                "total_traffic_in_number_of_web_packets": 0,
+                "amount_downloaded_in_number_of_packets": 0,
+                "amount_uploaded_in_number_of_packets": 0,
+                "total_transfer_in_bytes": 0,
+                "amount_downloaded_in_bytes": 0,
+                "amount_uploaded_in_bytes": 0,
+                "total_transfer_time_in_seconds": 0.0,
+                "network_total_time_in_seconds": 1.301318883895874
+            },
+            "{'name': 'OphysTestCase', 'https_url': 'https://api.sandbox.dandiarchive.org/api/assets/62182082-ab1d-4901-929c-2c9747efa8aa/download/'}": {
+                "total_transfer_in_number_of_packets": 89,
+                "total_traffic_in_number_of_web_packets": 48,
+                "amount_downloaded_in_number_of_packets": 41,
+                "amount_uploaded_in_number_of_packets": 48,
+                "total_transfer_in_bytes": 29859,
+                "amount_downloaded_in_bytes": 20679,
+                "amount_uploaded_in_bytes": 9180,
+                "total_transfer_time_in_seconds": 1.082866,
+                "network_total_time_in_seconds": 3.4860517978668213
+            },
+            "{'name': 'IcephysTestCase', 'https_url': 'https://api.sandbox.dandiarchive.org/api/assets/280cc5b5-08da-48ee-850b-7ffe599bdff5/download/'}": {
+                "total_transfer_in_number_of_packets": 82,
+                "total_traffic_in_number_of_web_packets": 46,
+                "amount_downloaded_in_number_of_packets": 36,
+                "amount_uploaded_in_number_of_packets": 46,
+                "total_transfer_in_bytes": 30577,
+                "amount_downloaded_in_bytes": 21483,
+                "amount_uploaded_in_bytes": 9094,
+                "total_transfer_time_in_seconds": 0.8373239999999996,
+                "network_total_time_in_seconds": 5.237062931060791
+            }
+        },
+        "network_tracking_remote_file_reading.ZarrPyNWBFileReadBenchmark.track_network_read_zarr_pynwb_s3": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/zarr/d097af6b-8fd8-4d83-b649-fc6518e95d25/'}": {
+                "total_transfer_in_number_of_packets": 903,
+                "total_traffic_in_number_of_web_packets": 515,
+                "amount_downloaded_in_number_of_packets": 388,
+                "amount_uploaded_in_number_of_packets": 515,
+                "total_transfer_in_bytes": 304383,
+                "amount_downloaded_in_bytes": 190521,
+                "amount_uploaded_in_bytes": 113862,
+                "total_transfer_time_in_seconds": 13.076840000000011,
+                "network_total_time_in_seconds": 13.451793193817139
+            },
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/zarr/c8c6b848-fbc6-4f58-85ff-e3f2618ee983/'}": {
+                "total_transfer_in_number_of_packets": 872,
+                "total_traffic_in_number_of_web_packets": 495,
+                "amount_downloaded_in_number_of_packets": 377,
+                "amount_uploaded_in_number_of_packets": 495,
+                "total_transfer_in_bytes": 300212,
+                "amount_downloaded_in_bytes": 192380,
+                "amount_uploaded_in_bytes": 107832,
+                "total_transfer_time_in_seconds": 11.539515000000002,
+                "network_total_time_in_seconds": 11.893090009689331
+            },
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/zarr/18e75d22-f527-4051-a4c8-c7e0f1e7dad1/'}": {
+                "total_transfer_in_number_of_packets": 8100,
+                "total_traffic_in_number_of_web_packets": 3811,
+                "amount_downloaded_in_number_of_packets": 4289,
+                "amount_uploaded_in_number_of_packets": 3811,
+                "total_transfer_in_bytes": 4322572,
+                "amount_downloaded_in_bytes": 3554763,
+                "amount_uploaded_in_bytes": 767809,
+                "total_transfer_time_in_seconds": 86.76457999999732,
+                "network_total_time_in_seconds": 86.54678082466125
+            }
+        },
+        "network_tracking_remote_file_reading.ZarrPyNWBFileReadBenchmark.track_network_read_zarr_pynwb_s3_force_no_consolidated": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/zarr/d097af6b-8fd8-4d83-b649-fc6518e95d25/'}": {
+                "total_transfer_in_number_of_packets": 5012,
+                "total_traffic_in_number_of_web_packets": 2881,
+                "amount_downloaded_in_number_of_packets": 2131,
+                "amount_uploaded_in_number_of_packets": 2881,
+                "total_transfer_in_bytes": 1591810,
+                "amount_downloaded_in_bytes": 971250,
+                "amount_uploaded_in_bytes": 620560,
+                "total_transfer_time_in_seconds": 67.88808399999985,
+                "network_total_time_in_seconds": 68.0381178855896
+            },
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/zarr/c8c6b848-fbc6-4f58-85ff-e3f2618ee983/'}": {
+                "total_transfer_in_number_of_packets": 5684,
+                "total_traffic_in_number_of_web_packets": 3289,
+                "amount_downloaded_in_number_of_packets": 2395,
+                "amount_uploaded_in_number_of_packets": 3289,
+                "total_transfer_in_bytes": 1811463,
+                "amount_downloaded_in_bytes": 1084704,
+                "amount_uploaded_in_bytes": 726759,
+                "total_transfer_time_in_seconds": 79.31541999999968,
+                "network_total_time_in_seconds": 79.25260877609253
+            },
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/zarr/18e75d22-f527-4051-a4c8-c7e0f1e7dad1/'}": {
+                "total_transfer_in_number_of_packets": 63610,
+                "total_traffic_in_number_of_web_packets": 36590,
+                "amount_downloaded_in_number_of_packets": 27020,
+                "amount_uploaded_in_number_of_packets": 36590,
+                "total_transfer_in_bytes": 21059681,
+                "amount_downloaded_in_bytes": 12908756,
+                "amount_uploaded_in_bytes": 8150925,
+                "total_transfer_time_in_seconds": 874.2283559998708,
+                "network_total_time_in_seconds": 865.0715391635895
+            }
+        },
+        "network_tracking_remote_file_reading.ZarrZarrPythonFileReadBenchmark.track_network_read_zarr_https": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/zarr/d097af6b-8fd8-4d83-b649-fc6518e95d25/'}": {
+                "total_transfer_in_number_of_packets": 29,
+                "total_traffic_in_number_of_web_packets": 16,
+                "amount_downloaded_in_number_of_packets": 13,
+                "amount_uploaded_in_number_of_packets": 16,
+                "total_transfer_in_bytes": 10569,
+                "amount_downloaded_in_bytes": 7870,
+                "amount_uploaded_in_bytes": 2699,
+                "total_transfer_time_in_seconds": 0.179836,
+                "network_total_time_in_seconds": 0.4251389503479004
+            },
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/zarr/c8c6b848-fbc6-4f58-85ff-e3f2618ee983/'}": {
+                "total_transfer_in_number_of_packets": 23,
+                "total_traffic_in_number_of_web_packets": 14,
+                "amount_downloaded_in_number_of_packets": 9,
+                "amount_uploaded_in_number_of_packets": 14,
+                "total_transfer_in_bytes": 9951,
+                "amount_downloaded_in_bytes": 7204,
+                "amount_uploaded_in_bytes": 2747,
+                "total_transfer_time_in_seconds": 0.122381,
+                "network_total_time_in_seconds": 0.5168602466583252
+            },
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/zarr/18e75d22-f527-4051-a4c8-c7e0f1e7dad1/'}": {
+                "total_transfer_in_number_of_packets": 1136,
+                "total_traffic_in_number_of_web_packets": 165,
+                "amount_downloaded_in_number_of_packets": 971,
+                "amount_uploaded_in_number_of_packets": 165,
+                "total_transfer_in_bytes": 1449631,
+                "amount_downloaded_in_bytes": 1436918,
+                "amount_uploaded_in_bytes": 12713,
+                "total_transfer_time_in_seconds": 0.4983309999999824,
+                "network_total_time_in_seconds": 0.6503841876983643
+            }
+        },
+        "network_tracking_remote_file_reading.ZarrZarrPythonFileReadBenchmark.track_network_read_zarr_https_force_no_consolidated": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/zarr/d097af6b-8fd8-4d83-b649-fc6518e95d25/'}": {
+                "total_transfer_in_number_of_packets": 35,
+                "total_traffic_in_number_of_web_packets": 19,
+                "amount_downloaded_in_number_of_packets": 16,
+                "amount_uploaded_in_number_of_packets": 19,
+                "total_transfer_in_bytes": 11748,
+                "amount_downloaded_in_bytes": 8680,
+                "amount_uploaded_in_bytes": 3068,
+                "total_transfer_time_in_seconds": 0.18552100000000002,
+                "network_total_time_in_seconds": 0.5831820964813232
+            },
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/zarr/c8c6b848-fbc6-4f58-85ff-e3f2618ee983/'}": {
+                "total_transfer_in_number_of_packets": 49,
+                "total_traffic_in_number_of_web_packets": 28,
+                "amount_downloaded_in_number_of_packets": 21,
+                "amount_uploaded_in_number_of_packets": 28,
+                "total_transfer_in_bytes": 15566,
+                "amount_downloaded_in_bytes": 11058,
+                "amount_uploaded_in_bytes": 4508,
+                "total_transfer_time_in_seconds": 0.416417,
+                "network_total_time_in_seconds": 0.6391110420227051
+            },
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/zarr/18e75d22-f527-4051-a4c8-c7e0f1e7dad1/'}": {
+                "total_transfer_in_number_of_packets": 50,
+                "total_traffic_in_number_of_web_packets": 28,
+                "amount_downloaded_in_number_of_packets": 22,
+                "amount_uploaded_in_number_of_packets": 28,
+                "total_transfer_in_bytes": 14876,
+                "amount_downloaded_in_bytes": 10692,
+                "amount_uploaded_in_bytes": 4184,
+                "total_transfer_time_in_seconds": 0.37657199999999996,
+                "network_total_time_in_seconds": 0.5820009708404541
+            }
+        },
+        "network_tracking_remote_file_reading.ZarrZarrPythonFileReadBenchmark.track_network_read_zarr_s3": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/zarr/d097af6b-8fd8-4d83-b649-fc6518e95d25/'}": {
+                "total_transfer_in_number_of_packets": 56,
+                "total_traffic_in_number_of_web_packets": 24,
+                "amount_downloaded_in_number_of_packets": 32,
+                "amount_uploaded_in_number_of_packets": 24,
+                "total_transfer_in_bytes": 36340,
+                "amount_downloaded_in_bytes": 32996,
+                "amount_uploaded_in_bytes": 3344,
+                "total_transfer_time_in_seconds": 0.23265600000000008,
+                "network_total_time_in_seconds": 0.6394822597503662
+            },
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/zarr/c8c6b848-fbc6-4f58-85ff-e3f2618ee983/'}": {
+                "total_transfer_in_number_of_packets": 55,
+                "total_traffic_in_number_of_web_packets": 23,
+                "amount_downloaded_in_number_of_packets": 32,
+                "amount_uploaded_in_number_of_packets": 23,
+                "total_transfer_in_bytes": 36476,
+                "amount_downloaded_in_bytes": 33186,
+                "amount_uploaded_in_bytes": 3290,
+                "total_transfer_time_in_seconds": 0.23683700000000008,
+                "network_total_time_in_seconds": 0.6424479484558105
+            },
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/zarr/18e75d22-f527-4051-a4c8-c7e0f1e7dad1/'}": {
+                "total_transfer_in_number_of_packets": 768,
+                "total_traffic_in_number_of_web_packets": 59,
+                "amount_downloaded_in_number_of_packets": 709,
+                "amount_uploaded_in_number_of_packets": 59,
+                "total_transfer_in_bytes": 1043552,
+                "amount_downloaded_in_bytes": 1038318,
+                "amount_uploaded_in_bytes": 5234,
+                "total_transfer_time_in_seconds": 0.5103819999999937,
+                "network_total_time_in_seconds": 0.9197959899902344
+            }
+        },
+        "network_tracking_remote_file_reading.ZarrZarrPythonFileReadBenchmark.track_network_read_zarr_s3_force_no_consolidated": {
+            "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/zarr/d097af6b-8fd8-4d83-b649-fc6518e95d25/'}": {
+                "total_transfer_in_number_of_packets": 49,
+                "total_traffic_in_number_of_web_packets": 28,
+                "amount_downloaded_in_number_of_packets": 21,
+                "amount_uploaded_in_number_of_packets": 28,
+                "total_transfer_in_bytes": 16363,
+                "amount_downloaded_in_bytes": 10547,
+                "amount_uploaded_in_bytes": 5816,
+                "total_transfer_time_in_seconds": 0.44571600000000006,
+                "network_total_time_in_seconds": 0.9154858589172363
+            },
+            "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/zarr/c8c6b848-fbc6-4f58-85ff-e3f2618ee983/'}": {
+                "total_transfer_in_number_of_packets": 48,
+                "total_traffic_in_number_of_web_packets": 28,
+                "amount_downloaded_in_number_of_packets": 20,
+                "amount_uploaded_in_number_of_packets": 28,
+                "total_transfer_in_bytes": 17015,
+                "amount_downloaded_in_bytes": 10875,
+                "amount_uploaded_in_bytes": 6140,
+                "total_transfer_time_in_seconds": 0.43929000000000007,
+                "network_total_time_in_seconds": 0.9172670841217041
+            },
+            "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/zarr/18e75d22-f527-4051-a4c8-c7e0f1e7dad1/'}": {
+                "total_transfer_in_number_of_packets": 48,
+                "total_traffic_in_number_of_web_packets": 28,
+                "amount_downloaded_in_number_of_packets": 20,
+                "amount_uploaded_in_number_of_packets": 28,
+                "total_transfer_in_bytes": 17015,
+                "amount_downloaded_in_bytes": 10875,
+                "amount_uploaded_in_bytes": 6140,
+                "total_transfer_time_in_seconds": 0.486104,
+                "network_total_time_in_seconds": 0.9627315998077393
+            }
+        }
+    }
+}
