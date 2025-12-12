@@ -1,0 +1,90 @@
+{
+    "name": "ChatterGuanaco",
+    "version": "1.4.1",
+    "os": {
+        "cpu_count": 32
+    },
+    "sys": {
+        "platform": "linux"
+    },
+    "platform": {
+        "architecture": [
+            "64bit",
+            ""
+        ],
+        "machine": "x86_64",
+        "platform": "Linux-5.10.242-239.961.amzn2.x86_64-x86_64-with-glibc2.39",
+        "processor": "x86_64",
+        "system": "Linux"
+    },
+    "psutil": {
+        "number_of_processes": 16,
+        "number_of_threads": 32,
+        "total_virtual_memory": 132306591744,
+        "total_swap_memory": 0,
+        "disk_partitions": [
+            {
+                "device": "/dev/nvme0n1p1",
+                "mountpoint": "/etc/dask",
+                "fstype": "xfs",
+                "opts": "ro,noatime,attr2,inode64,logbufs=8,logbsize=32k,noquota"
+            },
+            {
+                "device": "/dev/nvme0n1p1",
+                "mountpoint": "/etc/ipython",
+                "fstype": "xfs",
+                "opts": "ro,noatime,attr2,inode64,logbufs=8,logbsize=32k,noquota"
+            },
+            {
+                "device": "/dev/nvme0n1p1",
+                "mountpoint": "/etc/jupyter",
+                "fstype": "xfs",
+                "opts": "ro,noatime,attr2,inode64,logbufs=8,logbsize=32k,noquota"
+            },
+            {
+                "device": "/dev/nvme0n1p1",
+                "mountpoint": "/etc/hosts",
+                "fstype": "xfs",
+                "opts": "rw,noatime,attr2,inode64,logbufs=8,logbsize=32k,noquota"
+            },
+            {
+                "device": "/dev/nvme0n1p1",
+                "mountpoint": "/dev/termination-log",
+                "fstype": "xfs",
+                "opts": "rw,noatime,attr2,inode64,logbufs=8,logbsize=32k,noquota"
+            },
+            {
+                "device": "/dev/nvme0n1p1",
+                "mountpoint": "/etc/hostname",
+                "fstype": "xfs",
+                "opts": "rw,noatime,attr2,inode64,logbufs=8,logbsize=32k,noquota"
+            },
+            {
+                "device": "/dev/nvme0n1p1",
+                "mountpoint": "/etc/resolv.conf",
+                "fstype": "xfs",
+                "opts": "rw,noatime,attr2,inode64,logbufs=8,logbsize=32k,noquota"
+            },
+            {
+                "device": "/dev/nvme0n1p1",
+                "mountpoint": "/etc/jupyter/labconfig",
+                "fstype": "xfs",
+                "opts": "ro,noatime,attr2,inode64,logbufs=8,logbsize=32k,noquota"
+            },
+            {
+                "device": "/dev/nvme0n1p1",
+                "mountpoint": "/opt/conda/envs/default/share/jupyter/lab/settings",
+                "fstype": "xfs",
+                "opts": "ro,noatime,attr2,inode64,logbufs=8,logbsize=32k,noquota"
+            }
+        ]
+    },
+    "config": {},
+    "asv": {
+        "arch": "x86_64",
+        "cpu": "AMD EPYC 7R13 Processor",
+        "num_cpu": "48",
+        "os": "Linux 5.10.242-239.961.amzn2.x86_64",
+        "ram": "193709688"
+    }
+}
