@@ -1,0 +1,12 @@
+{
+    "machine_info": {
+        "machine": "rly-m65",
+        "arch": "x86_64",
+        "cpu": "Apple M1",
+        "ram": "16GB"
+    },
+    "environment_info": {
+        "python_version": "3.9.0",
+        "platform": "macOS"
+    }
+}
