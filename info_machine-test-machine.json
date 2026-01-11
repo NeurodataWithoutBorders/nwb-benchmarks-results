@@ -1,0 +1,18 @@
+{
+    "machine_info": {
+        "machine": "test-machine",
+        "arch": "x86_64",
+        "cpu": "Test CPU",
+        "ram": "8GB"
+    },
+    "environment_info": {
+        "python_version": "3.9.0",
+        "platform": "Linux"
+    },
+    "benchmark_results": {
+        "test_benchmark": {
+            "result": 1.23,
+            "unit": "seconds"
+        }
+    }
+}
