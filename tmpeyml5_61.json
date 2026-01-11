@@ -1,0 +1,21 @@
+{
+    "machine": {
+        "arch": "x86_64",
+        "cpu": "Mock CPU",
+        "ram": "8GB",
+        "os": "Linux",
+        "version": "Mock OS 1.0"
+    },
+    "environment": {
+        "python_version": "3.9.0",
+        "packages": {
+            "pynwb": "2.5.0",
+            "h5py": "3.8.0"
+        }
+    },
+    "results": {
+        "benchmark_name": "test_benchmark",
+        "timestamp": "2024-01-01-00-00-00",
+        "value": 1.23
+    }
+}
