@@ -1,5 +1,4 @@
 {
-    "machine": "test-machine",
-    "cpu": "test-cpu",
-    "ram": "16GB"
+    "machine": "test",
+    "cpu": "test-cpu"
 }
