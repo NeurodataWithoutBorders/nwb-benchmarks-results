@@ -1,3 +1,4 @@
 {
-    "machine": "test"
+    "machine": "test",
+    "cpu": "x86_64"
 }
