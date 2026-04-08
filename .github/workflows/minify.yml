@@ -1,0 +1,73 @@
+name: Bundle JSON Files
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  bundle:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Find and bundle all JSON files into a gzipped packet
+        run: |
+          # Find all JSON files in the repo, read and merge them into a single
+          # JSON object keyed by relative file path, then minify (no indent)
+          # and gzip the result.
+          python3 -c "
+          import json, pathlib, gzip
+
+          repo = pathlib.Path('.')
+          bundle = {}
+
+          for f in sorted(repo.rglob('*.json')):
+              # Skip anything inside .git or previous build artifacts
+              if '.git' in f.parts:
+                  continue
+              try:
+                  data = json.loads(f.read_text(encoding='utf-8'))
+              except (json.JSONDecodeError, UnicodeDecodeError) as e:
+                  print(f'⚠️  Skipping {f}: {e}')
+                  continue
+              bundle[str(f)] = data
+              print(f'✅  Included {f}')
+
+          minified = json.dumps(bundle, separators=(',', ':'), ensure_ascii=False)
+
+          out = pathlib.Path('bundle.json.gz')
+          with gzip.open(out, 'wt', encoding='utf-8', compresslevel=9) as gz:
+              gz.write(minified)
+
+          print(f'\nBundled {len(bundle)} file(s) into {out} '
+                f'({out.stat().st_size} bytes compressed)')
+          "
+
+      - name: Push bundle to ephemeral 'min' branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Create a fresh orphan branch so it only ever contains the bundle
+          git checkout --orphan min
+
+          # Remove everything from the index
+          git rm -rf --cached .
+
+          # Stage only the bundle
+          git add bundle.json.gz
+
+          TIMESTAMP=$(date -u +'%Y-%m-%dT%H:%M:%SZ')
+          git commit -m "Bundled JSON packet — ${TIMESTAMP}"
+
+          # Force-push to keep the branch ephemeral (single commit)
+          git push origin min --force
