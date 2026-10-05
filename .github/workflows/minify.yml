@@ -20,19 +20,18 @@ jobs:
 
       - name: Find and bundle all JSON files into a gzipped packet
         run: |
-          # Find all JSON files in the repo, read and merge them into a single
-          # JSON object keyed by relative file path, then minify (no indent)
-          # and gzip the result.
+          # Find all JSON files in the data directories, read and merge them
+          # into a single JSON object keyed by relative file path, then minify
+          # (no indent) and gzip the result. Files outside these directories
+          # are not benchmark data and are left out of the bundle.
           python3 -c "
           import json, pathlib, gzip
 
-          repo = pathlib.Path('.')
+          data_directories = ['environments', 'machines', 'results']
           bundle = {}
 
-          for f in sorted(repo.rglob('*.json')):
-              # Skip anything inside .git or previous build artifacts
-              if '.git' in f.parts:
-                  continue
+          json_files = (f for d in data_directories for f in pathlib.Path(d).glob('*.json'))
+          for f in sorted(json_files):
               try:
                   data = json.loads(f.read_text(encoding='utf-8'))
               except (json.JSONDecodeError, UnicodeDecodeError) as e:
