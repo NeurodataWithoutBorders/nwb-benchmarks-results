@@ -17,9 +17,9 @@ jobs:
         uses: actions/checkout@v7
 
       # Merges every JSON file in the data directories into one minified object keyed by relative
-      # path, gzips it, and force-pushes it alone to the orphan `min` branch. Files outside these
+      # path, gzips it, and force-pushes it alone to the orphan `dist` branch. Files outside these
       # directories are not benchmark data and are left out. Nothing is pushed if it is unchanged.
-      - name: Bundle the benchmark data onto the 'min' branch
+      - name: Bundle the benchmark data onto the 'dist' branch
         uses: CodyCBakerPhD/dist-bundle-action@v1
         with:
           paths: |
@@ -28,4 +28,3 @@ jobs:
             results
           format: json.gz
           filename: bundle.json.gz
-          branch: min
