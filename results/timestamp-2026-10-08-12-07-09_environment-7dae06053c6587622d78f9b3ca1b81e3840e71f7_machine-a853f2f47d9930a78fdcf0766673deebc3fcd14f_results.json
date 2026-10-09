@@ -1,0 +1,75 @@
+{
+ "database_version": "4.0.0",
+ "timestamp": "2026-10-08-12-07-09",
+ "commit_hash": "e4e0ee773bcf7676710bd0909636762016f610ca",
+ "environment_id": "7dae06053c6587622d78f9b3ca1b81e3840e71f7",
+ "machine_id": "a853f2f47d9930a78fdcf0766673deebc3fcd14f",
+ "results": {
+  "time_local_file_reading.HDF5FileReadBenchmark.time_read_local_h5py": {
+   "{'name': 'EcephysTestCase', 'https_url': 'https://api.dandiarchive.org/api/assets/df0e074e-3509-4b03-908e-2a1303072707/download/'}": [
+    0.0031013712286949158
+   ],
+   "{'name': 'OphysTestCase', 'https_url': 'https://api.dandiarchive.org/api/assets/c15b3e06-f443-4964-a6b0-c44c367d830b/download/'}": [
+    0.0012929318472743034
+   ],
+   "{'name': 'IcephysTestCase', 'https_url': 'https://api.dandiarchive.org/api/assets/471ef39b-806c-4946-80b5-125b55839854/download/'}": [
+    0.0008415421470999718
+   ]
+  },
+  "time_local_file_reading.HDF5FileReadBenchmark.time_read_local_pynwb": {
+   "{'name': 'EcephysTestCase', 'https_url': 'https://api.dandiarchive.org/api/assets/df0e074e-3509-4b03-908e-2a1303072707/download/'}": [
+    0.4612720785662532
+   ],
+   "{'name': 'OphysTestCase', 'https_url': 'https://api.dandiarchive.org/api/assets/c15b3e06-f443-4964-a6b0-c44c367d830b/download/'}": [
+    0.2217107880860567
+   ],
+   "{'name': 'IcephysTestCase', 'https_url': 'https://api.dandiarchive.org/api/assets/471ef39b-806c-4946-80b5-125b55839854/download/'}": [
+    3.5251857517287135
+   ]
+  },
+  "time_local_file_reading.ZarrFileReadBenchmark.time_read_local_pynwb": {
+   "{'name': 'EcephysTestCase', 'https_url': 'https://api.dandiarchive.org/api/assets/58de1d1c-278f-4278-953a-bf8790de4c69/download/'}": [
+    0.41439502127468586
+   ],
+   "{'name': 'OphysTestCase', 'https_url': 'https://api.dandiarchive.org/api/assets/f270e686-f465-4a28-a457-4ffdcacc92b3/download/'}": [
+    0.154905010946095
+   ],
+   "{'name': 'IcephysTestCase', 'https_url': 'https://api.dandiarchive.org/api/assets/143cf884-fe0c-4957-a45f-c3acff090f1f/download/'}": [
+    1.805448492988944
+   ]
+  },
+  "time_local_file_reading.ZarrFileReadBenchmark.time_read_local_pynwb_force_no_consolidated": {
+   "{'name': 'EcephysTestCase', 'https_url': 'https://api.dandiarchive.org/api/assets/58de1d1c-278f-4278-953a-bf8790de4c69/download/'}": [
+    0.45907741505652666
+   ],
+   "{'name': 'OphysTestCase', 'https_url': 'https://api.dandiarchive.org/api/assets/f270e686-f465-4a28-a457-4ffdcacc92b3/download/'}": [
+    0.2135537015274167
+   ],
+   "{'name': 'IcephysTestCase', 'https_url': 'https://api.dandiarchive.org/api/assets/143cf884-fe0c-4957-a45f-c3acff090f1f/download/'}": [
+    2.072163103148341
+   ]
+  },
+  "time_local_file_reading.ZarrFileReadBenchmark.time_read_local_zarrpython": {
+   "{'name': 'EcephysTestCase', 'https_url': 'https://api.dandiarchive.org/api/assets/58de1d1c-278f-4278-953a-bf8790de4c69/download/'}": [
+    0.0008806493133306503
+   ],
+   "{'name': 'OphysTestCase', 'https_url': 'https://api.dandiarchive.org/api/assets/f270e686-f465-4a28-a457-4ffdcacc92b3/download/'}": [
+    0.0008477140218019485
+   ],
+   "{'name': 'IcephysTestCase', 'https_url': 'https://api.dandiarchive.org/api/assets/143cf884-fe0c-4957-a45f-c3acff090f1f/download/'}": [
+    0.010724532417953014
+   ]
+  },
+  "time_local_file_reading.ZarrFileReadBenchmark.time_read_local_zarrpython_force_no_consolidated": {
+   "{'name': 'EcephysTestCase', 'https_url': 'https://api.dandiarchive.org/api/assets/58de1d1c-278f-4278-953a-bf8790de4c69/download/'}": [
+    0.0006123576313257217
+   ],
+   "{'name': 'OphysTestCase', 'https_url': 'https://api.dandiarchive.org/api/assets/f270e686-f465-4a28-a457-4ffdcacc92b3/download/'}": [
+    0.0005828589200973511
+   ],
+   "{'name': 'IcephysTestCase', 'https_url': 'https://api.dandiarchive.org/api/assets/143cf884-fe0c-4957-a45f-c3acff090f1f/download/'}": [
+    0.0005835676565766335
+   ]
+  }
+ }
+}

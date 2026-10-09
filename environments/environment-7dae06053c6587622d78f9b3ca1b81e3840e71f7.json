@@ -1,0 +1,682 @@
+{
+ "3.13.16 | packaged by conda-forge | (main, Oct  7 2026, 00:40:24) [Clang 21.1.8 ]": [
+  {
+   "name": "_python_abi3_support",
+   "version": "1.0",
+   "build": "hd8ed1ab_3",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "annotated-types",
+   "version": "0.8.0",
+   "build": "pyhd8ed1ab_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "anyio",
+   "version": "4.14.2",
+   "build": "pyhcf101f3_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "archspec",
+   "version": "0.2.5",
+   "build": "pyhd8ed1ab_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "backports.zstd",
+   "version": "1.7.0",
+   "build": "py310h80e3c0f_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "boltons",
+   "version": "25.0.0",
+   "build": "pyhd8ed1ab_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "brotli",
+   "version": "1.1.0",
+   "build": "pypi_0",
+   "channel": "pypi"
+  },
+  {
+   "name": "bzip2",
+   "version": "1.0.8",
+   "build": "h500dc9f_8",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "c-ares",
+   "version": "1.34.5",
+   "build": "hf13058a_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "ca-certificates",
+   "version": "2026.7.22",
+   "build": "hbd8a1cb_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "cached-property",
+   "version": "2.0.1",
+   "build": "pyhcf101f3_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "cached_property",
+   "version": "2.0.1",
+   "build": "pyhcf101f3_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "certifi",
+   "version": "2026.7.22",
+   "build": "pyhd8ed1ab_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "cffi",
+   "version": "1.17.1",
+   "build": "py310h137ab04_1",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "charset-normalizer",
+   "version": "3.4.3",
+   "build": "pyhd8ed1ab_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "colorama",
+   "version": "0.4.6",
+   "build": "pyhd8ed1ab_1",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "conda",
+   "version": "26.7.1",
+   "build": "py310hbe532e1_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "conda-index",
+   "version": "0.12.1",
+   "build": "pyhd8ed1ab_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "conda-libmamba-solver",
+   "version": "26.7.0",
+   "build": "pyhcf101f3_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "conda-lockfiles",
+   "version": "0.2.1",
+   "build": "pyhd8ed1ab_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "conda-package-handling",
+   "version": "2.4.0",
+   "build": "pyh7900ff3_2",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "conda-package-streaming",
+   "version": "0.12.0",
+   "build": "pyhd8ed1ab_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "conda-pypi",
+   "version": "0.11.0",
+   "build": "py310hbe532e1_1",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "conda-rattler-solver",
+   "version": "0.1.1",
+   "build": "pyhcf101f3_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "conda-self",
+   "version": "0.2.1",
+   "build": "pyhd8ed1ab_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "cpp-expected",
+   "version": "1.1.0",
+   "build": "hd6aca1a_1",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "cpython",
+   "version": "3.10.22",
+   "build": "py310hd8ed1ab_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "distro",
+   "version": "1.9.0",
+   "build": "pyhd8ed1ab_1",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "exceptiongroup",
+   "version": "1.3.1",
+   "build": "pyhd8ed1ab_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "filelock",
+   "version": "3.32.5",
+   "build": "pyhd8ed1ab_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "fmt",
+   "version": "11.2.0",
+   "build": "hbf61d64_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "frozendict",
+   "version": "2.4.6",
+   "build": "py310h1b7cace_1",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "h11",
+   "version": "0.16.0",
+   "build": "pyhcf101f3_1",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "h2",
+   "version": "4.3.0",
+   "build": "pyhcf101f3_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "hpack",
+   "version": "4.1.0",
+   "build": "pyhd8ed1ab_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "httpcore",
+   "version": "1.0.9",
+   "build": "pyh29332c3_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "httpx",
+   "version": "0.28.1",
+   "build": "pyhd8ed1ab_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "hyperframe",
+   "version": "6.1.0",
+   "build": "pyhd8ed1ab_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "icu",
+   "version": "75.1",
+   "build": "h120a0e1_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "idna",
+   "version": "3.10",
+   "build": "pyhd8ed1ab_1",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "importlib-metadata",
+   "version": "9.0.1",
+   "build": "pyhcf101f3_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "jinja2",
+   "version": "3.1.6",
+   "build": "pyhcf101f3_1",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "krb5",
+   "version": "1.21.3",
+   "build": "h37d8d59_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "libarchive",
+   "version": "3.8.1",
+   "build": "gpl_h9912a37_100",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "libcurl",
+   "version": "8.14.1",
+   "build": "h5dec5d8_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "libcxx",
+   "version": "21.1.1",
+   "build": "h3d58e20_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "libedit",
+   "version": "3.1.20250104",
+   "build": "pl5321ha958ccf_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "libev",
+   "version": "4.33",
+   "build": "h10d778d_2",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "libffi",
+   "version": "3.4.6",
+   "build": "h281671d_1",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "libiconv",
+   "version": "1.18",
+   "build": "h57a12c2_2",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "liblzma",
+   "version": "5.8.1",
+   "build": "hd471939_2",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "liblzma-devel",
+   "version": "5.8.1",
+   "build": "hd471939_2",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "libmamba",
+   "version": "2.3.2",
+   "build": "he8ad368_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "libmambapy",
+   "version": "2.3.2",
+   "build": "py310h32d097c_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "libnghttp2",
+   "version": "1.67.0",
+   "build": "h3338091_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "libsolv",
+   "version": "0.7.35",
+   "build": "h6fd32b5_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "libsqlite",
+   "version": "3.50.4",
+   "build": "h39a8b3b_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "libssh2",
+   "version": "1.11.1",
+   "build": "hed3591d_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "libxml2",
+   "version": "2.13.8",
+   "build": "he1bc88e_1",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "libzlib",
+   "version": "1.3.1",
+   "build": "hd23fc13_2",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "lz4-c",
+   "version": "1.10.0",
+   "build": "h240833e_1",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "lzo",
+   "version": "2.10",
+   "build": "h4132b18_1002",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "mamba",
+   "version": "2.3.2",
+   "build": "hff38754_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "markupsafe",
+   "version": "3.0.3",
+   "build": "py310h399bfa0_1",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "menuinst",
+   "version": "2.3.1",
+   "build": "py310h2ec42d9_1",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "msgpack-python",
+   "version": "1.2.2",
+   "build": "py310he598924_1",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "ncurses",
+   "version": "6.5",
+   "build": "h0622a9a_3",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "nlohmann_json",
+   "version": "3.11.3",
+   "build": "hf036a51_1",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "openssl",
+   "version": "3.6.5",
+   "build": "h332eb6d_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "packaging",
+   "version": "25.0",
+   "build": "pyh29332c3_1",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "pip",
+   "version": "25.2",
+   "build": "pyh8b19718_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "platformdirs",
+   "version": "4.4.0",
+   "build": "pyhcf101f3_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "pluggy",
+   "version": "1.6.0",
+   "build": "pyhd8ed1ab_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "py-rattler",
+   "version": "0.25.0",
+   "build": "py310hc390b44_4",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "pybind11-abi",
+   "version": "4",
+   "build": "hd8ed1ab_3",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "pycosat",
+   "version": "0.6.6",
+   "build": "py310h1b7cace_3",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "pycparser",
+   "version": "2.22",
+   "build": "pyh29332c3_1",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "pydantic",
+   "version": "2.13.5",
+   "build": "pyhcf101f3_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "pydantic-core",
+   "version": "2.46.5",
+   "build": "py310h0bc907b_1",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "pyproject_hooks",
+   "version": "1.2.0",
+   "build": "pyhd8ed1ab_1",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "pysocks",
+   "version": "1.7.1",
+   "build": "pyha55dd90_7",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "python",
+   "version": "3.10.13",
+   "build": "h00d2728_1_cpython",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "python-build",
+   "version": "1.6.1",
+   "build": "pyhc364b38_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "python-gil",
+   "version": "3.10.22",
+   "build": "hd8ed1ab_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "python-installer",
+   "version": "1.0.1",
+   "build": "pyh332efcf_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "python_abi",
+   "version": "3.10",
+   "build": "8_cp310",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "readline",
+   "version": "8.2",
+   "build": "h7cca4af_2",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "reproc",
+   "version": "14.2.5.post0",
+   "build": "h6e16a3a_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "reproc-cpp",
+   "version": "14.2.5.post0",
+   "build": "h240833e_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "requests",
+   "version": "2.32.5",
+   "build": "pyhd8ed1ab_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "ruamel.yaml",
+   "version": "0.18.15",
+   "build": "py310hd2d5e8d_1",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "ruamel.yaml.clib",
+   "version": "0.2.12",
+   "build": "py310h1b7cace_1",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "setuptools",
+   "version": "80.9.0",
+   "build": "pyhff2d567_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "simdjson",
+   "version": "3.13.0",
+   "build": "h9275861_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "sniffio",
+   "version": "1.3.1",
+   "build": "pyhd8ed1ab_2",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "tk",
+   "version": "8.6.13",
+   "build": "hf689a15_2",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "tomli",
+   "version": "2.4.1",
+   "build": "pyhcf101f3_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "tqdm",
+   "version": "4.67.1",
+   "build": "pyhd8ed1ab_1",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "truststore",
+   "version": "0.10.3",
+   "build": "pyhe01879c_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "typing-extensions",
+   "version": "4.16.0",
+   "build": "h69aa097_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "typing-inspection",
+   "version": "0.4.4",
+   "build": "pyhcf101f3_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "typing_extensions",
+   "version": "4.16.0",
+   "build": "pyhcf101f3_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "tzdata",
+   "version": "2025b",
+   "build": "h78e105d_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "unearth",
+   "version": "0.18.3",
+   "build": "pyhd8ed1ab_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "urllib3",
+   "version": "2.5.0",
+   "build": "pyhd8ed1ab_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "wheel",
+   "version": "0.45.1",
+   "build": "pyhd8ed1ab_1",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "xz",
+   "version": "5.8.1",
+   "build": "h357f2ed_2",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "xz-gpl-tools",
+   "version": "5.8.1",
+   "build": "h357f2ed_2",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "xz-tools",
+   "version": "5.8.1",
+   "build": "hd471939_2",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "yaml-cpp",
+   "version": "0.8.0",
+   "build": "he965462_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "zipp",
+   "version": "4.1.0",
+   "build": "pyhcf101f3_0",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "zstandard",
+   "version": "0.24.0",
+   "build": "py310ha7ac7c2_1",
+   "channel": "conda-forge"
+  },
+  {
+   "name": "zstd",
+   "version": "1.5.7",
+   "build": "h8210216_2",
+   "channel": "conda-forge"
+  }
+ ]
+}
