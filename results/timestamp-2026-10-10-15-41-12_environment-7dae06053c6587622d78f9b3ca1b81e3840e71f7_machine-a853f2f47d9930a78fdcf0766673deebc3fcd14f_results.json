@@ -1,0 +1,197 @@
+{
+ "database_version": "4.0.0",
+ "timestamp": "2026-10-10-15-41-12",
+ "commit_hash": "887c784504e8a14904005d7c67db2684ac3a1786",
+ "environment_id": "7dae06053c6587622d78f9b3ca1b81e3840e71f7",
+ "machine_id": "a853f2f47d9930a78fdcf0766673deebc3fcd14f",
+ "results": {
+  "time_local_slicing.HDF5PyNWBLocalContinuousSliceBenchmark.time_slice": {
+   "{'name': 'EcephysTestCase1', 'https_url': 'https://api.dandiarchive.org/api/assets/df0e074e-3509-4b03-908e-2a1303072707/download/', 'object_name': 'ElectricalSeries', 'slice_range': (slice(0, 262144, None), slice(0, 32, None))}": [
+    0.07612400315701962
+   ],
+   "{'name': 'EcephysTestCase2', 'https_url': 'https://api.dandiarchive.org/api/assets/df0e074e-3509-4b03-908e-2a1303072707/download/', 'object_name': 'ElectricalSeries', 'slice_range': (slice(0, 524288, None), slice(0, 32, None))}": [
+    0.14767115097492933
+   ],
+   "{'name': 'EcephysTestCase3', 'https_url': 'https://api.dandiarchive.org/api/assets/df0e074e-3509-4b03-908e-2a1303072707/download/', 'object_name': 'ElectricalSeries', 'slice_range': (slice(0, 786432, None), slice(0, 32, None))}": [
+    0.2152846036478877
+   ],
+   "{'name': 'EcephysTestCase4', 'https_url': 'https://api.dandiarchive.org/api/assets/df0e074e-3509-4b03-908e-2a1303072707/download/', 'object_name': 'ElectricalSeries', 'slice_range': (slice(0, 1048576, None), slice(0, 32, None))}": [
+    0.28271815460175276
+   ],
+   "{'name': 'EcephysTestCase5', 'https_url': 'https://api.dandiarchive.org/api/assets/df0e074e-3509-4b03-908e-2a1303072707/download/', 'object_name': 'ElectricalSeries', 'slice_range': (slice(0, 1310720, None), slice(0, 32, None))}": [
+    0.346126607619226
+   ],
+   "{'name': 'OphysTestCase1', 'https_url': 'https://api.dandiarchive.org/api/assets/c15b3e06-f443-4964-a6b0-c44c367d830b/download/', 'object_name': 'TwoPhotonSeries', 'slice_range': (slice(0, 20, None), slice(0, 796, None), slice(0, 512, None))}": [
+    0.09783685486763716
+   ],
+   "{'name': 'OphysTestCase2', 'https_url': 'https://api.dandiarchive.org/api/assets/c15b3e06-f443-4964-a6b0-c44c367d830b/download/', 'object_name': 'TwoPhotonSeries', 'slice_range': (slice(0, 40, None), slice(0, 796, None), slice(0, 512, None))}": [
+    0.17924564890563488
+   ],
+   "{'name': 'OphysTestCase3', 'https_url': 'https://api.dandiarchive.org/api/assets/c15b3e06-f443-4964-a6b0-c44c367d830b/download/', 'object_name': 'TwoPhotonSeries', 'slice_range': (slice(0, 60, None), slice(0, 796, None), slice(0, 512, None))}": [
+    0.2578234812244773
+   ],
+   "{'name': 'OphysTestCase4', 'https_url': 'https://api.dandiarchive.org/api/assets/c15b3e06-f443-4964-a6b0-c44c367d830b/download/', 'object_name': 'TwoPhotonSeries', 'slice_range': (slice(0, 80, None), slice(0, 796, None), slice(0, 512, None))}": [
+    0.3296117102727294
+   ],
+   "{'name': 'OphysTestCase5', 'https_url': 'https://api.dandiarchive.org/api/assets/c15b3e06-f443-4964-a6b0-c44c367d830b/download/', 'object_name': 'TwoPhotonSeries', 'slice_range': (slice(0, 100, None), slice(0, 796, None), slice(0, 512, None))}": [
+    0.40197416581213474
+   ],
+   "{'name': 'IcephysTestCase1', 'https_url': 'https://api.dandiarchive.org/api/assets/471ef39b-806c-4946-80b5-125b55839854/download/', 'object_name': 'data_00002_AD0', 'slice_range': (slice(0, 8192, None),)}": [
+    0.00282206479460001
+   ],
+   "{'name': 'IcephysTestCase2', 'https_url': 'https://api.dandiarchive.org/api/assets/471ef39b-806c-4946-80b5-125b55839854/download/', 'object_name': 'data_00002_AD0', 'slice_range': (slice(0, 16384, None),)}": [
+    0.0024428721517324448
+   ],
+   "{'name': 'IcephysTestCase3', 'https_url': 'https://api.dandiarchive.org/api/assets/471ef39b-806c-4946-80b5-125b55839854/download/', 'object_name': 'data_00002_AD0', 'slice_range': (slice(0, 24576, None),)}": [
+    0.0005853073671460152
+   ],
+   "{'name': 'IcephysTestCase4', 'https_url': 'https://api.dandiarchive.org/api/assets/471ef39b-806c-4946-80b5-125b55839854/download/', 'object_name': 'data_00002_AD0', 'slice_range': (slice(0, 32768, None),)}": [
+    0.0007811617106199265
+   ],
+   "{'name': 'IcephysTestCase5', 'https_url': 'https://api.dandiarchive.org/api/assets/471ef39b-806c-4946-80b5-125b55839854/download/', 'object_name': 'data_00002_AD0', 'slice_range': (slice(0, 40960, None),)}": [
+    0.000821494497358799
+   ]
+  },
+  "time_local_slicing.HDF5PyNWBLocalPreloadedContinuousSliceBenchmark.time_slice": {
+   "{'name': 'EcephysTestCase1', 'https_url': 'https://api.dandiarchive.org/api/assets/df0e074e-3509-4b03-908e-2a1303072707/download/', 'object_name': 'ElectricalSeries', 'slice_range': (slice(0, 262144, None), slice(0, 32, None))}": [
+    0.005858524702489376
+   ],
+   "{'name': 'EcephysTestCase2', 'https_url': 'https://api.dandiarchive.org/api/assets/df0e074e-3509-4b03-908e-2a1303072707/download/', 'object_name': 'ElectricalSeries', 'slice_range': (slice(0, 524288, None), slice(0, 32, None))}": [
+    0.01670676562935114
+   ],
+   "{'name': 'EcephysTestCase3', 'https_url': 'https://api.dandiarchive.org/api/assets/df0e074e-3509-4b03-908e-2a1303072707/download/', 'object_name': 'ElectricalSeries', 'slice_range': (slice(0, 786432, None), slice(0, 32, None))}": [
+    0.19511018600314856
+   ],
+   "{'name': 'EcephysTestCase4', 'https_url': 'https://api.dandiarchive.org/api/assets/df0e074e-3509-4b03-908e-2a1303072707/download/', 'object_name': 'ElectricalSeries', 'slice_range': (slice(0, 1048576, None), slice(0, 32, None))}": [
+    0.2551811607554555
+   ],
+   "{'name': 'EcephysTestCase5', 'https_url': 'https://api.dandiarchive.org/api/assets/df0e074e-3509-4b03-908e-2a1303072707/download/', 'object_name': 'ElectricalSeries', 'slice_range': (slice(0, 1310720, None), slice(0, 32, None))}": [
+    0.3178363926708698
+   ],
+   "{'name': 'OphysTestCase1', 'https_url': 'https://api.dandiarchive.org/api/assets/c15b3e06-f443-4964-a6b0-c44c367d830b/download/', 'object_name': 'TwoPhotonSeries', 'slice_range': (slice(0, 20, None), slice(0, 796, None), slice(0, 512, None))}": [
+    0.003958449698984623
+   ],
+   "{'name': 'OphysTestCase2', 'https_url': 'https://api.dandiarchive.org/api/assets/c15b3e06-f443-4964-a6b0-c44c367d830b/download/', 'object_name': 'TwoPhotonSeries', 'slice_range': (slice(0, 40, None), slice(0, 796, None), slice(0, 512, None))}": [
+    0.016777913086116314
+   ],
+   "{'name': 'OphysTestCase3', 'https_url': 'https://api.dandiarchive.org/api/assets/c15b3e06-f443-4964-a6b0-c44c367d830b/download/', 'object_name': 'TwoPhotonSeries', 'slice_range': (slice(0, 60, None), slice(0, 796, None), slice(0, 512, None))}": [
+    0.22950129117816687
+   ],
+   "{'name': 'OphysTestCase4', 'https_url': 'https://api.dandiarchive.org/api/assets/c15b3e06-f443-4964-a6b0-c44c367d830b/download/', 'object_name': 'TwoPhotonSeries', 'slice_range': (slice(0, 80, None), slice(0, 796, None), slice(0, 512, None))}": [
+    0.3014093413949013
+   ],
+   "{'name': 'OphysTestCase5', 'https_url': 'https://api.dandiarchive.org/api/assets/c15b3e06-f443-4964-a6b0-c44c367d830b/download/', 'object_name': 'TwoPhotonSeries', 'slice_range': (slice(0, 100, None), slice(0, 796, None), slice(0, 512, None))}": [
+    0.3754200963303447
+   ],
+   "{'name': 'IcephysTestCase1', 'https_url': 'https://api.dandiarchive.org/api/assets/471ef39b-806c-4946-80b5-125b55839854/download/', 'object_name': 'data_00002_AD0', 'slice_range': (slice(0, 8192, None),)}": [
+    3.835931420326233e-05
+   ],
+   "{'name': 'IcephysTestCase2', 'https_url': 'https://api.dandiarchive.org/api/assets/471ef39b-806c-4946-80b5-125b55839854/download/', 'object_name': 'data_00002_AD0', 'slice_range': (slice(0, 16384, None),)}": [
+    4.813261330127716e-05
+   ],
+   "{'name': 'IcephysTestCase3', 'https_url': 'https://api.dandiarchive.org/api/assets/471ef39b-806c-4946-80b5-125b55839854/download/', 'object_name': 'data_00002_AD0', 'slice_range': (slice(0, 24576, None),)}": [
+    8.579995483160019e-05
+   ],
+   "{'name': 'IcephysTestCase4', 'https_url': 'https://api.dandiarchive.org/api/assets/471ef39b-806c-4946-80b5-125b55839854/download/', 'object_name': 'data_00002_AD0', 'slice_range': (slice(0, 32768, None),)}": [
+    0.00010663643479347229
+   ],
+   "{'name': 'IcephysTestCase5', 'https_url': 'https://api.dandiarchive.org/api/assets/471ef39b-806c-4946-80b5-125b55839854/download/', 'object_name': 'data_00002_AD0', 'slice_range': (slice(0, 40960, None),)}": [
+    0.000108279287815094
+   ]
+  },
+  "time_local_slicing.ZarrPyNWBLocalContinuousSliceBenchmark.time_slice": {
+   "{'name': 'EcephysTestCase1', 'https_url': 'https://api.dandiarchive.org/api/assets/58de1d1c-278f-4278-953a-bf8790de4c69/download/', 'object_name': 'ElectricalSeries', 'slice_range': (slice(0, 262144, None), slice(0, 32, None))}": [
+    0.08844397682696581
+   ],
+   "{'name': 'EcephysTestCase2', 'https_url': 'https://api.dandiarchive.org/api/assets/58de1d1c-278f-4278-953a-bf8790de4c69/download/', 'object_name': 'ElectricalSeries', 'slice_range': (slice(0, 524288, None), slice(0, 32, None))}": [
+    0.16600908990949392
+   ],
+   "{'name': 'EcephysTestCase3', 'https_url': 'https://api.dandiarchive.org/api/assets/58de1d1c-278f-4278-953a-bf8790de4c69/download/', 'object_name': 'ElectricalSeries', 'slice_range': (slice(0, 786432, None), slice(0, 32, None))}": [
+    0.24339243303984404
+   ],
+   "{'name': 'EcephysTestCase4', 'https_url': 'https://api.dandiarchive.org/api/assets/58de1d1c-278f-4278-953a-bf8790de4c69/download/', 'object_name': 'ElectricalSeries', 'slice_range': (slice(0, 1048576, None), slice(0, 32, None))}": [
+    0.31432262528687716
+   ],
+   "{'name': 'EcephysTestCase5', 'https_url': 'https://api.dandiarchive.org/api/assets/58de1d1c-278f-4278-953a-bf8790de4c69/download/', 'object_name': 'ElectricalSeries', 'slice_range': (slice(0, 1310720, None), slice(0, 32, None))}": [
+    0.3883934458717704
+   ],
+   "{'name': 'OphysTestCase1', 'https_url': 'https://api.dandiarchive.org/api/assets/f270e686-f465-4a28-a457-4ffdcacc92b3/download/', 'object_name': 'TwoPhotonSeries', 'slice_range': (slice(0, 20, None), slice(0, 796, None), slice(0, 512, None))}": [
+    0.019920973107218742
+   ],
+   "{'name': 'OphysTestCase2', 'https_url': 'https://api.dandiarchive.org/api/assets/f270e686-f465-4a28-a457-4ffdcacc92b3/download/', 'object_name': 'TwoPhotonSeries', 'slice_range': (slice(0, 40, None), slice(0, 796, None), slice(0, 512, None))}": [
+    0.03380410932004452
+   ],
+   "{'name': 'OphysTestCase3', 'https_url': 'https://api.dandiarchive.org/api/assets/f270e686-f465-4a28-a457-4ffdcacc92b3/download/', 'object_name': 'TwoPhotonSeries', 'slice_range': (slice(0, 60, None), slice(0, 796, None), slice(0, 512, None))}": [
+    0.04853161796927452
+   ],
+   "{'name': 'OphysTestCase4', 'https_url': 'https://api.dandiarchive.org/api/assets/f270e686-f465-4a28-a457-4ffdcacc92b3/download/', 'object_name': 'TwoPhotonSeries', 'slice_range': (slice(0, 80, None), slice(0, 796, None), slice(0, 512, None))}": [
+    0.064334855414927
+   ],
+   "{'name': 'OphysTestCase5', 'https_url': 'https://api.dandiarchive.org/api/assets/f270e686-f465-4a28-a457-4ffdcacc92b3/download/', 'object_name': 'TwoPhotonSeries', 'slice_range': (slice(0, 100, None), slice(0, 796, None), slice(0, 512, None))}": [
+    0.07822748459875584
+   ],
+   "{'name': 'IcephysTestCase1', 'https_url': 'https://api.dandiarchive.org/api/assets/143cf884-fe0c-4957-a45f-c3acff090f1f/download/', 'object_name': 'data_00002_AD0', 'slice_range': (slice(0, 8192, None),)}": [
+    0.0027421321719884872
+   ],
+   "{'name': 'IcephysTestCase2', 'https_url': 'https://api.dandiarchive.org/api/assets/143cf884-fe0c-4957-a45f-c3acff090f1f/download/', 'object_name': 'data_00002_AD0', 'slice_range': (slice(0, 16384, None),)}": [
+    0.003034692257642746
+   ],
+   "{'name': 'IcephysTestCase3', 'https_url': 'https://api.dandiarchive.org/api/assets/143cf884-fe0c-4957-a45f-c3acff090f1f/download/', 'object_name': 'data_00002_AD0', 'slice_range': (slice(0, 24576, None),)}": [
+    0.0033636949956417084
+   ],
+   "{'name': 'IcephysTestCase4', 'https_url': 'https://api.dandiarchive.org/api/assets/143cf884-fe0c-4957-a45f-c3acff090f1f/download/', 'object_name': 'data_00002_AD0', 'slice_range': (slice(0, 32768, None),)}": [
+    0.003674364648759365
+   ],
+   "{'name': 'IcephysTestCase5', 'https_url': 'https://api.dandiarchive.org/api/assets/143cf884-fe0c-4957-a45f-c3acff090f1f/download/', 'object_name': 'data_00002_AD0', 'slice_range': (slice(0, 40960, None),)}": [
+    0.004003380425274372
+   ]
+  },
+  "time_local_slicing.ZarrPyNWBLocalPreloadedContinuousSliceBenchmark.time_slice": {
+   "{'name': 'EcephysTestCase1', 'https_url': 'https://api.dandiarchive.org/api/assets/58de1d1c-278f-4278-953a-bf8790de4c69/download/', 'object_name': 'ElectricalSeries', 'slice_range': (slice(0, 262144, None), slice(0, 32, None))}": [
+    0.07515240553766489
+   ],
+   "{'name': 'EcephysTestCase2', 'https_url': 'https://api.dandiarchive.org/api/assets/58de1d1c-278f-4278-953a-bf8790de4c69/download/', 'object_name': 'ElectricalSeries', 'slice_range': (slice(0, 524288, None), slice(0, 32, None))}": [
+    0.15212238766252995
+   ],
+   "{'name': 'EcephysTestCase3', 'https_url': 'https://api.dandiarchive.org/api/assets/58de1d1c-278f-4278-953a-bf8790de4c69/download/', 'object_name': 'ElectricalSeries', 'slice_range': (slice(0, 786432, None), slice(0, 32, None))}": [
+    0.21866777259856462
+   ],
+   "{'name': 'EcephysTestCase4', 'https_url': 'https://api.dandiarchive.org/api/assets/58de1d1c-278f-4278-953a-bf8790de4c69/download/', 'object_name': 'ElectricalSeries', 'slice_range': (slice(0, 1048576, None), slice(0, 32, None))}": [
+    0.29174440633505583
+   ],
+   "{'name': 'EcephysTestCase5', 'https_url': 'https://api.dandiarchive.org/api/assets/58de1d1c-278f-4278-953a-bf8790de4c69/download/', 'object_name': 'ElectricalSeries', 'slice_range': (slice(0, 1310720, None), slice(0, 32, None))}": [
+    0.3703271597623825
+   ],
+   "{'name': 'OphysTestCase1', 'https_url': 'https://api.dandiarchive.org/api/assets/f270e686-f465-4a28-a457-4ffdcacc92b3/download/', 'object_name': 'TwoPhotonSeries', 'slice_range': (slice(0, 20, None), slice(0, 796, None), slice(0, 512, None))}": [
+    0.011000614613294601
+   ],
+   "{'name': 'OphysTestCase2', 'https_url': 'https://api.dandiarchive.org/api/assets/f270e686-f465-4a28-a457-4ffdcacc92b3/download/', 'object_name': 'TwoPhotonSeries', 'slice_range': (slice(0, 40, None), slice(0, 796, None), slice(0, 512, None))}": [
+    0.02219668123871088
+   ],
+   "{'name': 'OphysTestCase3', 'https_url': 'https://api.dandiarchive.org/api/assets/f270e686-f465-4a28-a457-4ffdcacc92b3/download/', 'object_name': 'TwoPhotonSeries', 'slice_range': (slice(0, 60, None), slice(0, 796, None), slice(0, 512, None))}": [
+    0.034079715609550476
+   ],
+   "{'name': 'OphysTestCase4', 'https_url': 'https://api.dandiarchive.org/api/assets/f270e686-f465-4a28-a457-4ffdcacc92b3/download/', 'object_name': 'TwoPhotonSeries', 'slice_range': (slice(0, 80, None), slice(0, 796, None), slice(0, 512, None))}": [
+    0.045550755225121975
+   ],
+   "{'name': 'OphysTestCase5', 'https_url': 'https://api.dandiarchive.org/api/assets/f270e686-f465-4a28-a457-4ffdcacc92b3/download/', 'object_name': 'TwoPhotonSeries', 'slice_range': (slice(0, 100, None), slice(0, 796, None), slice(0, 512, None))}": [
+    0.05930481664836407
+   ],
+   "{'name': 'IcephysTestCase1', 'https_url': 'https://api.dandiarchive.org/api/assets/143cf884-fe0c-4957-a45f-c3acff090f1f/download/', 'object_name': 'data_00002_AD0', 'slice_range': (slice(0, 8192, None),)}": [
+    0.0004428429529070854
+   ],
+   "{'name': 'IcephysTestCase2', 'https_url': 'https://api.dandiarchive.org/api/assets/143cf884-fe0c-4957-a45f-c3acff090f1f/download/', 'object_name': 'data_00002_AD0', 'slice_range': (slice(0, 16384, None),)}": [
+    0.0008200174197554588
+   ],
+   "{'name': 'IcephysTestCase3', 'https_url': 'https://api.dandiarchive.org/api/assets/143cf884-fe0c-4957-a45f-c3acff090f1f/download/', 'object_name': 'data_00002_AD0', 'slice_range': (slice(0, 24576, None),)}": [
+    0.001303727738559246
+   ],
+   "{'name': 'IcephysTestCase4', 'https_url': 'https://api.dandiarchive.org/api/assets/143cf884-fe0c-4957-a45f-c3acff090f1f/download/', 'object_name': 'data_00002_AD0', 'slice_range': (slice(0, 32768, None),)}": [
+    0.001521887257695198
+   ],
+   "{'name': 'IcephysTestCase5', 'https_url': 'https://api.dandiarchive.org/api/assets/143cf884-fe0c-4957-a45f-c3acff090f1f/download/', 'object_name': 'data_00002_AD0', 'slice_range': (slice(0, 40960, None),)}": [
+    0.0018622176721692085
+   ]
+  }
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "database_version": "4.0.0",
+ "timestamp": "2026-10-13-12-46-47",
+ "commit_hash": "16cb0211523dbd864d0b981a2e57464e2acdb252",
+ "environment_id": "42bfe7119727f6ab276361065e27b6e5fa5bbdc9",
+ "machine_id": "a853f2f47d9930a78fdcf0766673deebc3fcd14f",
+ "results": {
+  "time_remote_file_reading.HDF5H5pyFileReadBenchmark.time_read_hdf5_h5py_remfile_no_cache": {
+   "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": [
+    0.9114289591088891
+   ],
+   "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": [
+    0.792146947234869
+   ],
+   "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": [
+    0.6369547666981816
+   ]
+  }
+ }
+}
