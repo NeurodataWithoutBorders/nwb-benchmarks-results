@@ -1,8 +1,8 @@
 {
  "database_version": "4.0.0",
- "timestamp": "2026-10-07-13-49-50",
+ "timestamp": "2026-10-07-13-52-21",
  "commit_hash": "e4e0ee773bcf7676710bd0909636762016f610ca",
- "environment_id": "7dae06053c6587622d78f9b3ca1b81e3840e71f7",
+ "environment_id": "42bfe7119727f6ab276361065e27b6e5fa5bbdc9",
  "machine_id": "a853f2f47d9930a78fdcf0766673deebc3fcd14f",
  "results": {
   "network_tracking_remote_file_reading.LindiLocalJSONFileReadBenchmark.track_network_read_lindi_pynwb": {
@@ -15,29 +15,29 @@
     "amount_downloaded_in_bytes": 0,
     "amount_uploaded_in_bytes": 0,
     "total_transfer_time_in_seconds": 0.0,
-    "network_total_time_in_seconds": 0.9989891052246094
+    "network_total_time_in_seconds": 0.9638679027557373
    },
    "{'name': 'OphysTestCase', 'https_url': 'https://api.sandbox.dandiarchive.org/api/assets/62182082-ab1d-4901-929c-2c9747efa8aa/download/'}": {
-    "total_transfer_in_number_of_packets": 152,
-    "total_traffic_in_number_of_web_packets": 77,
-    "amount_downloaded_in_number_of_packets": 75,
-    "amount_uploaded_in_number_of_packets": 77,
-    "total_transfer_in_bytes": 64931,
-    "amount_downloaded_in_bytes": 51804,
-    "amount_uploaded_in_bytes": 13127,
-    "total_transfer_time_in_seconds": 1.3530920000000002,
-    "network_total_time_in_seconds": 2.7660789489746094
+    "total_transfer_in_number_of_packets": 185,
+    "total_traffic_in_number_of_web_packets": 100,
+    "amount_downloaded_in_number_of_packets": 85,
+    "amount_uploaded_in_number_of_packets": 100,
+    "total_transfer_in_bytes": 87623,
+    "amount_downloaded_in_bytes": 72210,
+    "amount_uploaded_in_bytes": 15413,
+    "total_transfer_time_in_seconds": 1.4948299999999994,
+    "network_total_time_in_seconds": 2.870957851409912
    },
    "{'name': 'IcephysTestCase', 'https_url': 'https://api.sandbox.dandiarchive.org/api/assets/280cc5b5-08da-48ee-850b-7ffe599bdff5/download/'}": {
     "total_transfer_in_number_of_packets": 91,
-    "total_traffic_in_number_of_web_packets": 50,
-    "amount_downloaded_in_number_of_packets": 41,
-    "amount_uploaded_in_number_of_packets": 50,
-    "total_transfer_in_bytes": 30167,
-    "amount_downloaded_in_bytes": 20833,
-    "amount_uploaded_in_bytes": 9334,
-    "total_transfer_time_in_seconds": 0.9756899999999996,
-    "network_total_time_in_seconds": 4.926698923110962
+    "total_traffic_in_number_of_web_packets": 51,
+    "amount_downloaded_in_number_of_packets": 40,
+    "amount_uploaded_in_number_of_packets": 51,
+    "total_transfer_in_bytes": 30171,
+    "amount_downloaded_in_bytes": 20771,
+    "amount_uploaded_in_bytes": 9400,
+    "total_transfer_time_in_seconds": 0.8009879999999998,
+    "network_total_time_in_seconds": 4.44808292388916
    }
   }
  }
