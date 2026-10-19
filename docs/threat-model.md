@@ -59,7 +59,7 @@ The group's central observation: the major component is **who is allowed to acce
 
 ### 2.3 External services and packages the system trusts
 
-The group initially wrote "n/a". On reflection, the system implicitly trusts: AWS (S3 availability, bucket policies, IAM), the institutional identity provider, Postgres and its hosting, the HPC centre and its staff, package registries (PyPI, conda channels), GitHub and GitHub Actions, and the provenance framework used to record software versions. Each is a dependency and therefore a boundary.
+The group initially wrote "n/a". On reflection, the system implicitly trusts: AWS (S3 availability, bucket policies, IAM), the institutional identity provider, Postgres and its hosting, the HPC center and its staff, package registries (PyPI, conda channels), GitHub and GitHub Actions, and the provenance framework used to record software versions. Each is a dependency and therefore a boundary.
 
 ### 2.4 Where code, data, credentials, models, artifacts, and results move
 
@@ -83,7 +83,7 @@ The group initially wrote "n/a". On reflection, the system implicitly trusts: AW
 | Z1 Authenticated users | Identity provider accepts a credential | The user and the IdP |
 | Z2 Service tier | API acts with service credentials on storage, DB, audit log | The platform team |
 | Z3 Privileged tier | Admin or superadmin session | A few named people (and one shared account) |
-| Z4 Shared filesystem / HPC | Data or tokens land on the shared filesystem | A third-party organisation with root |
+| Z4 Shared filesystem / HPC | Data or tokens land on the shared filesystem | A third-party organization with root |
 | Z5 External data sources | Ingest reads from a public bucket; export leaves the PHI/PII zone | Bucket owner; compliance regime |
 | Z6 Build, release, provenance | A package version or action is pulled into CI | Upstream maintainers |
 
@@ -112,7 +112,7 @@ flowchart LR
     end
 
     subgraph Z4["Z4 - Shared filesystem / HPC (third-party operated)"]
-        HPCADM(["HPC / filesystem admins<br/>(organisational actor)"])
+        HPCADM(["HPC / filesystem admins<br/>(organizational actor)"])
         FS[("Shared filesystem<br/>(home dirs, scratch, tokens)")]
     end
 
@@ -121,7 +121,7 @@ flowchart LR
         S3PUB[("Public AWS S3 buckets")]
     end
 
-    subgraph Z2["Z2 - Service tier (organisation-controlled)"]
+    subgraph Z2["Z2 - Service tier (organization-controlled)"]
         API["Upload / query API service"]
         IDP["Identity and permission system<br/>(roles, PHI/PII entitlements)"]
         STORE[("Storage server<br/>(artifacts and results)")]
@@ -223,8 +223,8 @@ Template: *An actor can [action] at [component or boundary], causing [impact] be
 | T2 | Elevation of privilege → Tampering, Repudiation | Z0 → Z3 (superadmin) | An attacker who obtains the shared superadmin password can log into the admin console and delete internal records *and* the audit entries that record the deletion, causing undetectable loss of data and of accountability, because the superadmin is a single shared account without MFA and the audit log is writable by the very role it is meant to watch. |
 | T3 | Denial of service | Z0 → Z2 (API) | Anyone on the Internet can flood the main API service, or trigger expensive validation and upload work, causing ingest and query to become unavailable to legitimate users, because unauthenticated endpoints are not rate-limited and upload processing shares resources with the request path. |
 | T4 | Spoofing (stale identity) | Z0 → Z1, Z0 → Z4 | A former collaborator can keep authenticating as a trusted user through a surviving API token, SSH key on the shared filesystem, or group membership, causing unauthorized reads or writes attributed to a "trusted" identity, because offboarding is a manual checklist that nobody verifies. |
-| T5 | Information disclosure | Z5 → Z4 / Z2 (PHI/PII zone exit) | A user or job can copy PHI/PII-governed data out of the governed zone into the shared filesystem or a public S3 bucket, causing a regulatory breach and loss of participant confidentiality, because access rules are attached to storage locations rather than travelling with the data's classification. |
-| T6 | Information disclosure, Tampering (organisational) | Z4 (HPC admins) | An HPC or shared-filesystem administrator, or anyone who compromises their root account, can read or alter data, credentials, and results on the shared filesystem, causing silent corruption or disclosure, because the organisation trusts the HPC centre implicitly and users keep tokens and keys in their home directories. |
+| T5 | Information disclosure | Z5 → Z4 / Z2 (PHI/PII zone exit) | A user or job can copy PHI/PII-governed data out of the governed zone into the shared filesystem or a public S3 bucket, causing a regulatory breach and loss of participant confidentiality, because access rules are attached to storage locations rather than traveling with the data's classification. |
+| T6 | Information disclosure, Tampering (organizational) | Z4 (HPC admins) | An HPC or shared-filesystem administrator, or anyone who compromises their root account, can read or alter data, credentials, and results on the shared filesystem, causing silent corruption or disclosure, because the organization trusts the HPC center implicitly and users keep tokens and keys in their home directories. |
 | T7 | Tampering (supply chain) | Z6 → Z2 (registry → CI → deploy) | An attacker who compromises an upstream package, a CI action, or a maintainer account can execute code inside the build and deploy pipeline and therefore inside the API service, causing arbitrary tampering with code, data, and credentials, because dependencies are resolved by mutable version tags without signature or attestation verification. |
 | T8 | Tampering, Spoofing (untrusted source) | Z5 → Z2 (public bucket → ingest) | An actor can replace or poison objects in a public S3 bucket, through a misconfigured write policy or by re-registering a deleted bucket name, causing poisoned data to be ingested as trusted, because the ingest job trusts bucket content by path with no checksum or publisher verification. |
 | T9 | Repudiation | Z1 → Z2 (API → audit log) | A user can deny having submitted a job or dataset, or having deleted a record, causing disputes that cannot be settled and incident response that cannot establish facts, because actions are logged at the service-account level and audit entries are mutable. |
@@ -258,7 +258,7 @@ For each threat: can we prevent it, detect it, limit its blast radius, recover f
 | Recover? | Yes. Restore records from immutable backups; the off-site audit copy reconstructs what happened. |
 | Specific mitigation | Named accounts + MFA + break-glass vault; audit log forwarding to WORM storage; two-person rule on deletes. |
 | Owner | IAM admin (accounts, MFA, break-glass); Service owner (audit pipeline, soft delete). |
-| Evidence | Quarterly test: a superadmin attempts to delete an audit entry, the attempt fails and an alert fires; break-glass use count is zero outside drills; MFA enrolment report shows 100% of privileged accounts. |
+| Evidence | Quarterly test: a superadmin attempts to delete an audit entry, the attempt fails and an alert fires; break-glass use count is zero outside drills; MFA enrollment report shows 100% of privileged accounts. |
 
 ### T3 Denial of service against the API
 
@@ -288,25 +288,25 @@ For each threat: can we prevent it, detect it, limit its blast radius, recover f
 
 | Question | Answer |
 |---|---|
-| Prevent? | Partially. A classification label attached to each dataset at ingest; the API refuses to copy labelled data to a destination without matching entitlement; governed data lives in separate buckets and filesystems where public access is blocked at the account level; exports pass through de-identification. |
+| Prevent? | Partially. A classification label attached to each dataset at ingest; the API refuses to copy labeled data to a destination without matching entitlement; governed data lives in separate buckets and filesystems where public access is blocked at the account level; exports pass through de-identification. |
 | Detect? | Yes. Scheduled DLP scans of public buckets and the shared filesystem for identifiers; alerts on bucket-policy changes; access logs on governed stores reviewed by the data steward. |
 | Limit blast radius? | Yes. Minimum-necessary access; encryption with keys that never leave the governed zone; export only derived or aggregate data. |
 | Recover? | Partially. Remove from the public location and report per IRB and HIPAA obligations; a disclosure cannot be undone, so the breach runbook must already exist. |
 | Specific mitigation | Classification labels enforced by the API; account-level Block Public Access; DLP scanning; breach runbook. |
 | Owner | Data steward / compliance officer (policy, runbook); Service owner (technical enforcement). |
-| Evidence | DLP scan returns zero hits; a test attempt to publish a labelled test dataset to a public bucket is refused and logged; the cloud account shows Block Public Access enabled. |
+| Evidence | DLP scan returns zero hits; a test attempt to publish a labeled test dataset to a public bucket is refused and logged; the cloud account shows Block Public Access enabled. |
 
-### T6 HPC or shared-filesystem administrators (organisational threat)
+### T6 HPC or shared-filesystem administrators (organizational threat)
 
 | Question | Answer |
 |---|---|
-| Prevent? | Partially. Encrypt sensitive data at rest with keys held outside the HPC centre; never store long-lived tokens on the shared filesystem (short-lived tokens, hardware keys, or a vault agent); do not place PHI/PII on HPC at all unless the centre is contractually within the governed zone. |
+| Prevent? | Partially. Encrypt sensitive data at rest with keys held outside the HPC center; never store long-lived tokens on the shared filesystem (short-lived tokens, hardware keys, or a vault agent); do not place PHI/PII on HPC at all unless the center is contractually within the governed zone. |
 | Detect? | Partially. Integrity checksums recorded at ingest and compared on read; API-side audit of unexpected uploads from HPC identities. |
 | Limit blast radius? | Yes. Data classification decides what may live on HPC; HPC upload tokens are scoped to a single project. |
 | Recover? | Yes. Re-fetch from authoritative storage; rotate tokens. |
-| Specific mitigation | Accept the residual risk (the HPC centre is a contracted partner with its own controls) and record the acceptance in Section 6; compensate with encryption and token hygiene. |
+| Specific mitigation | Accept the residual risk (the HPC center is a contracted partner with its own controls) and record the acceptance in Section 6; compensate with encryption and token hygiene. |
 | Owner | HPC liaison (relationship, agreement); Data steward (classification decision). |
-| Evidence | A secret-pattern scan of home directories returns zero findings; the data inventory shows no governed data on HPC; a written statement from the HPC centre on admin-access logging is on file and reviewed yearly. |
+| Evidence | A secret-pattern scan of home directories returns zero findings; the data inventory shows no governed data on HPC; a written statement from the HPC center on admin-access logging is on file and reviewed yearly. |
 
 ### T7 Supply-chain compromise of a package or CI action
 
@@ -386,19 +386,19 @@ Accepting a risk is a mitigation decision, so it gets the same owner and evidenc
 
 | Risk | Decision | Compensating controls | Owner | Review |
 |---|---|---|---|---|
-| HPC administrators can read anything on the shared filesystem (T6 residual) | Accept | No governed data on HPC; encryption with external keys; no long-lived tokens on the filesystem; written statement from the centre | HPC liaison | Yearly |
+| HPC administrators can read anything on the shared filesystem (T6 residual) | Accept | No governed data on HPC; encryption with external keys; no long-lived tokens on the filesystem; written statement from the center | HPC liaison | Yearly |
 | Volumetric DoS beyond the cloud provider's protection (T3 residual) | Accept | Provider DDoS protection; runbook; no data loss | Service owner | Yearly |
 | Public data in public buckets is read by anyone | Accept (by design) | Classification label guarantees only public-class data lands there (T5) | Data steward | On any classification change |
 
-## 7. Organisational threats
+## 7. Organizational threats
 
-The group asked whether organisational threats were considered. They were not in the first pass, so they are listed here explicitly:
+The group asked whether organizational threats were considered. They were not in the first pass, so they are listed here explicitly:
 
 - **HPC and shared-filesystem administrators** (T6): root on the system where users keep data and tokens.
 - **Cloud provider staff and institutional IT**: operate the identity provider and the accounts; a compromised SSO administrator is a compromised platform. Mitigation is mostly contractual plus MFA and anomaly alerts.
 - **Insiders**: a disgruntled admin is T2 and T11 without needing to steal anything. Two-person rules and tamper-evident logs are the controls.
 - **Social engineering of admins**: password-reset and "urgent access" requests. Verified out-of-band approval for any privilege change.
-- **Governance and funding boundaries**: data-use agreements decide what may be shared; a collaborator institution's departure is an offboarding event for every account it sponsored (T4 at organisation scale).
+- **Governance and funding boundaries**: data-use agreements decide what may be shared; a collaborator institution's departure is an offboarding event for every account it sponsored (T4 at organization scale).
 
 ## 8. Automated scanning and tooling
 
@@ -407,7 +407,7 @@ The workshop asked whether there is a central scanning framework beyond simple c
 | Class | What it finds | Example tools |
 |---|---|---|
 | Threat-model tooling | Structured elicitation with suggested mitigations per threat | Microsoft Threat Modeling Tool (Windows desktop; check its release page for currency before adopting), OWASP Threat Dragon (open source), `pytm` (threat model as code; the model lives in git beside the user stories and diffs with them) |
-| Static analysis (SAST) | Injection, unsafe deserialisation, path traversal in our own code | CodeQL, Semgrep |
+| Static analysis (SAST) | Injection, unsafe deserialization, path traversal in our own code | CodeQL, Semgrep |
 | Dependency scanning (SCA) | Known-vulnerable package versions | Dependabot, OSV-Scanner, `pip-audit` |
 | Secret scanning | Credentials committed to repositories or logs | GitHub secret scanning with push protection, `gitleaks` |
 | Cloud and infrastructure posture | Public buckets, over-broad IAM, unencrypted stores | AWS Config, Prowler, Checkov |
