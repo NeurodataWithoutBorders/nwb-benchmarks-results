@@ -1,0 +1,44 @@
+{
+ "database_version": "4.0.0",
+ "timestamp": "2026-10-25-15-08-06",
+ "commit_hash": "42d3953de5311261233632c91b75cac793ed758c",
+ "environment_id": "7a5b1b721afce6fd57c9f43079609c37b36b51a1",
+ "machine_id": "7143ac57434caee3a699fea97be5855842f2e0b7",
+ "results": {
+  "network_tracking_remote_file_reading.HDF5PyNWBFileReadBenchmark.track_network_read_hdf5_pynwb_fsspec_https_with_cache": {
+   "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/30c/6cc/30c6cc7b-4d17-4237-9786-66623a6c65eb'}": {
+    "total_transfer_in_number_of_packets": 0,
+    "total_traffic_in_number_of_web_packets": 0,
+    "amount_downloaded_in_number_of_packets": 0,
+    "amount_uploaded_in_number_of_packets": 0,
+    "total_transfer_in_bytes": 0,
+    "amount_downloaded_in_bytes": 0,
+    "amount_uploaded_in_bytes": 0,
+    "total_transfer_time_in_seconds": 0.0,
+    "network_total_time_in_seconds": 51.87162375450134
+   },
+   "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/bee/852/bee85254-7ba5-4719-9daf-80345646208c'}": {
+    "total_transfer_in_number_of_packets": 0,
+    "total_traffic_in_number_of_web_packets": 0,
+    "amount_downloaded_in_number_of_packets": 0,
+    "amount_uploaded_in_number_of_packets": 0,
+    "total_transfer_in_bytes": 0,
+    "amount_downloaded_in_bytes": 0,
+    "amount_uploaded_in_bytes": 0,
+    "total_transfer_time_in_seconds": 0.0,
+    "network_total_time_in_seconds": 36.82303071022034
+   },
+   "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/blobs/c98/3a4/c983a4e1-097a-402c-bda8-e6a41cb7e24a'}": {
+    "total_transfer_in_number_of_packets": 0,
+    "total_traffic_in_number_of_web_packets": 0,
+    "amount_downloaded_in_number_of_packets": 0,
+    "amount_uploaded_in_number_of_packets": 0,
+    "total_transfer_in_bytes": 0,
+    "amount_downloaded_in_bytes": 0,
+    "amount_uploaded_in_bytes": 0,
+    "total_transfer_time_in_seconds": 0.0,
+    "network_total_time_in_seconds": 5.295697927474976
+   }
+  }
+ }
+}
