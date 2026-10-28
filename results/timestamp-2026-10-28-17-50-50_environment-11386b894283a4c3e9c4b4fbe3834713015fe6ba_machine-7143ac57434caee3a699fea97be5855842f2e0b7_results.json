@@ -1,0 +1,20 @@
+{
+ "database_version": "4.0.0",
+ "timestamp": "2026-10-28-17-50-50",
+ "commit_hash": "42d3953de5311261233632c91b75cac793ed758c",
+ "environment_id": "11386b894283a4c3e9c4b4fbe3834713015fe6ba",
+ "machine_id": "7143ac57434caee3a699fea97be5855842f2e0b7",
+ "results": {
+  "time_remote_file_reading.ZarrPyNWBFileReadBenchmark.time_read_zarr_pynwb_s3_force_no_consolidated": {
+   "{'name': 'EcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/zarr/d097af6b-8fd8-4d83-b649-fc6518e95d25/'}": [
+    59.3962509969715
+   ],
+   "{'name': 'OphysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/zarr/c8c6b848-fbc6-4f58-85ff-e3f2618ee983/'}": [
+    70.32012379099615
+   ],
+   "{'name': 'IcephysTestCase', 'https_url': 'https://dandiarchive.s3.amazonaws.com/zarr/18e75d22-f527-4051-a4c8-c7e0f1e7dad1/'}": [
+    946.4823275600211
+   ]
+  }
+ }
+}
